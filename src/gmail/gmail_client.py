@@ -490,18 +490,20 @@ class GmailClient:
         import re
         
         # Look for SUPPLIER: tag (case-insensitive)
-        # Pattern: SUPPLIER: <supplier_name>
+        # Pattern: SUPPLIER: <supplier_name> (allows spaces, e.g. "GT AUTO")
         # Can be followed by newline or end of string
-        pattern = r'SUPPLIER:\s*([A-Z0-9_\-]+)'
+        pattern = r'SUPPLIER:\s*([A-Z0-9_\-\s]+)'
         match = re.search(pattern, body, re.IGNORECASE | re.MULTILINE)
         
         if match:
-            supplier_name = match.group(1).strip().upper()
-            logger.info(
-                f"Found SUPPLIER tag in email body: {supplier_name}",
-                supplier_name=supplier_name
-            )
-            return supplier_name
+            # Normalize: remove spaces and uppercase (e.g. "GT AUTO" -> "GTAUTO")
+            supplier_name = match.group(1).strip().replace(" ", "").upper()
+            if supplier_name:
+                logger.info(
+                    f"Found SUPPLIER tag in email body: {supplier_name}",
+                    supplier_name=supplier_name
+                )
+                return supplier_name
         
         return None
     

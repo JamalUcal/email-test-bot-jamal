@@ -391,6 +391,7 @@ Status: {status}
                 date_str = email.date.strftime('%d-%b-%y') if email.date else 'Unknown'
                 text_body += f"{idx}. {email.from_address} - {date_str} - {email.subject[:50]}\n"
                 text_body += f"   Domain: {email.from_domain}\n"
+                text_body += "   Unable to process - no supplier detected. Resend with SUPPLIER: GTAUTO or SUPPLIER: TECHNOPARTS in the email body (as appropriate).\n"
                 text_body += "   → Add to supplier_config.json if legitimate\n"
                 text_body += "\n"
         
@@ -699,7 +700,9 @@ Status: {status}
                 html.append("<div class='entry'>")
                 html.append(f"<div class='entry-header'>{self._html_escape(email.from_address)} - {date_str}</div>")
                 html.append(f"<div class='entry-file'>Subject: {self._html_escape(email.subject[:60])}</div>")
-                html.append(f"<div class='entry-rows'>Domain: {email.from_domain} • Add to supplier_config.json if legitimate</div>")
+                html.append(f"<div class='entry-rows'>Domain: {email.from_domain}</div>")
+                html.append("<div class='entry-error'>Unable to process - no supplier detected. Resend with SUPPLIER: GTAUTO or SUPPLIER: TECHNOPARTS in the email body (as appropriate).</div>")
+                html.append(f"<div class='entry-rows'>Add to supplier_config.json if legitimate</div>")
                 html.append("</div>")
             
             html.append("</div>")

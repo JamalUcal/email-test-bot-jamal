@@ -302,15 +302,40 @@ class EmailProcessor:
                 from_domain=from_domain,
                 method="direct"
             )
-        else:
-            detection_method = "unknown"
-            logger.info(
-                f"❌ No supplier detected for address/domain: {from_address} ({from_domain})",
-                from_address=from_address,
-                from_domain=from_domain,
-                method="unknown"
-            )
-        
+            return from_address, from_domain, supplier_name, detection_method, original_sender
+
+        # Layer 4: Subject/body hint fallback (when Layers 1-3 did not find a supplier)
+        # Hints map: (search_phrase, ...) -> config supplier name
+        subject_body_hints: Dict[str, tuple] = {
+            "GTAUTO": ("GT AUTO", "GTAUTO"),
+            "TECHNOPARTS": ("TECHNOPARTS",),
+        }
+        subject = (self.gmail_client.get_header(message, "subject") or "").strip()
+        combined_text = f"{subject}\n{body or ''}".upper()
+        for config_supplier, hints in subject_body_hints.items():
+            for hint in hints:
+                if hint.upper() in combined_text:
+                    # Validate against known suppliers
+                    for config in self.supplier_configs:
+                        if config["supplier"].upper() == config_supplier.upper():
+                            supplier_name = config["supplier"]
+                            detection_method = "subject_hint" if hint.upper() in subject.upper() else "body_hint"
+                            logger.info(
+                                f"✓ Supplier detected via SUBJECT/BODY HINT: {supplier_name} (matched '{hint}')",
+                                supplier=supplier_name,
+                                hint=hint,
+                                method=detection_method,
+                            )
+                            return from_address, from_domain, supplier_name, detection_method, original_sender
+                    break
+
+        detection_method = "unknown"
+        logger.info(
+            f"❌ No supplier detected for address/domain: {from_address} ({from_domain})",
+            from_address=from_address,
+            from_domain=from_domain,
+            method="unknown"
+        )
         return from_address, from_domain, supplier_name, detection_method, original_sender
     
     def _parse_attachments(
