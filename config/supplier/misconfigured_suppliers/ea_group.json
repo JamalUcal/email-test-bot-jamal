@@ -1,0 +1,41 @@
+{
+  "supplier": "EA_GROUP",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "ESTONIA",    
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

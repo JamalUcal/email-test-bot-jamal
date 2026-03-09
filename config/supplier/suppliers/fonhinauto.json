@@ -1,0 +1,33 @@
+{
+  "supplier": "FONHINAUTO",
+  "email_domain": "fonhin.com",
+  "default_expiry_days": 20,
+  "location": "SINGAPORE",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "currency": "JPY"
+    },
+    {
+      "brand": "NISSAN",
+      "currency": "EUR"
+    },
+    {
+      "brand": "NISSAN",
+      "currency": "USD"
+    },
+    {
+      "brand": "TOYOTA",
+      "currency": "JPY"
+    },
+    {
+      "brand": "TOYOTA",
+      "currency": "EUR"
+    },
+    {
+      "brand": "TOYOTA",
+      "currency": "USD"
+    }
+  ]
+}

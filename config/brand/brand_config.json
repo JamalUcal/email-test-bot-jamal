@@ -1,0 +1,497 @@
+[
+  {
+    "brand": "BMW",
+    "aliases": ["bmw"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1xmiHn2Cf4aoEHy7TtUyElazBPWi0vIRv"
+  },
+  {
+    "brand": "MINI",
+    "aliases": ["mini"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1xmiHn2Cf4aoEHy7TtUyElazBPWi0vIRv"
+  },
+  {
+    "brand": "BMW_FAST",
+    "aliases": ["bmw_fast"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1xmiHn2Cf4aoEHy7TtUyElazBPWi0vIRv"
+  },
+  {
+    "brand": "LUK",
+    "aliases": ["luk"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1ceE6XfZq2dRhxdkJqU_xPkEjj1jWBQ_o"
+  },
+  {
+    "brand": "FCA",
+    "aliases": ["fca", "fiat chrysler"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1yfj50DmlbO99TmU5FIjUUXgDVhUV6UYe",
+    "prefixForPartNumber": "K"
+  },
+  {
+    "brand": "CHRYSLER",
+    "aliases": ["chrysler"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1WRlx8NUXJgPjvydEi_1tf0hfTUjULdeA",
+    "prefixForPartNumber": "K"
+  },
+  {
+    "brand": "STELLANTIS",
+    "aliases": ["stellantis"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1WRlx8NUXJgPjvydEi_1tf0hfTUjULdeA",
+    "prefixForPartNumber": "K"
+  },
+  {
+    "brand": "FCA_FASTMOVERS",
+    "aliases": ["fca_fastmovers"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1WRlx8NUXJgPjvydEi_1tf0hfTUjULdeA",
+    "prefixForPartNumber": "K"
+  },
+  {
+    "brand": "FUSO",
+    "aliases": ["fuso"],
+    "minimumPartLength": 8,
+    "driveFolderId": "18q5cbFlu8wTjjbYNMZ3gOiItLTxHSnjY"
+  },
+  {
+    "brand": "CJD",
+    "aliases": ["cjd"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1WRlx8NUXJgPjvydEi_1tf0hfTUjULdeA",
+    "prefixForPartNumber": "K"
+  },
+  {
+    "brand": "JEEP",
+    "aliases": ["jeep"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1WRlx8NUXJgPjvydEi_1tf0hfTUjULdeA",
+    "prefixForPartNumber": "K"
+  },
+  {
+    "brand": "MOPAR",
+    "aliases": ["mopar", "dodge", "ram"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1yV9Qh44XreP4FTUCdAgKCrJhpX6FDIep",
+    "prefixForPartNumber": "K"
+  },
+  {
+    "brand": "FIAT",
+    "aliases": ["fiat"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1WRlx8NUXJgPjvydEi_1tf0hfTUjULdeA",
+    "prefixForPartNumber": "K"
+  },
+  {
+    "brand": "MITSUBISHI_BODYPARTS",
+    "aliases": ["mitsubishi_bodyparts"],
+    "minimumPartLength": 8,
+    "driveFolderId": "1LzKzw8xMf3TGOasfZORT6670ZFV7P5Cf"
+  },
+  {
+    "brand": "MOBIS",
+    "aliases": ["mobis"],
+    "minimumPartLength": 10,
+    "driveFolderId": "16fV2MGN_--WJSIWrkkaLkFj8I2GQpQ4Q"
+  },
+  {
+    "brand": "HYUNDAI_MOBIS",
+    "aliases": ["hyundai_mobis"],
+    "minimumPartLength": 10,
+    "driveFolderId": "16fV2MGN_--WJSIWrkkaLkFj8I2GQpQ4Q"
+  },
+  {
+    "brand": "KIA_MOBIS",
+    "aliases": ["kia_mobis"],
+    "minimumPartLength": 10,
+    "driveFolderId": "16fV2MGN_--WJSIWrkkaLkFj8I2GQpQ4Q"
+  },
+  {
+    "brand": "KIA",
+    "aliases": ["kia"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1pFUrBoc2PTY1G8GR8v8vq9cmNjcRrQQf"
+  },
+  {
+    "brand": "HONDA",
+    "aliases": ["honda"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1TsmBPsgEcFyVzuBnJDuF5JUIkNkf7b8G"
+  },
+  {
+    "brand": "HYUNDAI",
+    "aliases": ["hyundai"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1BSQOlHcAhevHV5sbpT1bnj_cHTabMFOd"
+  },
+  {
+    "brand": "MAZDA",
+    "aliases": ["mazda"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1MIDEwch5Hdrk5Zu_SQJZA-18UsYFzev-"
+  },
+  {
+    "brand": "MERCEDES",
+    "aliases": ["mercedes", "mercedes-benz", "benz", "mercedesbenz"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1xb864DqpWfaycclMAIJubt_bEui5-Qja"
+  },
+  {
+    "brand": "MERCEDES_OILS",
+    "aliases": ["mercedes_oils"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1xb864DqpWfaycclMAIJubt_bEui5-Qja"
+  },
+  {
+    "brand": "MITSUBISHI",
+    "aliases": ["mitsubishi"],
+    "minimumPartLength": 8,
+    "driveFolderId": "1LzKzw8xMf3TGOasfZORT6670ZFV7P5Cf"
+  },
+  {
+    "brand": "MITSUBISHI_OILS",
+    "aliases": ["mitsubishi_oils"],
+    "minimumPartLength": 8,
+    "driveFolderId": "1LzKzw8xMf3TGOasfZORT6670ZFV7P5Cf"
+  },
+  {
+    "brand": "MITSUBISHI_BRAKEPAD",
+    "aliases": ["mitsubishi_brakepad"],
+    "minimumPartLength": 8,
+    "driveFolderId": "1LzKzw8xMf3TGOasfZORT6670ZFV7P5Cf"
+  },
+  {
+    "brand": "NISSAN",
+    "aliases": ["nissan", "infiniti", "datsun"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1WmTEexxZ_rx_FzwVEpcSR2cIN4zqzTsn"
+  },
+  {
+    "brand": "OPEL",
+    "aliases": ["opel", "vauxhall"],
+    "minimumPartLength": 10,
+    "driveFolderId": "10RNwg7h1QLLXYXjzuIqoLtgewT15Z9sc"
+  },
+  {
+    "brand": "PSA",
+    "aliases": ["psa"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1KcM0W--sBNXnDRwDDQ01qWvOjzMnUlAY"
+  },
+  {
+    "brand": "PSA_STOCK",
+    "aliases": ["psa_stock"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1KcM0W--sBNXnDRwDDQ01qWvOjzMnUlAY"
+  },
+  {
+    "brand": "PSA_BODYPARTS",
+    "aliases": ["psa_bodyparts"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1KcM0W--sBNXnDRwDDQ01qWvOjzMnUlAY"
+  },
+  {
+    "brand": "CITROEN",
+    "aliases": ["citroen"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1KcM0W--sBNXnDRwDDQ01qWvOjzMnUlAY"
+  },
+  {
+    "brand": "PEUGEOT",
+    "aliases": ["peugeot"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1KcM0W--sBNXnDRwDDQ01qWvOjzMnUlAY"
+  },
+  {
+    "brand": "RENAULT",
+    "aliases": ["renault"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1JHIDGHbB-uOsXhnYqAQbpFuOWoY8u2IK"
+  },
+  {
+    "brand": "DACIA",
+    "aliases": ["dacia"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1JHIDGHbB-uOsXhnYqAQbpFuOWoY8u2IK"
+  },
+  {
+    "brand": "RENAULT_FAST",
+    "aliases": ["renault_fast"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1JHIDGHbB-uOsXhnYqAQbpFuOWoY8u2IK"
+  },
+  {
+    "brand": "SUZUKI",
+    "aliases": ["suzuki"],
+    "minimumPartLength": 13,
+    "driveFolderId": "16sCk4VGxCD23Y-LMHdvFstSX5IlbgD-j"
+  },
+  {
+    "brand": "SSANGYONG",
+    "aliases": ["ssangyong"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1Vnl913KhNsgg-c3CU3qCS3iUlxt0flQ1"
+  },
+  {
+    "brand": "TOYOTA",
+    "aliases": ["toyota", "scion"],
+    "minimumPartLength": 10,
+    "driveFolderId": "17pZsfBXAKeYqaEhYPklkgT7Evb0bk4-B"
+  },
+  {
+    "brand": "TOYOTA_WINDSHIELD",
+    "aliases": ["toyota_windshield"],
+    "minimumPartLength": 10,
+    "driveFolderId": "17pZsfBXAKeYqaEhYPklkgT7Evb0bk4-B"
+  },
+  {
+    "brand": "LEXUS",
+    "aliases": ["lexus"],
+    "minimumPartLength": 10,
+    "driveFolderId": "17pZsfBXAKeYqaEhYPklkgT7Evb0bk4-B"
+  },
+  {
+    "brand": "GAC_TOYOTA",
+    "aliases": ["gac_toyota"],
+    "minimumPartLength": 10,
+    "driveFolderId": "17pZsfBXAKeYqaEhYPklkgT7Evb0bk4-B"
+  },
+  {
+    "brand": "FAW_TOYOTA",
+    "aliases": ["faw_toyota"],
+    "minimumPartLength": 10,
+    "driveFolderId": "17pZsfBXAKeYqaEhYPklkgT7Evb0bk4-B"
+  },
+  {
+    "brand": "TOYOTA_4",
+    "aliases": ["toyota_4"],
+    "minimumPartLength": 10,
+    "driveFolderId": "17pZsfBXAKeYqaEhYPklkgT7Evb0bk4-B"
+  },
+  {
+    "brand": "TOYOTA_AH",
+    "aliases": ["toyota_ah"],
+    "minimumPartLength": 10,
+    "driveFolderId": "17pZsfBXAKeYqaEhYPklkgT7Evb0bk4-B"
+  },
+  {
+    "brand": "TOYOTA_OILS",
+    "aliases": ["toyota_oils"],
+    "minimumPartLength": 10,
+    "driveFolderId": "17pZsfBXAKeYqaEhYPklkgT7Evb0bk4-B"
+  },
+  {
+    "brand": "BYD",
+    "aliases": ["byd"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1U-w7cpLpDIR2U3y-JWC6N6QwM-7El04x"
+  },
+  {
+    "brand": "CHERY",
+    "aliases": ["chery"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1tmg46wTNQ5RSPPYVBgvwpeM41UYk-OEq"
+  },
+  {
+    "brand": "GEELY",
+    "aliases": ["geely"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1AceYJwtbuD089Kbqxq3pZkhFtTflw-3Y"
+  },
+  {
+    "brand": "GREATWALL",
+    "aliases": ["greatwall"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1YWRn2k_lyNQFRsqmAB9TkUreKWDMNbbZ"
+  },
+  {
+    "brand": "FAW",
+    "aliases": ["faw"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1mxb9SN2MYjFuxJr5t1_30LH-mMx5Sj4u"
+  },
+  {
+    "brand": "CHANGAN",
+    "aliases": ["changan"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1slIFapRmOkrRtCHKNlEmXx1fuQJBE8do"
+  },
+  {
+    "brand": "HAVAL",
+    "aliases": ["haval"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1d7RqPyi5ICgbqG-wLwVTOZNVM3Alz1Rc"
+  },
+  {
+    "brand": "SERES",
+    "aliases": ["seres"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1rDeD2MSvsUq3ZioQs6GCxPD0AhqYxybt"
+  },
+  {
+    "brand": "XPENG",
+    "aliases": ["xpeng"],
+    "minimumPartLength": 10,
+    "driveFolderId": "12Y4jrt1yd_yjI5jVqqcKuYrQoo5jffgp"
+  },
+  {
+    "brand": "BOSCH",
+    "aliases": ["bosch"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1zl3tj4_I3CWCwUXkA0lg6Qh2iODXtmVo"
+  },
+  {
+    "brand": "MG",
+    "aliases": ["mg"],
+    "minimumPartLength": 8,
+    "driveFolderId": "1W5SyDg7sp1802YUQ7Hu3zK7sabzsr0Z7"
+  },
+  {
+    "brand": "JAECOO",
+    "aliases": ["jaecoo"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1oQTgxYSFdcCbyX3IHsUs3Ah2O6iildda"
+  },
+  {
+    "brand": "HANON",
+    "aliases": ["hanon"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1lcfUhyKiWA2lsQ8Qlh0Yt5ID4JNWlAOq"
+  },
+  {
+    "brand": "VAG",
+    "aliases": ["vag", "audi"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "VAG_OILS",
+    "aliases": ["vag_oils"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "VAG_LONG",
+    "aliases": ["vag_long"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "VAG_BRAKEPADS",
+    "aliases": ["vag_brakepads"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "VAG_BODYPARTS",
+    "aliases": ["vag_bodyparts"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "VAG_MECHANICALPARTS",
+    "aliases": ["vag_mechanicalparts"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "VAG_LIQUID",
+    "aliases": ["vag_liquid"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "VAG_MOTOR_OILS",
+    "aliases": ["vag_motor_oils"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "VOLKSWAGEN",
+    "aliases": ["volkswagen", "vw", "vwvag"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "VOLVO",
+    "aliases": ["volvo"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "SKODA",
+    "aliases": ["skoda"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "SEAT",
+    "aliases": ["seat"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1org8miJroAsz64To7GGtSUQxQw3DTxtB"
+  },
+  {
+    "brand": "PORSCHE",
+    "aliases": ["porsche"],
+    "minimumPartLength": 9,
+    "driveFolderId": "1TVHgbLD5g2ntewUB7KRVxYeNk4Bt0EFE"
+  },
+  {
+    "brand": "SUBARU",
+    "aliases": ["subaru"],
+    "minimumPartLength": 10,
+    "driveFolderId": "12pQm6JAWUHv1zhx_4jV_Dzia92VRXojJ"
+  },
+  {
+    "brand": "FORD",
+    "aliases": ["ford"],
+    "minimumPartLength": 7,
+    "driveFolderId": "1JYMazodD6SmffMFEjRgPciflpPN6qRkr"
+  },
+  {
+    "brand": "JAGUAR",
+    "aliases": ["jaguar"],
+    "minimumPartLength": 8,
+    "driveFolderId": "1NbVmdL6nj5wlx6p9TBMhqNbcnJz02vTq"
+  },
+  {
+    "brand": "JLR",
+    "aliases": ["jlr"],
+    "minimumPartLength": 8,
+    "driveFolderId": "1NftPhkWqu4URwYYzaq3GJMOzpMI7MzuO"
+  },
+  {
+    "brand": "LANDROVER",
+    "aliases": ["landrover"],
+    "minimumPartLength": 8,
+    "driveFolderId": "1Nnbvsaw_Eu1A8EERXJ74iJNgu_mCnfpO"
+  },
+  {
+    "brand": "GENERALMOTORS",
+    "aliases": ["generalmotors", "gm", "general motors"],
+    "minimumPartLength": 6,
+    "driveFolderId": "1h9LPOklEc9zhYnNrZc5eKomRccH_HYui"
+  },
+  {
+    "brand": "CHEVROLET",
+    "aliases": ["chevrolet"],
+    "minimumPartLength": 6,
+    "driveFolderId": "1h9LPOklEc9zhYnNrZc5eKomRccH_HYui"
+  },
+  {
+    "brand": "ACDELCO",
+    "aliases": ["acdelco", "ac delco", "ac-delco"],
+    "minimumPartLength": 6,
+    "driveFolderId": "1h9LPOklEc9zhYnNrZc5eKomRccH_HYui"
+  },
+  {
+    "brand": "DENSO",
+    "aliases": ["denso"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1tUr_lDprK14XpodpYX3JLLnal599ra6Y"
+  }
+
+]

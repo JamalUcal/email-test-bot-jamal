@@ -1,0 +1,77 @@
+{
+  "supplier": "APEC",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "HONDA",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MAZDA",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MOBIS",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "PSA",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "SUZUKI",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "supplier": "STRUTT_AUTOMOTIVE",
+  "email_domain": "struttautomotive.com",
+  "default_expiry_days": 20,
+  "location": "UK",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "OPEL"
+    },
+    {
+      "brand": "PSA"
+    }
+  ]
+}

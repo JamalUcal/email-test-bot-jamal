@@ -1,0 +1,16 @@
+{
+  "supplier": "GAP_ABHILASH",
+  "email_domain": "gapabhilash.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "MITSUBISHI"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "supplier": "TAN_CHONG",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location": [
+        "SINGAPORE"
+      ],
+      "currency": [
+        "USD",
+        "EUR",
+        "JPY"
+      ],
+      "decimalFormat": "decimal"
+    }
+  ]
+}

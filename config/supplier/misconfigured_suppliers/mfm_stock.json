@@ -1,0 +1,17 @@
+{
+  "supplier": "MFM_STOCK",
+  "config": [
+    {
+      "brand": "VAG_OILS",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MOBIS",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "supplier": "AUTOTOTAL",
+  "email_domain": "autototal.ro",
+  "default_expiry_days": 20,
+  "location": "ROMANIA",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "RENAULT"
+    }
+  ]
+}

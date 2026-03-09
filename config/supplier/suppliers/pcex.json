@@ -1,0 +1,13 @@
+{
+  "supplier": "PCEX",
+  "email_domain": "pcex.es",
+  "default_expiry_days": 20,
+  "location": "SPAIN",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "RENAULT"
+    }
+  ]
+}

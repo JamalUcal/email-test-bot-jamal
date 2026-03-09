@@ -1,0 +1,11 @@
+{
+  "supplier": "CITY_TRADING",
+  "config": [
+    {
+      "brand": "TOYOTA",
+      "location": "BAHRAIN",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

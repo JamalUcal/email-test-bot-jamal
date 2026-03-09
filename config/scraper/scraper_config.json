@@ -1,0 +1,613 @@
+[
+  {
+    "supplier": "AUTOCAR",
+    "type": "custom",
+    "custom_scraper_class": "scrapers.supplier_scrapers.autocar_scraper.AutocarScraper",
+    "enabled": true,
+    "location": "NETHERLANDS",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "default_expiry_days": 30,
+    "schedule": {
+      "frequency": "daily",
+      "time": "10:00",
+      "timezone": "Asia/Kolkata",
+      "detection_mode": "date_based"
+    },
+    "execution": {
+      "max_execution_time_seconds": 600,
+      "timeout_buffer_seconds": 120
+    },
+    "authentication": {
+      "method": "form",
+      "login_url": "https://dashboard.autocar.nl/",
+      "username_field": "#email",
+      "password_field": "#pass",
+      "submit_button": "#send2",
+      "username_env": "SCRAPER_AUTOCAR_USERNAME",
+      "password_env": "SCRAPER_AUTOCAR_PASSWORD"
+    },
+    "links": {
+      "page_url": "https://dashboard.autocar.nl/customer/pricefiles/index"
+    },
+    "config": [
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "SUBARU"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "PORSCHE"
+      },
+      {
+        "brand": "VAG"
+      },
+      {
+        "brand": "MAZDA"
+      },
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "GENERALMOTORS"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "NISSAN"
+      }
+    ]
+  },
+  {
+    "supplier": "NEOPARTA",
+    "enabled": true,
+    "location": "LITHUANIA",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "default_expiry_days": 90,
+    "schedule": {
+      "frequency": "daily",
+      "time": "09:00",
+      "timezone": "Asia/Kolkata",
+      "detection_mode": "date_based",
+      "check_strategy": "incremental"
+    },
+    "execution": {
+      "max_execution_time_seconds": 300,
+      "timeout_buffer_seconds": 60
+    },
+    "authentication": {
+      "method": "form",
+      "login_url": "https://selfservice.neoparta.com/login",
+      "username_field": "input[formcontrolname='username']",
+      "password_field": "input[formcontrolname='password']",
+      "submit_button": "button[type='submit']",
+      "success_indicator": "a[href='/search-parts'], nav, .user-menu",
+      "username_env": "SCRAPER_NEOPARTA_USERNAME",
+      "password_env": "SCRAPER_NEOPARTA_PASSWORD",
+      "token_storage": {
+        "type": "localStorage",
+        "path": "loginData.Token",
+        "header_name": "Authorization",
+        "header_format": "Bearer {token}"
+      }
+    },
+    "api": {
+      "base_url": "https://selfservice-backend.neoparta.com",
+      "list_endpoint": "/api/Pricings/getGenuineSegmentsPriceList",
+      "list_method": "GET",
+      "list_params": {},
+      "list_items_path": "Data",
+      "export_endpoint": "/api/Pricings/exportByBrandId",
+      "export_method": "GET",
+      "export_params_template": {
+        "brandId": "{BrandId}",
+        "segmentId": "{SegmentId}",
+        "partNo": "{PartNo}"
+      }
+    },
+    "brand_detection": {
+      "source": "api_response",
+      "field": "Brand",
+      "pattern": "^([A-Z]+)",
+      "normalize": true
+    },
+    "limits": {
+      "max_files": 100
+    },
+    "config": [
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "KIA"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "MAZDA"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "SUZUKI"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "VAG"
+      },
+      {
+        "brand": "MG",
+        "location": "ITALY"
+      },
+      {
+        "brand": "PORSCHE",
+        "location": "ITALY"
+      }
+    ]
+  },
+  {
+    "supplier": "BRECHMANN",
+    "type": "custom",
+    "custom_scraper_class": "scrapers.supplier_scrapers.brechmann_scraper.BrechmannScraper",
+    "enabled": true,
+    "location": "GERMANY",
+    "currency": "EUR",
+    "default_expiry_days": 90,
+    "schedule": {
+      "frequency": "monthly",
+      "day_of_month": 1,
+      "time": "10:00",
+      "timezone": "Asia/Kolkata",
+      "detection_mode": "full_scan"
+    },
+    "execution": {
+      "max_execution_time_seconds": 900,
+      "timeout_buffer_seconds": 180
+    },
+    "authentication": {
+      "method": "form",
+      "login_url": "https://www.brechmann.parts/account/login",
+      "username_field": "input[name='username']",
+      "password_field": "input[name='password']",
+      "submit_button": "button[type='submit']",
+      "success_indicator": ".account, [href*='dashboard'], .logged-in",
+      "username_env": "SCRAPER_BRECHMANN_USERNAME",
+      "password_env": "SCRAPER_BRECHMANN_PASSWORD"
+    },
+    "links": {
+      "page_url": "https://www.brechmann.parts/dashboard/price-list",
+      "link_selector": "a[href*='download'], a[href*='price'], a.btn, button[download]",
+      "link_href_pattern": ".*",
+      "filename_from": "href"
+    },
+    "config": [
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "LEXUS"
+      },
+      {
+        "brand": "SEAT"
+      },
+      {
+        "brand": "SKODA"
+      },
+      {
+        "brand": "SUZUKI"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "VOLKSWAGEN"
+      }
+    ]
+  },
+  {
+    "supplier": "CONNEX",
+    "type": "link_downloader",
+    "enabled": true,
+    "location": "ROMANIA",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "default_expiry_days": 90,
+    "schedule": {
+      "frequency": "daily",
+      "time": "10:00",
+      "timezone": "Asia/Kolkata",
+      "detection_mode": "date_based"
+    },
+    "execution": {
+      "max_execution_time_seconds": 300,
+      "timeout_buffer_seconds": 60
+    },
+    "authentication": {
+      "method": "basic",
+      "username_env": "SCRAPER_CONNEX_USERNAME",
+      "password_env": "SCRAPER_CONNEX_PASSWORD"
+    },
+    "links": {
+      "page_url": "http://185.206.55.141/ucqIC0lqeurYC3d5sPv7VG/",
+      "link_selector": "a[href$='.csv']",
+      "link_href_pattern": ".*\\.csv$",
+      "filename_from": "href"
+    },
+    "brand_detection": {
+      "source": "filename",
+      "pattern": "^([A-Z]+)\\.csv$"
+    },
+    "config": [
+      {
+        "brand": "BMW",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "FORD",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "HONDA",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "HYUNDAI",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "MAZDA",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "MERCEDES-BENZ",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "PEUGEOT",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "RENAULT",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "SUZUKI",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "VW",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "MERCEDES",
+        "location": "ROMANIA"
+      },
+      {
+        "brand": "VOLKSWAGEN",
+        "location": "ROMANIA"
+      }
+    ]
+  },
+  {
+    "supplier": "TECHNOPARTS",
+    "type": "link_downloader",
+    "enabled": true,
+    "location": "ITALY",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "default_expiry_days": 90,
+    "schedule": {
+      "frequency": "daily",
+      "time": "10:00",
+      "timezone": "Asia/Kolkata",
+      "detection_mode": "date_based"
+    },
+    "execution": {
+      "max_execution_time_seconds": 600,
+      "timeout_buffer_seconds": 120
+    },
+    "authentication": {
+      "method": "form",
+      "login_url": "https://storetp.technoparts.it/",
+      "username_field": "input[name='username']",
+      "password_field": "input[name='password']",
+      "submit_button": "button.btn-login[type='submit']",
+      "success_indicator": "a[href*='price-lists'], .btn-logout, [href*='logout']",
+      "username_env": "SCRAPER_TECHNOPARTS_USERNAME",
+      "password_env": "SCRAPER_TECHNOPARTS_PASSWORD"
+    },
+    "links": {
+      "page_url": "https://storetp.technoparts.it/application/price-lists#month",
+      "link_selector": "a.btndownlPrice[href*='price_list']",
+      "link_href_pattern": "/price_list/.*\\.xlsx$",
+      "filename_from": "href"
+    },
+    "brand_detection": {
+      "source": "filename",
+      "pattern": "^([A-Z ]+) - "
+    },
+    "config": [
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "BYD"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "KIA"
+      },
+      {
+        "brand": "MG"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "PORSCHE"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "VOLKSWAGEN"
+      },
+      {
+        "brand": "SSANGYONG"
+      }
+    ]
+  },
+  {
+    "supplier": "MATEROM",
+    "type": "custom",
+    "custom_scraper_class": "scrapers.supplier_scrapers.materom_scraper.MateromScraper",
+    "enabled": true,
+    "location": "ROMANIA",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "default_expiry_days": 90,
+    "schedule": {
+      "frequency": "daily",
+      "time": "10:00",
+      "timezone": "Asia/Kolkata",
+      "detection_mode": "date_based"
+    },
+    "execution": {
+      "max_execution_time_seconds": 600,
+      "timeout_buffer_seconds": 120,
+      "download_timeout_seconds": 300,
+      "webdav_list_timeout_seconds": 60
+    },
+    "authentication": {
+      "method": "form",
+      "login_url": "http://109.96.101.208:8080/index.php/login",
+      "username_field": "input[name='user']",
+      "password_field": "input[name='password']",
+      "submit_button": "button[type='submit'][data-login-form-submit]",
+      "success_indicator": ".app-menu, [href*='files'], .user-menu",
+      "username_env": "SCRAPER_MATEROM_USERNAME",
+      "password_env": "SCRAPER_MATEROM_PASSWORD"
+    },
+    "links": {
+      "page_url": "http://109.96.101.208:8080/index.php/apps/files/files/445?dir=/Share%20Folder"
+    },
+    "config": [
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "VOLKSWAGEN"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "MERCEDES"
+      }
+    ]
+  },
+  {
+    "supplier": "APF",
+    "enabled": true,
+    "location": "BELGIUM",
+    "currency": "EUR",
+    "decimalFormat": "comma",
+    "default_expiry_days": 90,
+    "_comment_brands": "Brand matching uses supplier-level brand_aliases below. Wiuse API codes (HY, KI, etc.) are mapped to canonical brand names.",
+    "schedule": {
+      "frequency": "daily",
+      "time": "09:30",
+      "timezone": "Asia/Kolkata",
+      "detection_mode": "date_based",
+      "check_strategy": "incremental"
+    },
+    "execution": {
+      "max_execution_time_seconds": 600,
+      "timeout_buffer_seconds": 120
+    },
+    "authentication": {
+      "method": "bearer",
+      "token_header": "Authorization",
+      "password_env": "SCRAPER_APF_API_KEY"
+    },
+    "api": {
+      "base_url": "https://pricing.wiuse.net",
+      "list_endpoint": "/pricelists",
+      "list_method": "GET",
+      "list_params": {},
+      "list_items_path": "priceLists",
+      "export_endpoint": "/download-pricelist",
+      "export_method": "GET",
+      "export_params_template": {
+        "brandCode": "{brandCode}"
+      }
+    },
+    "brand_detection": {
+      "source": "api_response",
+      "field": "brandCode",
+      "pattern": "^([A-Z0-9_-]+)",
+      "normalize": true
+    },
+    "brand_aliases": {
+      "BM": "BMW",
+      "FI": "FCA",
+      "KI": "KIA",
+      "HO": "HONDA",
+      "HY": "HYUNDAI",
+      "MA": "MAZDA",
+      "ME": "MERCEDES",
+      "MI": "MITSUBISHI",
+      "NI": "NISSAN",
+      "OP": "OPEL",
+      "PS": "PSA",
+      "RE": "RENAULT",
+      "DA": "DACIA",
+      "SZ": "SUZUKI",
+      "TO": "TOYOTA",
+      "LE": "LEXUS",
+      "VA": "VAG",
+      "PO": "PORSCHE",
+      "SU": "SUBARU",
+      "FO": "FORD"
+    },
+    "_comment_columns": "APF files: ArticleName(1), Description1(2)=partNumber, Description2(3)=description, Barcode(4), NetPrice/Discount(5)=price. European decimal format (14,27)",
+    "config": [
+      {
+        "brand": "KIA"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "SUZUKI"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "DACIA"
+      },
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "VAG"
+      },
+      {
+        "brand": "PORSCHE"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "MAZDA"
+      },
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "MINI"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "LEXUS"
+      },
+      {
+        "brand": "SUBARU"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "BYD"
+      }
+    ]
+  }
+]

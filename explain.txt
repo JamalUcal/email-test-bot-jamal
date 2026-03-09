@@ -1,0 +1,419 @@
+================================================================================
+EMAIL PRICING BOT - CODE EXPLANATION
+================================================================================
+
+This document explains the key Python files in the codebase for a VB.NET developer.
+
+================================================================================
+1. MAIN ENTRY POINT
+================================================================================
+
+File: src/main.py
+Purpose: HTTP handler that routes requests to appropriate workflows
+
+VB.NET Equivalent: Global.asax, HTTP Handler, or Azure Function entry point
+
+Key Code:
+    @functions_framework.http
+    def main(request: Request):
+        workflow = request_json.get('workflow', 'unified')
+        if workflow == 'email':
+            return email_processor(request)
+        elif workflow == 'scraping':
+            return web_scraper(request)
+        elif workflow == 'unified':
+            return unified_orchestrator(request)
+
+This is like a Select Case statement routing to different handlers based on workflow parameter.
+
+================================================================================
+2. UNIFIED ORCHESTRATOR
+================================================================================
+
+File: src/unified_orchestrator.py
+Purpose: Main coordinator that initializes all services and runs the workflow
+
+VB.NET Equivalent: A Windows Service's OnStart() method or a Workflow Foundation host
+
+Key Responsibilities:
+- Loads configuration from Google Cloud Storage
+- Initializes Gmail client with service account credentials
+- Creates ProcessingOrchestrator for email
+- Creates WebScrapingOrchestrator for scraping
+- Runs both or either based on configuration
+- Sends summary email at the end
+
+Key Code Pattern:
+    # Load configuration
+    config_manager = ConfigManager()
+    config = config_manager.load_all_configs()
+    
+    # Initialize services
+    gmail_client = GmailClient(service_account_info=credentials, ...)
+    email_orchestrator = ProcessingOrchestrator(gmail_client=gmail_client, ...)
+    
+    # Execute workflow
+    result = email_orchestrator.process_emails(...)
+
+================================================================================
+3. PROCESSING ORCHESTRATOR
+================================================================================
+
+File: src/orchestrator.py
+Purpose: Coordinates the email-to-Drive pipeline
+
+Data Classes (like VB.NET DataClasses):
+    @dataclass
+    class FileOutput:
+        filename: str
+        local_path: str
+        drive_file_id: Optional[str] = None
+        drive_link: Optional[str] = None
+        brand: Optional[str] = None
+        supplier: Optional[str] = None
+        warnings: List[str] = field(default_factory=list)
+        error: Optional[str] = None
+        total_rows: int = 0
+        valid_rows: int = 0
+
+This is similar to a VB.NET Class with Properties.
+
+Main Method:
+    def process_email(self, email_result: EmailResult) -> EmailProcessingResult:
+        # 1. Detect brand from filename/subject
+        # 2. Parse date from email
+        # 3. Download attachment
+        # 4. Parse price list
+        # 5. Generate CSV
+        # 6. Upload to Drive
+
+================================================================================
+4. GMAIL CLIENT
+================================================================================
+
+File: src/gmail/gmail_client.py
+Purpose: Connects to Gmail API using domain-wide delegation
+
+VB.NET Equivalent: Microsoft Graph API Client or Outlook SDK
+
+Authentication Pattern:
+    # Create credentials with domain-wide delegation
+    credentials = service_account.Credentials.from_service_account_info(
+        service_account_info,
+        scopes=self.SCOPES
+    )
+    
+    # Delegate to user (impersonate)
+    delegated_credentials = credentials.with_subject(delegated_user)
+    
+    # Build Gmail service
+    self.service = build('gmail', 'v1', credentials=delegated_credentials)
+
+Key Methods:
+    def get_messages(self, query: str, max_results: int = 500):
+        """Fetch emails matching a query (like Gmail search)"""
+        
+    def get_attachments(self, message_id: str):
+        """Download attachments from email"""
+        
+    def send_email(self, to: str, subject: str, body: str):
+        """Send summary email"""
+
+================================================================================
+5. EMAIL PROCESSOR
+================================================================================
+
+File: src/gmail/email_processor.py
+Purpose: Parses email content and extracts metadata
+
+Key Tasks:
+- Filter emails by supplier domain
+- Extract brand from subject line
+- Extract date from email body
+- Match supplier from email address
+
+================================================================================
+6. ATTACHMENT HANDLER
+================================================================================
+
+File: src/gmail/attachment_handler.py
+Purpose: Downloads and saves email attachments
+
+VB.NET Equivalent: WebClient.DownloadFile or Attachment.Save
+
+Key Methods:
+    def download_attachment(self, message_id: str, attachment_id: str) -> bytes:
+        """Download attachment content"""
+        
+    def save_to_temp(self, content: bytes, filename: str) -> str:
+        """Save to temp folder and return path"""
+
+================================================================================
+7. PARSERS - INTELLIGENT FILE PARSING
+================================================================================
+
+File: src/parsers/price_list_parser.py
+Purpose: Parses Excel/CSV files from suppliers
+
+Data Class (like VB.NET Structure):
+    @dataclass
+    class PriceListItem:
+        part_number: str
+        description: str
+        price: float
+        former_part_number: Optional[str] = None
+        supersede_part_number: Optional[str] = None
+        brand: Optional[str] = None
+
+Key Features:
+- Smart header detection (finds PartNumber, Price columns automatically)
+- Handles multiple date formats
+- Streams large files (10,000 rows at a time)
+- Error tracking per row
+
+File: src/parsers/brand_detector.py
+Purpose: Detects car brand from filename or email subject
+
+    def detect_brand(self, filename: str, subject: str, supplier: str) -> Optional[str]:
+        # Looks for: TOYOTA, NISSAN, HONDA, etc.
+        # Uses aliases: "Toyota" = "Toyota Motor" = "TOYOTA"
+        # Falls back to supplier default brand
+
+File: src/parsers/currency_detector.py
+Purpose: Detects currency (USD, EUR, JPY, AED, etc.)
+
+    def detect_currency(self, filename: str, data: pd.DataFrame, supplier: str) -> str:
+        # Checks filename for currency symbols
+        # Checks data columns for currency
+        # Uses supplier default if ambiguous
+
+File: src/parsers/header_detector.py
+Purpose: Finds column headers in messy Excel files
+
+This is the "magic" parser that handles 200+ different supplier formats.
+
+================================================================================
+8. FILE GENERATOR
+================================================================================
+
+File: src/output/file_generator.py
+Purpose: Creates standardized CSV files from parsed data
+
+VB.NET Equivalent: CSVWriter or StringWriter with CSV format
+
+Key Method:
+    def generate_csv_streaming(
+        self,
+        input_file_path: str,
+        parser: PriceListParser,
+        brand_config: Dict,
+        supplier_config: Dict,
+        valid_from_date: datetime,
+        output_path: str
+    ):
+        # 1. Read input file
+        # 2. Apply transformations (discounts, GST removal)
+        # 3. Pad part numbers
+        # 4. Write to CSV with standardized format
+        # 5. Track errors
+
+Output Format:
+    BRAND,SUPPLIER,PART_NUMBER,DESCRIPTION,PRICE,CURRENCY,LOCATION,VALID_FROM,VALID_UNTIL
+    TOYOTA,ALFUTTAIM,12345-0,OIL FILTER,25.50,USD,JEBELALI,2025-01-01,2025-02-01
+
+================================================================================
+9. DRIVE UPLOADER
+================================================================================
+
+File: src/output/drive_uploader.py
+Purpose: Uploads CSV files to Google Drive
+
+VB.NET Equivalent: OneDrive API or SharePoint Client
+
+Key Method:
+    def upload_file(
+        self,
+        file_path: str,
+        folder_id: str,
+        filename: str
+    ) -> str:
+        # 1. Create file metadata
+        # 2. Upload to Drive
+        # 3. Set parent folder
+        # 4. Return file ID and web link
+
+================================================================================
+10. WEB SCRAPING SYSTEM
+================================================================================
+
+File: src/scrapers/web_scraping_orchestrator.py
+Purpose: Coordinates web scraping for suppliers without email
+
+Key Flow:
+    1. Check schedule (which suppliers need updating)
+    2. Create browser instance
+    3. For each supplier:
+       a. Login to their website
+       b. Navigate to price list
+       c. Download Excel file
+       d. Process through PriceListParser
+       e. Upload to Drive
+
+File: src/scrapers/browser_manager.py
+Purpose: Manages Chrome/Edge browser (like Selenium WebDriver)
+
+    def get_browser(self):
+        # Uses undetected-chromedriver or selenium
+        # Returns browser instance
+
+File: src/scrapers/scraper_factory.py
+Purpose: Factory pattern for creating scrapers
+
+    # Factory creates supplier-specific scrapers
+    scraper = scraper_factory.create_scraper(supplier_name, config)
+    result = scraper.scrape()
+
+Supplier-Specific Scrapers (in scrapers/supplier_scrapers/):
+- apf_scraper.py
+- autoclub_scraper.py
+- materom_scraper.py
+- neoparta_scraper.py
+- etc.
+
+Each scraper extends BaseScraper and implements:
+    def scrape(self) -> ScrapingResult:
+        # Custom logic for that supplier's website
+
+================================================================================
+11. CONFIGURATION MANAGEMENT
+================================================================================
+
+File: src/config/config_manager.py
+Purpose: Loads configuration from Google Cloud Storage
+
+VB.NET Equivalent: ConfigurationManager or IOptions in ASP.NET Core
+
+Key Methods:
+    def load_core_config(self) -> Dict:
+        """Load general settings"""
+        
+    def load_supplier_config(self) -> List[Dict]:
+        """Load 200+ supplier configurations"""
+        
+    def load_brand_config(self) -> Dict:
+        """Load brand settings and Drive folder IDs"""
+
+Configuration Structure:
+    # Core config (like web.config appSettings)
+    {
+        "gmail": {"delegated_user_email": "bot@company.com"},
+        "gcp": {"bucket_name": "my-bucket", "project_id": "my-project"},
+        "schedule": {"hour": 2, "minute": 0},  # 7:30 AM IST
+        "defaults": {"expiry_days": 30}
+    }
+    
+    # Supplier config (like database table)
+    [
+        {
+            "name": "ALFUTTAIM",
+            "email_domain": "alfuttaim.com",
+            "default_brand": "TOYOTA",
+            "discount_percent": 0,
+            "drive_folder_id": "abc123"
+        },
+        ...
+    ]
+    
+    # Brand config (like lookup table)
+    {
+        "TOYOTA": {
+            "name": "Toyota",
+            "aliases": ["Toyota Motor", "Toyota UAE"],
+            "min_part_number_length": 5,
+            "drive_folder_id": "xyz789"
+        }
+    }
+
+================================================================================
+12. NOTIFICATION SYSTEM
+================================================================================
+
+File: src/notification/email_sender.py
+Purpose: Sends summary email after processing
+
+VB.NET Equivalent: SmtpClient.Send()
+
+Key Features:
+- HTML formatted email
+- Shows: Total processed, errors, warnings, successes
+- Lists all uploaded files with Drive links
+- Lists all errors with details
+
+================================================================================
+13. STATE MANAGEMENT
+================================================================================
+
+File: src/utils/state_manager.py
+Purpose: Tracks last processed email to avoid duplicates
+
+Like a database table tracking processing state:
+    {
+        "last_processed_timestamp": "2025-01-26T10:00:00Z",
+        "last_processed_email_id": "abc123"
+    }
+
+================================================================================
+14. UTILITY CLASSES
+================================================================================
+
+File: src/utils/logger.py
+Purpose: Structured logging (like Serilog in VB.NET)
+
+    logger.info("Processing email", email_id="abc", supplier="ALFUTTAIM")
+    logger.error("Failed to parse file", error=str(e))
+
+File: src/utils/exceptions.py
+Purpose: Custom exception classes
+
+    class EmailProcessingError(Exception): pass
+    class ConfigurationError(Exception): pass
+    class ParsingError(Exception): pass
+
+File: src/utils/config_merger.py
+Purpose: Merges test/production configurations
+
+================================================================================
+15. STORAGE / BIGQUERY
+================================================================================
+
+File: src/storage/bigquery_processor.py
+Purpose: Stores parsed data in BigQuery for supersession reconciliation
+
+Advanced feature that:
+- Uploads price lists to BigQuery
+- Finds duplicate part numbers
+- Adds missing supersession data
+
+================================================================================
+SUMMARY: KEY CONCEPTS FOR VB.NET DEVELOPERS
+================================================================================
+
+1. @dataclass = VB.NET Structure or Class with auto-properties
+2. @functions_framework.http = ASP.NET MVC Controller
+3. Dict = Hashtable or Dictionary(Of String, Object)
+4. List = Generic List(Of T)
+5. Optional[str] = String (nullable)
+6. typing.TYPE_CHECKING = VB.NET Conditional("DEBUG")
+7. asyncio = Task/Task(Of T) with async/await
+8. pandas = DataTable or DataSet
+9. Google Cloud Storage = Azure Blob Storage
+10. Gmail API = Microsoft Graph API
+11. Google Drive API = OneDrive API
+12. Cloud Function = Azure Function
+13. Cloud Scheduler = Windows Task Scheduler or Azure Scheduler
+
+The architecture follows familiar patterns:
+- Factory Pattern (ScraperFactory)
+- Pipeline Pattern (orchestrator processing)
+- Repository Pattern (config loading)
+- Service Layer (GmailClient, DriveUploader)

@@ -1,0 +1,33 @@
+{
+  "supplier": "JAP",
+  "email_domain": "grupojap.pt",
+  "default_expiry_days": 20,
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "PORTUGAL"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "location": "PORTUGAL"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "PORTUGAL"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "PORTUGAL"
+    },
+    {
+      "brand": "VAG",
+      "location": "PORTUGAL"
+    },
+    {
+      "brand": "PSA",
+      "location": "PORTUGAL"
+    }
+  ]
+}

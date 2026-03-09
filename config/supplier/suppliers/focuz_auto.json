@@ -1,0 +1,13 @@
+{
+  "supplier": "FOCUZ_AUTO",
+  "email_domain": "focuzauto.com",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "FORD"
+    }
+  ]
+}

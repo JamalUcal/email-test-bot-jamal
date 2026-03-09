@@ -1,0 +1,31 @@
+{
+  "supplier": "AUTOMOTOR",
+  "email_domain": "amerigo-group.com",
+  "default_expiry_days": 20,
+  "location": "FRANCE",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "OPEL"
+    },
+    {
+      "brand": "FIAT"
+    },
+    {
+      "brand": "JEEP"
+    },
+    {
+      "brand": "PEUGEOT"
+    },
+    {
+      "brand": "CITROEN"
+    },
+    {
+      "brand": "PSA"
+    },
+    {
+      "brand": "RENAULT"
+    }
+  ]
+}

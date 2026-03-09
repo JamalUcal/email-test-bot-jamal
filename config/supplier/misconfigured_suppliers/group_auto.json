@@ -1,0 +1,11 @@
+{
+  "supplier": "GROUP_AUTO",
+  "config": [
+    {
+      "brand": "DENSO",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

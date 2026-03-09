@@ -1,0 +1,13 @@
+{
+  "supplier": "GRAND_AUTO",
+  "email_domain": "grandautomotive.hu",
+  "default_expiry_days": 20,
+  "location": "HUNGARY",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN"
+    }
+  ]
+}

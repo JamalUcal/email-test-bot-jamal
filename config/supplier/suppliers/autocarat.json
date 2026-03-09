@@ -1,0 +1,25 @@
+{
+  "supplier": "AUTOCARAT",
+  "email_domain": "autocarat.com",
+  "default_expiry_days": 20,
+  "location": "GERMANY",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "RENAULT"
+    }
+  ]
+}

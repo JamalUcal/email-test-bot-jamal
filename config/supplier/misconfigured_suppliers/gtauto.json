@@ -1,0 +1,17 @@
+{
+  "supplier": "GTAUTO",
+  "config": [
+    {
+      "brand": "PSA",
+      "location": "JEBEL_ALI",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "CHRYSLER",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

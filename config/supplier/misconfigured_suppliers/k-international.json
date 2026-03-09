@@ -1,0 +1,11 @@
+{
+  "supplier": "K-INTERNATIONAL",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "location": "KOREA",
+      "currency": "USD",
+      "decimalFormat": "decimal"  
+    }
+  ]
+}

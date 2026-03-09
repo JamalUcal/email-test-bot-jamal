@@ -1,0 +1,11 @@
+{
+  "supplier": "IRIS_STOCK",
+  "config": [
+    {
+      "brand": "RENAULT",
+      "location": "BELGIUM",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "supplier": "ARGO_MOTORS",
+  "default_expiry_days": 20,
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "PSA",
+      "location": "NETHERLANDS",
+      "currency": "EUR"
+    },
+    {
+      "brand": "FCA",
+      "location": "JEBEL_ALI",
+      "currency": "USD"
+    },
+    {
+      "brand": "KIA",
+      "location": "NETHERLANDS",
+      "currency": "EUR"
+    }
+  ],
+  "email_addresses": [
+    "argomotorspares@gmail.com"
+  ]
+}

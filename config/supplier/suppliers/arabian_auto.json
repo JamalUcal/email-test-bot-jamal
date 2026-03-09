@@ -1,0 +1,16 @@
+{
+  "supplier": "ARABIAN_AUTO",
+  "email_domain": "sales-auto.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "RENAULT"
+    }
+  ]
+}

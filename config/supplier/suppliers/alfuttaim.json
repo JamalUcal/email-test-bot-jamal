@@ -1,0 +1,28 @@
+{
+  "supplier": "ALFUTTAIM",
+  "email_domain": "multiautofzco.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "DENSO"
+    },
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "MOPAR"
+    },
+    {
+      "brand": "JEEP"
+    },
+    {
+      "brand": "TOYOTA"
+    }
+  ]
+}

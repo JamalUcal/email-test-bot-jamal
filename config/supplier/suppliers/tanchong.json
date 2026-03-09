@@ -1,0 +1,23 @@
+{
+  "supplier": "TANCHONG",
+  "email_domain": "tanchong.com",
+  "default_expiry_days": 20,
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location": "SINGAPORE",
+      "currency": "JPY"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "SINGAPORE",
+      "currency": "USD"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "SINGAPORE",
+      "currency": "EUR"
+    }
+  ]
+}

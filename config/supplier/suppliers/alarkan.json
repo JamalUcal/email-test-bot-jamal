@@ -1,0 +1,19 @@
+{
+    "supplier": "ALARKAN",
+    "email_domain": "alarkangt.com",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "ignore_brands": ["MOPAR"],
+    "config": [
+      {
+        "brand": "NISSAN",
+        "location": "JEBEL_ALI",
+        "currency": "AED"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "JEBEL_ALI",
+        "currency": "AED"
+      }
+    ]
+  }

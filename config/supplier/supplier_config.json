@@ -1,0 +1,2942 @@
+[
+  {
+    "supplier": "HENGSHUN",
+    "email_domain": "hsqcpj.cn",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA",
+        "location": "HONG KONG",
+        "currency": "JPY"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "CHINA",
+        "currency": "CNY"
+      }
+    ]
+  },
+  {
+    "supplier": "ALARKAN",
+    "email_domain": "alarkangt.com",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "ignore_brands": ["MOPAR"],
+    "config": [
+      {
+        "brand": "NISSAN",
+        "location": "JEBEL_ALI",
+        "currency": "AED"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "JEBEL_ALI",
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "supplier": "AL_BABTAIN",
+    "email_domain": "newforceintl.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN",
+        "currency": "USD"
+      },
+      {
+        "brand": "RENAULT",
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "supplier": "AL_HABTOOR_STOCK",
+    "email_domain": "habtoormotors.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "MITSUBISHI",
+        "currency": "AED"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "supplier": "AL_HASHAR",
+    "email_domain": "alhashargroup.com",
+    "default_expiry_days": 30,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN"
+      }
+    ]
+  },
+  {
+    "supplier": "AL_MASAOOD",
+    "email_domain": "masaood.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "AED",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN"
+      }
+    ]
+  },
+  {
+    "supplier": "AL_ROSTAMANI",
+    "email_domain": "alrostamanigroup.ae",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "SUZUKI",
+        "currency": "AED"
+      },
+      {
+        "brand": "SUZUKI",
+        "currency": "JPY"
+      },
+      {
+        "brand": "SUZUKI",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "supplier": "ALFUTTAIM",
+    "email_domain": "multiautofzco.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "DENSO"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "MOPAR"
+      },
+      {
+        "brand": "JEEP"
+      },
+      {
+        "brand": "TOYOTA"
+      }
+    ]
+  },
+  {
+    "supplier": "ALJ",
+    "email_domain": "ieapllc.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "DENSO"
+      }
+    ]
+  },
+  {
+    "supplier": "ALLEGIANCE_AUTOMOTIVE",
+    "email_domain": "aas-automotive.com",
+    "default_expiry_days": 20,
+    "location": "SINGAPORE",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "MAZDA",
+        "currency": "USD"
+      },
+      {
+        "brand": "MAZDA",
+        "currency": "JPY"
+      },
+      {
+        "brand": "FORD",
+        "currency": "USD"
+      },
+      {
+        "brand": "HONDA",
+        "currency": "USD"
+      },
+      {
+        "brand": "HONDA",
+        "currency": "JPY"
+      },
+      {
+        "brand": "HYUNDAI",
+        "currency": "USD"
+      },
+      {
+        "brand": "KIA",
+        "currency": "USD"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "currency": "USD"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "currency": "JPY"
+      },
+      {
+        "brand": "NISSAN",
+        "currency": "USD"
+      },
+      {
+        "brand": "NISSAN",
+        "currency": "JPY"
+      },
+      {
+        "brand": "FUSO",
+        "currency": "JPY"
+      },
+      {
+        "brand": "TOYOTA",
+        "currency": "USD",
+        "columnheader": "ITEM"
+      },
+      {
+        "brand": "TOYOTA",
+        "currency": "JPY",
+        "columnheader": "ITEM"
+      }
+    ]
+  },
+  {
+    "supplier": "ALLIED_MOTORS_STOCK",
+    "email_domain": "alliedmotors.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "AED",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "SUBARU"
+      },
+      {
+        "brand": "GENERALMOTORS"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "MAZDA"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "SUZUKI"
+      },
+      {
+        "brand": "LEXUS"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "KIA"
+      },
+      {
+        "brand": "TOYOTA"
+      }
+    ]
+  },
+  {
+    "supplier": "ALTAYER",
+    "email_domain": "altayer-motors.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "FORD"
+      }
+    ]
+  },
+  {
+    "supplier": "AMWAJ_ALBAHRAIN_MOTORS",
+    "default_expiry_days": 20,
+    "location": "BAHRAIN",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "FORD"
+      }
+    ],
+    "email_addresses": [
+      "arabiantech123@gmail.com",
+      "honesty.bah@gmail.com"
+    ]
+  },
+  {
+    "supplier": "APF",
+    "email_domain": "apf.com",
+    "default_expiry_days": 20,
+    "location": "BELGIUM",
+    "currency": "EUR",
+    "brand_aliases": {
+      "hy": "HYUNDAI",
+      "ki": "KIA",
+      "su": "SUZUKI",
+      "re": "RENAULT",
+      "da": "DACIA",
+      "gm": "OPEL",
+      "ps": "PSA",
+      "va": "VAG",
+      "po": "PORSCHE",
+      "ni": "NISSAN",
+      "fo": "FORD",
+      "mi": "MITSUBISHI",
+      "fi": "FCA",
+      "me": "MERCEDES",
+      "ma": "MAZDA",
+      "bm": "BMW",
+      "to": "TOYOTA",
+      "le": "LEXUS",
+      "sb": "SUBARU",
+      "ho": "HONDA",
+      "by": "BYD",
+      "vo": "VOLKSWAGEN"
+    },
+    "config": [
+      {
+        "brand": "NISSAN",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "SUZUKI",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "FORD",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "MG",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "BMW",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "MERCEDES",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "BYD",
+        "decimalFormat": "decimal"
+      },
+      {
+        "brand": "CHEVROLET",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "GENERALMOTORS",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "HYUNDAI",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "OPEL",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "HONDA",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "JAGUAR",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "LANDROVER",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "KIA",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "MAZDA",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "FIAT",
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "JEEP",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "PSA",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "RENAULT",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "VAG",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "SUBARU",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "TOYOTA",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      },
+      {
+        "brand": "VOLVO",
+        "partNumberSplice": 3,
+        "decimalFormat": "Comma"
+      }
+    ]
+  },
+  {
+    "supplier": "APMG",
+    "email_domain": "apmg.com",
+    "default_expiry_days": 20,
+    "currency": "USD",
+    "decimalFormat": "Comma",
+    "config": [
+      {
+        "brand": "TOYOTA",
+        "location": "JEBEL_ALI"
+      },
+      {
+        "brand": "KIA",
+        "location": "JEBEL_ALI"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "JEBEL_ALI"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "DUBAI"
+      }
+    ]
+  },
+  {
+    "supplier": "ARABIAN_AUTO",
+    "email_domain": "sales-auto.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "RENAULT"
+      }
+    ]
+  },
+  {
+    "supplier": "ARGO_MOTORS",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "PSA",
+        "location": "NETHERLANDS",
+        "currency": "EUR"
+      },
+      {
+        "brand": "FCA",
+        "location": "JEBEL_ALI",
+        "currency": "USD"
+      },
+      {
+        "brand": "KIA",
+        "location": "NETHERLANDS",
+        "currency": "EUR"
+      }
+    ],
+    "email_addresses": [
+      "argomotorspares@gmail.com"
+    ]
+  },
+  {
+    "supplier": "ARTHA_GLOBAL",
+    "email_domain": "globalpartindo.com",
+    "default_expiry_days": 20,
+    "location": "INDONESIA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "SUZUKI"
+      },
+      {
+        "brand": "TOYOTA"
+      }
+    ]
+  },
+  {
+    "supplier": "ASCI",
+    "email_domain": "automobile-sci.com",
+    "default_expiry_days": 20,
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "RENAULT",
+        "location": "FRANCE"
+      },
+      {
+        "brand": "RENAULT",
+        "location": "ROMANIA"
+      }
+    ]
+  },
+  {
+    "supplier": "ASTRA_OTO",
+    "email_domain": "component.astra.co.id",
+    "default_expiry_days": 20,
+    "location": "INDONESIA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "SUZUKI"
+      },
+      {
+        "brand": "MITSUBISHI"
+      }
+    ]
+  },
+  {
+    "supplier": "APEUROPEAN",
+    "email_domain": "apeuropean.pl",
+    "default_expiry_days": 20,
+    "location": "POLAND",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "FIAT"
+      },
+      {
+        "brand": "OPEL"
+      }
+    ]
+  },
+  {
+    "supplier": "ATSHUERTH",
+    "email_domain": "ats-huerth.com",
+    "default_expiry_days": 20,
+    "location": "GERMANY", 
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "ignore_brands": ["FORD","RENAULT","TOYOTA","VAG","SUBARU","NISSAN"]
+  },
+  {
+    "supplier": "AUGUSTINE",
+    "email_domain": "augustin-group.de",
+    "default_expiry_days": 20,
+    "location": "GERMANY",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "FCA"
+      }
+    ]
+  },
+  {
+    "supplier": "AUTOCAR",
+    "email_domain": "autocar.com",
+    "default_expiry_days": 20,
+    "location": "NETHERLANDS",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "GENERALMOTORS"
+      },
+      {
+        "brand": "JAGUAR"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "PORSCHE"
+      },
+      {
+        "brand": "SUBARU"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "MAZDA"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "TOYOTA_OILS"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "VAG"
+      },
+      {
+        "brand": "TOYOTA"
+      }
+    ]
+  },
+  {
+    "supplier": "AUTOCARAT",
+    "email_domain": "autocarat.com",
+    "default_expiry_days": 20,
+    "location": "GERMANY",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "RENAULT"
+      }
+    ]
+  },
+  {
+    "supplier": "AUTOMOTOR",
+    "email_domain": "amerigo-group.com",
+    "default_expiry_days": 20,
+    "location": "FRANCE",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "FIAT"
+      },
+      {
+        "brand": "JEEP"
+      },
+      {
+        "brand": "PEUGEOT"
+      },
+      {
+        "brand": "CITROEN"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "RENAULT"
+      }
+    ]
+  },
+  {
+    "supplier": "AUTONET_INTERNATIONAL",
+    "email_domain": "autonetintl.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "KIA"
+      }
+    ]
+  },
+  {
+    "supplier": "AUTORELLI",
+    "email_domain": "autorelli.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN",
+        "discount": 10
+      }
+    ]
+  },
+  {
+    "supplier": "AUTOTARUN",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "HANON"
+      },
+      {
+        "brand": "SUZUKI",
+        "discount": 10
+      }
+    ],
+    "email_addresses": [
+      "autotarun.india@gmail.com"
+    ]
+  },
+  {
+    "supplier": "AUTOTOTAL",
+    "email_domain": "autototal.ro",
+    "default_expiry_days": 20,
+    "location": "ROMANIA",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "RENAULT"
+      }
+    ]
+  },
+  {
+    "supplier": "AUTOWHEELS",
+    "email_domain": "autowheels.co",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA"
+      }
+    ]
+  },
+  {
+    "supplier": "BALAJI_AUTOMOTIVE",
+    "email_domain": "balajiautomotive.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "VAG"
+      },
+      {
+        "brand": "FORD"
+      }
+    ]
+  },
+  {
+    "supplier": "BASP",
+    "email_domain": "outlook.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "ignore_brands": ["KIA", "MITSUBISHI"],
+    "config": [
+      {
+        "brand": "HYUNDAI"
+      }
+    ]
+  },
+  {
+    "supplier": "BHAWAN_KOREA",
+    "email_domain": "bizbsupport.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "KIA"
+      }
+    ]
+  },
+  {
+    "supplier": "BLUELINE",
+    "email_domain": "bluelineparts.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "CHRYSLER",
+        "currency": "USD"
+      },
+      {
+        "brand": "HYUNDAI",
+        "currency": "USD"
+      },
+      {
+        "brand": "FORD",
+        "currency": "USD"
+      },
+      {
+        "brand": "GENERALMOTORS",
+        "currency": "USD"
+      },
+      {
+        "brand": "CHRYSLER",
+        "currency": "USD"
+      },
+      {
+        "brand": "ACDELCO",
+        "currency": "USD"
+      },
+      {
+        "brand": "MOBIS",
+        "currency": "USD"
+      },
+      {
+        "brand": "SUBARU",
+        "currency": "JPY"
+      },
+      {
+        "brand": "KIA",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "supplier": "BOSCH_INDIA",
+    "email_domain": "in.bosch.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BOSCH",
+        "discount": 20
+      }
+    ]
+  },
+  {
+    "supplier": "BRECHMANN",
+    "email_domain": "brechmann.com",
+    "default_expiry_days": 20,
+    "location": "GERMANY",
+    "currency": "EUR",
+    "decimalFormat": "Comma",
+    "config": [
+      {
+        "brand": "HYUNDAI",
+        "partNumberSplice": 3
+      },
+      {
+        "brand": "SUZUKI",
+        "partNumberSplice": 3
+      },
+      {
+        "brand": "TOYOTA",
+        "partNumberSplice": 3
+      },
+      {
+        "brand": "VAG",
+        "partNumberSplice": 3
+      },
+      {
+        "brand": "SKODA",
+        "partNumberSplice": 3
+      },
+      {
+        "brand": "SEAT",
+        "partNumberSplice": 3
+      },
+      {
+        "brand": "VAG_BRAKEPADS"
+      },
+      {
+        "brand": "PSA"
+      }
+    ]
+  },
+  {
+    "supplier": "BUBHANDARI",
+    "email_domain": "vw-bubhandari.co.in",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "CAROS_KOREA",
+    "email_domain": "carosgrp.com",
+    "default_expiry_days": 20,
+    "location": "VIETNAM",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "KIA"
+      }
+    ]
+  },
+  {
+    "supplier": "CONEX",
+    "email_domain": "conex.com",
+    "default_expiry_days": 20,
+    "location": "ROMANIA",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "BOSCH"
+      },
+      {
+        "brand": "FIAT"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "JAGUAR"
+      },
+      {
+        "brand": "LANDROVER"
+      },
+      {
+        "brand": "MAZDA"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "PEUGEOT"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "DEXTAR",
+    "email_domain": "dextarworldtrade.com",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "OPEL",
+        "location": "FRANCE",
+        "currency": "EUR"
+      },
+      {
+        "brand": "OPEL",
+        "location": "NETHERLANDS",
+        "currency": "EUR"
+      },
+      {
+        "brand": "GENERALMOTORS",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "FORD",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "FORD_OLD",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "ACDELCO",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "VAG",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "MERCEDES",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "FCA",
+        "location": "NETHERLANDS",
+        "currency": "EUR"
+      },
+      {
+        "brand": "FCA",
+        "location": "USA",
+        "currency": "EUR"
+      },
+      {
+        "brand": "MOPAR",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "PEUGEOT",
+        "location": "NETHERLANDS",
+        "currency": "EUR"
+      },
+      {
+        "brand": "PEUGEOT",
+        "location": "NETHERLANDS",
+        "currency": "USD"
+      },
+      {
+        "brand": "PEUGEOT",
+        "location": "USA",
+        "currency": "EUR"
+      },
+      {
+        "brand": "PEUGEOT",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "HONDA",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "HONDA",
+        "location": "USA",
+        "currency": "EUR"
+      },
+      {
+        "brand": "HONDA",
+        "location": "EU",
+        "currency": "USD"
+      },
+      {
+        "brand": "HONDA",
+        "location": "EU",
+        "currency": "EUR"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "MAZDA",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "USA",
+        "currency": "USD"
+      },
+      {
+        "brand": "TOYOTA_OILS",
+        "location": "USA",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "supplier": "EUROESTCAR",
+    "email_domain": "euroestcar.ro",
+    "default_expiry_days": 20,
+    "location": "ROMANIA",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "BYD"
+      },
+      {
+        "brand": "FIAT"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "JAGUAR"
+      },
+      {
+        "brand": "KIA"
+      },
+      {
+        "brand": "LANDROVER"
+      },
+      {
+        "brand": "MAZDA"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "MG"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "SSANGYONG"
+      },
+      {
+        "brand": "SUZUKI"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "FEDERAL_TRADING",
+    "email_domain": ["kaico.com.kw", "federalkw.com"],
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "MAZDA",
+        "location": "KUWAIT",
+        "currency": "JPY"
+      },
+      {
+        "brand": "MAZDA",
+        "location": "JEBEL_ALI",
+        "currency": "JPY"
+      },
+      {
+        "brand": "PEUGEOT",
+        "location": "JEBEL_ALI",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "supplier": "FOCUZ_AUTO",
+    "email_domain": "focuzauto.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "FORD"
+      }
+    ]
+  },
+  {
+    "supplier": "FOCUZ_TRADING",
+    "email_domain": "focuztrading.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "FUSO",
+        "currency": "AED"
+      },
+      {
+        "brand": "FUSO",
+        "currency": "USD"
+      },
+      {
+        "brand": "HONDA",
+        "currency": "AED"
+      },
+      {
+        "brand": "HONDA",
+        "currency": "USD"
+      },
+      {
+        "brand": "HYUNDAI",
+        "currency": "AED"
+      },
+      {
+        "brand": "HYUNDAI",
+        "currency": "USD"
+      },
+      {
+        "brand": "KIA",
+        "currency": "USD"
+      },
+      {
+        "brand": "MAZDA",
+        "currency": "AED"
+      },
+      {
+        "brand": "MAZDA",
+        "currency": "USD"
+      },
+      {
+        "brand": "MERCEDES",
+        "currency": "USD"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "currency": "AED"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "currency": "USD"
+      },
+      {
+        "brand": "NISSAN",
+        "currency": "AED"
+      },
+      {
+        "brand": "NISSAN",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "supplier": "FONHINAUTO",
+    "email_domain": "fonhin.com",
+    "default_expiry_days": 20,
+    "location": "SINGAPORE",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN",
+        "currency": "JPY"
+      },
+      {
+        "brand": "NISSAN",
+        "currency": "EUR"
+      },
+      {
+        "brand": "NISSAN",
+        "currency": "USD"
+      },
+      {
+        "brand": "TOYOTA",
+        "currency": "JPY"
+      },
+      {
+        "brand": "TOYOTA",
+        "currency": "EUR"
+      },
+      {
+        "brand": "TOYOTA",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "supplier": "FROW",
+    "email_domain": "frow.com.tr",
+    "default_expiry_days": 20,
+    "location": "ISTANBUL",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "FIAT"
+      },
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "PSA"
+      }
+    ]
+  },
+  {
+    "supplier": "GAP_ABHILASH",
+    "email_domain": "gapabhilash.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "MITSUBISHI"
+      }
+    ]
+  },
+  {
+    "supplier": "GAP_INDONESIA",
+    "email_domain": "centralautoperkasa.com",
+    "default_expiry_days": 20,
+    "location": "INDONESIA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA"
+      }
+    ]
+  },
+  {
+    "supplier": "GARNET_MOTORS",
+    "email_domain": "garnetskoda.co.in",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "SKODA"
+      },
+      {
+        "brand": "RENAULT",
+        "discount": 5
+      },
+      {
+        "brand": "NISSAN",
+        "discount": 10
+      }
+    ]
+  },
+  {
+    "supplier": "GHASSANABOUD",
+    "email_domain": "aboudparts.com",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "AED",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA"
+      }
+    ]
+  },
+  {
+    "supplier": "GLOZEN_STOCK",
+    "email_domain": "glozen.co.kr",
+    "default_expiry_days": 20,
+    "location": "KOREA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "VAG"
+      },
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "JAGUAR"
+      },
+      {
+        "brand": "LANDROVER"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "LEXUS"
+      },
+      {
+        "brand": "TOYOTA"
+      }
+    ]
+  },
+  {
+    "supplier": "GP_CARERRA",
+    "email_domain": "gpcarerra.com",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN",
+        "location": "SPAIN",
+        "currency": "EUR"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "SPAIN",
+        "currency": "EUR"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "SPAIN",
+        "currency": "USD"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "JEBEL_ALI",
+        "currency": "EUR"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "JEBEL_ALI",
+        "currency": "USD"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "FRANCE",
+        "currency": "EUR"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "FRANCE",
+        "currency": "USD"
+      },
+      {
+        "brand": "PSA",
+        "location": "SPAIN",
+        "currency": "EUR"
+      },
+      {
+        "brand": "PSA",
+        "location": "JEBEL_ALI",
+        "currency": "EUR"
+      },
+      {
+        "brand": "PSA",
+        "location": "FRANCE",
+        "currency": "EUR"
+      },
+      {
+        "brand": "PSA",
+        "location": "NETHERLANDS",
+        "currency": "EUR"
+      },
+      {
+        "brand": "RENAULT",
+        "location": "SPAIN",
+        "currency": "EUR"
+      },
+      {
+        "brand": "RENAULT",
+        "location": "JEBEL_ALI",
+        "currency": "EUR"
+      },
+      {
+        "brand": "RENAULT",
+        "location": "FRANCE",
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "supplier": "GRAND_AUTO",
+    "email_domain": "grandautomotive.hu",
+    "default_expiry_days": 20,
+    "location": "HUNGARY",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN"
+      }
+    ]
+  },
+  {
+    "supplier": "GRG",
+    "email_domain": "grgmobis.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "HYUNDAI",
+        "discount": 10
+      }
+    ]
+  },
+  {
+    "supplier": "GTAUTO",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "email_domain": ["stellantis.com"],
+    "email_addresses": [
+      "gtautomobilesrlt@gmail.com"
+    ],
+    "config": [
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "MOPAR"
+      },
+      {
+        "brand": "STELLANTIS"
+      },
+      {
+        "brand": "CHRYSLER"
+      }
+    ]
+  },
+  {
+    "supplier": "GUANGZHOU_SEAWAY_AUTOPARTS",
+    "default_expiry_days": 20,
+    "location": "CHINA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BYD"
+      },
+      {
+        "brand": "CHERY"
+      }
+    ],
+    "email_addresses": [
+      "dwharbin@163.com"
+    ]
+  },
+  {
+    "supplier": "GURUDEV",
+    "email_domain": "gurudevmotors.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "HELLEN",
+    "default_expiry_days": 20,
+    "location": "HONG_KONG",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "HONDA",
+        "currency": "JPY",
+        "packagingpercent": 3
+      },
+      {
+        "brand": "MITSUBISHI",
+        "currency": "JPY",
+        "packagingpercent": 3
+      },
+      {
+        "brand": "FUSO",
+        "currency": "JPY",
+        "packagingpercent": 3
+      },
+      {
+        "brand": "VAG",
+        "currency": "EUR",
+        "packagingpercent": 3
+      },
+      {
+        "brand": "NISSAN",
+        "currency": "JPY",
+        "packagingpercent": 3
+      }
+    ],
+    "email_addresses": [
+      "hellenindustry@hotmail.com"
+    ]
+  },
+  {
+    "supplier": "JAP",
+    "email_domain": "grupojap.pt",
+    "default_expiry_days": 20,
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BMW",
+        "location": "PORTUGAL"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "location": "PORTUGAL"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "PORTUGAL"
+      },
+      {
+        "brand": "RENAULT",
+        "location": "PORTUGAL"
+      },
+      {
+        "brand": "VAG",
+        "location": "PORTUGAL"
+      },
+      {
+        "brand": "PSA",
+        "location": "PORTUGAL"
+      }
+    ]
+  }, 
+  {
+    "supplier": "KOOVERS",
+    "email_domain": "koovers.in",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "HYUNDAI",
+        "discount": 10
+      },
+      {
+        "brand": "FIAT"
+      },
+      {
+        "brand": "JEEP"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "SUZUKI"
+      }
+    ]
+  },
+  {
+    "supplier": "KUN",
+    "email_domain": "kunrenault.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "HYUNDAI",
+        "discount": 10
+      },
+      {
+        "brand": "RENAULT",
+        "discount": 5
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "LODGEPARTS",
+    "email_domain": "lodgeparts.co.uk",
+    "default_expiry_days": 20,
+    "location": "UK",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "KIA"
+      }
+    ]
+  },
+  {
+    "supplier": "MATEROM",
+    "email_domain": "materom.com",
+    "default_expiry_days": 20,
+    "location": "ROMANIA",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "BOSCH"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "MEJGA",
+    "email_domain": "mejga.com.sg",
+    "default_expiry_days": 20,
+    "location": "SINGAPORE",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "BYD"
+      }
+    ]
+  },
+  {
+    "supplier": "MIRAL_AUTO",
+    "default_expiry_days": 20,
+    "location": "KOREA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "MOBIS"
+      },
+      {
+        "brand": "RENAULT"
+      }
+    ],
+    "email_addresses": [
+      "miralauto@gmail.com"
+    ]
+  },
+  {
+    "supplier": "MIRCAR",
+    "email_domain": "mircar.it",
+    "default_expiry_days": 20,
+    "location": "ITALY",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "NAMA_AUTO",
+    "email_domain": "namaauto.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "LUK",
+        "discount": 30
+      }
+    ]
+  },
+  {
+    "supplier": "NEOPARTA",
+    "email_domain": "neoparta.com",
+    "default_expiry_days": 20,
+    "location": "LITHUANIA",
+    "currency": "EUR",
+    "decimalFormat": "Comma",
+    "config": [
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "BMW_FAST"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "MG"
+      },
+      {
+        "brand": "FORD_OILS"
+      },
+      {
+        "brand": "JAGUAR"
+      },
+      {
+        "brand": "JLR"
+      },
+      {
+        "brand": "LANDROVER"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "PORSCHE"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "KIA"
+      },
+      {
+        "brand": "MAZDA"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "RENAULT_FAST"
+      },
+      {
+        "brand": "SUZUKI"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "NKSA_STOCK",
+    "email_domain": "nissan-me.ae",
+    "default_expiry_days": 20,
+    "location": "JEDDAH",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN"
+      }
+    ]
+  },
+  {
+    "supplier": "NMC_BAHRAIN",
+    "email_domain": "nmc.com.bh",
+    "default_expiry_days": 20,
+    "location": "JEBEL_ALI",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "ACDELCO"
+      },
+      {
+        "brand": "GENERALMOTORS"
+      },
+      {
+        "brand": "HONDA"
+      }
+    ]
+  },
+  {
+    "supplier": "NSA",
+    "email_domain": "nissan.co.za",
+    "default_expiry_days": 20,
+    "location": "SOUTH AFRICA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN"
+      }
+    ]
+  },
+  {
+    "supplier": "NZW_STOCK",
+    "email_domain": "cloverleaf.co.zw",
+    "default_expiry_days": 20,
+    "location": "SOUTH AFRICA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN"
+      }
+    ]
+  },
+  {
+    "supplier": "PARTNERS",
+    "email_domain": "partners-supply.com",
+    "default_expiry_days": 20,
+    "location": "FRANCE",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "OPEL"
+      }
+    ]
+  },
+  {
+    "supplier": "PCEX",
+    "email_domain": "pcex.es",
+    "default_expiry_days": 20,
+    "location": "SPAIN",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "RENAULT"
+      }
+    ]
+  },
+  {
+    "supplier": "PETROMIN",
+    "email_domain": "petromin.com",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "MOPAR",
+        "location": "KSA",
+        "currency": "SAR"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "KSA",
+        "currency": "SAR"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "KSA",
+        "currency": "USD"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "JEBEL_ALI",
+        "currency": "USD"
+      },
+      {
+        "brand": "STELLANTIS",
+        "location": "KSA",
+        "currency": "SAR"
+      }
+    ]
+  },
+  {
+    "supplier": "POPULAR_AUTOMOTIVE",
+    "email_domain": "populargroup.co.in",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA",
+        "discount": 10
+      }
+    ]
+  },
+  {
+    "supplier": "PORSCHE_CENTRUM_BRABANT",
+    "email_domain": "porschecentrumbrabant.nl",
+    "default_expiry_days": 20,
+    "location": "NETHERLANDS",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "PORSCHE"
+      }
+    ]
+  },
+  {
+    "supplier": "RAM_EXPORTS",
+    "email_domain": "ramexport.it",
+    "default_expiry_days": 20,
+    "location": "ITALY",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "BYD"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "FCA_FASTMOVERS"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "JAGUAR"
+      },
+      {
+        "brand": "JLR"
+      },
+      {
+        "brand": "KIA"
+      },
+      {
+        "brand": "LANDROVER"
+      },
+      {
+        "brand": "MAZDA"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "PORSCHE"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "VAG"
+      },
+      {
+        "brand": "VAG_BODYPARTS"
+      },
+      {
+        "brand": "VAG_LIQUID"
+      },
+      {
+        "brand": "VAG_MECHANICALPARTS"
+      }
+    ]
+  },
+  {
+    "supplier": "ROCOPARTS",
+    "email_domain": "rocoparts.es",
+    "default_expiry_days": 20,
+    "location": "SPAIN",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "NISSAN",
+        "partNumberSplice": 3
+      }
+    ]
+  },
+  {
+    "supplier": "ROTVOGEL_AUTOTEILE_LUBRICANTS",
+    "email_domain": "rotvogel-autoteile.de",
+    "default_expiry_days": 20,
+    "location": "GERMANY",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "SALVADAR",
+    "email_domain": "salvadorcaetano.pt",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BMW",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "BYD",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "HONDA",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "OPEL",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "HYUNDAI",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "HYUNDAI",
+        "location": "JEBEL_ALI",
+        "currency": "EUR"
+      },
+      {
+        "brand": "KIA",
+        "location": "JEBEL_ALI",
+        "currency": "EUR"
+      },
+      {
+        "brand": "FORD",
+        "location": "JEBEL_ALI",
+        "currency": "USD"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "PORTUGAL",
+        "currency": "USD"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "SOUTH AFRICA",
+        "currency": "EUR"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "SOUTH AFRICA",
+        "currency": "USD"
+      },
+      {
+        "brand": "RENAULT",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "RENAULT",
+        "location": "SPAIN",
+        "currency": "EUR"
+      },
+      {
+        "brand": "MERCEDES",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "FCA",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "VAG",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "PSA",
+        "location": "PORTUGAL",
+        "currency": "EUR"
+      },
+      {
+        "brand": "CHERY",
+        "location": "CHINA",
+        "currency": "USD"
+      },
+      {
+        "brand": "XPENG",
+        "location": "SPAIN",
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "supplier": "SIAMTHEPA",
+    "email_domain": "siamthepa.com",
+    "default_expiry_days": 20,
+    "location": "THAILAND",
+    "currency": "THB",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "CHEVROLET",
+        "discount": 16
+      },
+      {
+        "brand": "FORD",
+        "discount": 16
+      },
+      {
+        "brand": "FUSO"
+      },
+      {
+        "brand": "HINO"
+      },
+      {
+        "brand": "MAZDA",
+        "discount": 13
+      },
+      {
+        "brand": "HONDA",
+        "discount": 8
+      },
+      {
+        "brand": "HYUNDAI",
+        "discount": 12
+      },
+      {
+        "brand": "NISSAN",
+        "discount": 18
+      },
+      {
+        "brand": "ISUZU",
+        "discount": 20
+      },
+      {
+        "brand": "MG"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "discount": 20
+      },
+      {
+        "brand": "SUZUKI",
+        "discount": 8
+      },
+      {
+        "brand": "TOYOTA",
+        "discount": 20
+      }
+    ]
+  },
+  {
+    "supplier": "SINCERE",
+    "email_domain": "sincereauto.com",
+    "default_expiry_days": 20,
+    "location": "SINGAPORE",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN",
+        "currency": "JPY"
+      },
+      {
+        "brand": "HONDA",
+        "currency": "JPY"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "currency": "JPY"
+      },
+      {
+        "brand": "TOYOTA",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "supplier": "SNH",
+    "email_domain": "snhcorp.co.kr",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "ignore_brands": ["HONDA", "LANDROVER"],
+    "config": [
+      {
+        "brand": "RENAULT",
+        "location": "KOREA",
+        "currency": "USD"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "MALAYSIA",
+        "currency": "USD"
+      },
+      {
+        "brand": "GENERALMOTORS",
+        "location": "KOREA",
+        "currency": "USD"
+      },
+      {
+        "brand": "FUSO",
+        "location": "MALAYSIA",
+        "currency": "JPY"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "location": "MALAYSIA",
+        "currency": "JPY"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "MALAYSIA",
+        "currency": "JPY"
+      },
+      {
+        "brand": "SSANGYONG",
+        "location": "KOREA",
+        "currency": "USD"
+      },
+      {
+        "brand": "MOBIS",
+        "location": "KOREA",
+        "currency": "USD"
+      },
+      {
+        "brand": "KIA",
+        "location": "KOREA",
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "supplier": "SOEXIMEX",
+    "email_domain": "soeximex.com",
+    "default_expiry_days": 20,
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "PSA",
+        "location": "FRANCE"
+      },
+      {
+        "brand": "FCA",
+        "location": "FRANCE"
+      },
+      {
+        "brand": "OPEL",
+        "location": "FRANCE"
+      },
+      {
+        "brand": "RENAULT",
+        "location": "JEBEL_ALI"
+      }
+    ]
+  },
+  {
+    "supplier": "STRUTT_AUTOMOTIVE",
+    "email_domain": "struttautomotive.com",
+    "default_expiry_days": 20,
+    "location": "UK",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "PSA"
+      }
+    ]
+  },
+  {
+    "supplier": "TANCHONG",
+    "email_domain": "tanchong.com",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN",
+        "location": "SINGAPORE",
+        "currency": "JPY"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "SINGAPORE",
+        "currency": "USD"
+      },
+      {
+        "brand": "NISSAN",
+        "location": "SINGAPORE",
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "supplier": "TECHNOPARTS",
+    "email_domain": "technoparts.com",
+    "default_expiry_days": 20,
+    "location": "ITALY",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BMW"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "MG"
+      },
+      {
+        "brand": "LANDROVER"
+      },
+      {
+        "brand": "JAGUAR"
+      },
+      {
+        "brand": "BYD"
+      },
+      {
+        "brand": "JEEP"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "SSANGYONG"
+      },
+      {
+        "brand": "PORSCHE"
+      },
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "FIAT"
+      },
+      {
+        "brand": "HYUNDAI"
+      },
+      {
+        "brand": "HONDA"
+      },
+      {
+        "brand": "KIA"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "MITSUBISHI"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "VAG"
+      }
+    ]
+  },
+  {
+    "supplier": "TEGETA",
+    "email_domain": "itex.com.ge",
+    "default_expiry_days": 20,
+    "location": "GEORGIA",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA_OILS",
+        "currency": "USD"
+      },
+      {
+        "brand": "MAZDA",
+        "currency": "EUR"
+      },
+      {
+        "brand": "VAG",
+        "currency": "EUR"
+      }
+    ]
+  },
+  {
+    "supplier": "TMY_CORPORATION",
+    "email_domain": "tmy-net.co.jp",
+    "default_expiry_days": 20,
+    "location": "JAPAN",
+    "currency": "JPY",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "MITSUBISHI"
+      }
+    ]
+  },
+  {
+    "supplier": "TONZIE",
+    "email_domain": "tonzie.com",
+    "default_expiry_days": 20,
+    "location": "CHINA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BYD",
+        "partNumberSplice": 3
+      },
+      {
+        "brand": "MG",
+        "partNumberSplice": 2
+      },
+      {
+        "brand": "JAECOO",
+        "partNumberSplice": 3
+      }
+    ]
+  },
+  {
+    "supplier": "TR_PARTS_FINNIS",
+    "email_domain": "trpartsfinnis.com",
+    "default_expiry_days": 20,
+    "location": "ISTANBUL",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "FIAT"
+      },
+      {
+        "brand": "FORD"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "MERCEDES"
+      },
+      {
+        "brand": "PSA",
+        "partNumberSplice": 4
+      }
+    ]
+  },
+  {
+    "supplier": "TRADEX_FRANCE",
+    "email_domain": [
+      "tradexfrance.com",
+      "uae.tradexfrance.com"
+    ],
+    "default_expiry_days": 20,
+    "location": "FRANCE",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "PEUGEOT"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "PSA"
+      }
+    ]
+  },
+  {
+    "supplier": "TRUESAI",
+    "email_domain": "truesai.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "FCA"
+      }
+    ]
+  },
+  {
+    "supplier": "UNIQUE_DISTRIBUTION",
+    "email_domain": "uniqdist.ro",
+    "default_expiry_days": 20,
+    "location": "ROMANIA",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "FCA"
+      },
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "NISSAN"
+      },
+      {
+        "brand": "RENAULT"
+      }
+    ]
+  },
+  {
+    "supplier": "VIGNESH_NISSAN",
+    "email_domain": "vigneshnissan.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN",
+        "discount": 10
+      }
+    ]
+  },
+  {
+    "supplier": "XL_AUTO",
+    "email_domain": "xlauto.com",
+    "default_expiry_days": 20,
+    "location": "INDIA",
+    "currency": "INR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "SUZUKI",
+        "discount": 10
+      }
+    ]
+  },
+  {
+    "supplier": "YANXIN",
+    "email_domain": "yanxinco.cn",
+    "default_expiry_days": 20,
+    "location": "HONG_KONG",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "NISSAN",
+        "currency": "JPY"
+      },
+      {
+        "brand": "NISSAN",
+        "currency": "USD"
+      },
+      {
+        "brand": "VAG",
+        "currency": "EUR"
+      },
+      {
+        "brand": "MAZDA",
+        "currency": "JPY"
+      },
+      {
+        "brand": "TOYOTA",
+        "currency": "USD"
+      },
+      {
+        "brand": "SUBARU",
+        "currency": "JPY"
+      }
+    ]
+  },
+  {
+    "supplier": "ZHONGSHAN",
+    "email_domain": "naver.com",
+    "default_expiry_days": 20,
+    "location": "CHINA",
+    "currency": "USD",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "BYD"
+      },
+      {
+        "brand": "CHANGAN"
+      },
+      {
+        "brand": "GEELY"
+      },
+      {
+        "brand": "HAVAL"
+      },
+      {
+        "brand": "MG"
+      },
+      {
+        "brand": "SERES"
+      },
+      {
+        "brand": "GREATWALL"
+      },
+      {
+        "brand": "FAW"
+      },
+      {
+        "brand": "JAECOO"
+      },
+      {
+        "brand": "XPENG"
+      },
+      {
+        "brand": "CHERY"
+      }
+    ]
+  },
+  {
+    "supplier": "ZUBAIR_AUTOMOTIVE",
+    "email_domain": "autoae.com",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "MITSUBISHI",
+        "location": "JEBEL_ALI",
+        "currency": "AED"
+      },
+      {
+        "brand": "MITSUBISHI",
+        "location": "JEBEL_ALI",
+        "currency": "USD"
+      },
+      {
+        "brand": "FCA",
+        "location": "JEBEL_ALI",
+        "currency": "USD"
+      },
+      {
+        "brand": "MITSUBISHI_SPECIAL",
+        "location": "OMAN",
+        "currency": "USD"
+      }
+    ]
+  }
+]

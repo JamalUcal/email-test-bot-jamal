@@ -1,0 +1,17 @@
+{
+  "supplier": "ECAROBAAR",
+  "config": [
+    {
+      "brand": "SKODA",
+      "location": "INDIA",
+      "currency": "INR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VOLKSWAGEN",
+      "location": "INDIA",
+      "currency": "INR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

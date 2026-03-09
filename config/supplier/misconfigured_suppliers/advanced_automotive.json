@@ -1,0 +1,11 @@
+{
+  "supplier": "ADVANCED_AUTOMOTIVE",
+  "config": [
+    {
+      "brand": "MOPAR",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

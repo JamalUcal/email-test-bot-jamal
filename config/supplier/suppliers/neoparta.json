@@ -1,0 +1,79 @@
+{
+  "supplier": "NEOPARTA",
+  "email_domain": "neoparta.com",
+  "default_expiry_days": 20,
+  "location": "LITHUANIA",
+  "currency": "EUR",
+  "decimalFormat": "Comma",
+  "config": [
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "BMW_FAST"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "MG"
+    },
+    {
+      "brand": "FORD_OILS"
+    },
+    {
+      "brand": "JAGUAR"
+    },
+    {
+      "brand": "JLR"
+    },
+    {
+      "brand": "LANDROVER"
+    },
+    {
+      "brand": "PSA"
+    },
+    {
+      "brand": "PORSCHE"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "KIA"
+    },
+    {
+      "brand": "MAZDA"
+    },
+    {
+      "brand": "MITSUBISHI"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "RENAULT_FAST"
+    },
+    {
+      "brand": "SUZUKI"
+    },
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "VAG"
+    }
+  ]
+}

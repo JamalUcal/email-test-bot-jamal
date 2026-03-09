@@ -1,0 +1,13 @@
+{
+  "supplier": "AUTOWHEELS",
+  "email_domain": "autowheels.co",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "TOYOTA"
+    }
+  ]
+}

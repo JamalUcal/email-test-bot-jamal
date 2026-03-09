@@ -1,0 +1,17 @@
+{
+  "supplier": "REMAR_SPECIAL",
+  "config": [
+    {
+      "brand": "RENAULT",
+      "location": "TURKEY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "FIAT",
+      "location": "TURKEY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

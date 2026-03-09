@@ -1,0 +1,28 @@
+{
+  "supplier": "FROW",
+  "email_domain": "frow.com.tr",
+  "default_expiry_days": 20,
+  "location": "ISTANBUL",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "FIAT"
+    },
+    {
+      "brand": "OPEL"
+    },
+    {
+      "brand": "PSA"
+    }
+  ]
+}

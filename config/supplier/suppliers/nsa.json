@@ -1,0 +1,13 @@
+{
+  "supplier": "NSA",
+  "email_domain": "nissan.co.za",
+  "default_expiry_days": 20,
+  "location": "SOUTH AFRICA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN"
+    }
+  ]
+}

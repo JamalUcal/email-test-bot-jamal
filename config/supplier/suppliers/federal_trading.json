@@ -1,0 +1,23 @@
+{
+  "supplier": "FEDERAL_TRADING",
+  "email_domain": ["kaico.com.kw", "federalkw.com"],
+  "default_expiry_days": 20,
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "MAZDA",
+      "location": "KUWAIT",
+      "currency": "JPY"
+    },
+    {
+      "brand": "MAZDA",
+      "location": "JEBEL_ALI",
+      "currency": "JPY"
+    },
+    {
+      "brand": "PEUGEOT",
+      "location": "JEBEL_ALI",
+      "currency": "USD"
+    }
+  ]
+}

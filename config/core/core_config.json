@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "gmail": {
+    "delegated_user_email": "automation@ucalexports.com",
+    "group_inbox_email": "pricing-bot@ucalexports.com",
+    "own_domain": "ucalexports.com",
+    "ignore_domains": [
+    ],
+    "ignore_email_patterns": [
+    ],
+    "max_emails_per_run": 10
+  },
+  "drive": {
+    "impersonation_email": "automation@ucalexports.com"
+  },
+  "gcp": {
+    "project_id": "pricing-email-bot",
+    "secret_name": "email-pricing-bot-sa-key",
+    "bucket_name": "pricing-email-bot-bucket",
+    "state_file": "state/last_processed_test.json"
+  },
+  "execution": {
+    "schedule_hour": 18,
+    "schedule_minute": 0,
+    "timezone": "Asia/Kolkata"
+  },
+  "defaults": {
+    "expiry_duration_days": 30
+  },
+  "notification": {
+    "summary_email_recipients": [
+      "robin.ashford@ucalexports.com",
+      "krishna@ucalexports.com",
+      "gopika@ucalexports.com"
+    ],
+    "send_from_group": true,
+    "summary_from_email": "pricing@ucalexports.com",
+    "summary_mode": "immediate",
+    "daily_summary_hour": 19,
+    "daily_summary_minute": 0
+  },
+  "bigquery": {
+    "project_id": "pricing-email-bot",
+    "dataset_id": "PRICING",
+    "staging_bucket": "pricing-email-bot-bucket",
+    "reconciliation": {
+      "max_chain_depth": 10,
+      "add_missing_supersessions": true,
+      "audit_logging_enabled": false
+    },
+    "cleanup_on_failure": {
+      "mode": "test",
+      "test": {
+        "drop_staging_table": false,
+        "delete_price_list_record": false,
+        "delete_gcs_files": false,
+        "log_cleanup_skipped": true
+      },
+      "production": {
+        "drop_staging_table": true,
+        "delete_price_list_record": true,
+        "delete_gcs_files": true,
+        "log_cleanup_skipped": false
+      }
+    }
+  },
+  "environment": "test"
+}

@@ -1,0 +1,17 @@
+{
+  "supplier": "WERROS",
+  "config": [
+    {
+      "brand": "MERCEDES",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

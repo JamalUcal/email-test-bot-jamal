@@ -1,0 +1,11 @@
+{
+  "supplier": "XIAMEN_CHINAYU_TRADE",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "CHINA",
+      "currency": "CNY",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

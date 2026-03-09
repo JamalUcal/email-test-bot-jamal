@@ -1,0 +1,41 @@
+{
+  "supplier": "BALTIC GENUINE AUTOPARTS",
+  "config": [
+    {
+      "brand": "MERCEDES",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "LANDROVER",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "PORSCHE",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "JAGUAR",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "FORD",
+      "location":  "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

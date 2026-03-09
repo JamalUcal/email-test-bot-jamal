@@ -1,0 +1,71 @@
+{
+  "supplier": "EMEX",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "BMW",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "HYUNDAI",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "KIA",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MOBIS",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "HONDA",
+      "location": "DUBAI",
+      "currency": "USD",
+       "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MAZDA",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "PSA",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "supplier": "SIAMTHEPA",
+  "email_domain": "siamthepa.com",
+  "default_expiry_days": 20,
+  "location": "THAILAND",
+  "currency": "THB",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "CHEVROLET",
+      "discount": 16
+    },
+    {
+      "brand": "FORD",
+      "discount": 16
+    },
+    {
+      "brand": "FUSO"
+    },
+    {
+      "brand": "HINO"
+    },
+    {
+      "brand": "MAZDA",
+      "discount": 13
+    },
+    {
+      "brand": "HONDA",
+      "discount": 8
+    },
+    {
+      "brand": "HYUNDAI",
+      "discount": 12
+    },
+    {
+      "brand": "NISSAN",
+      "discount": 18
+    },
+    {
+      "brand": "ISUZU",
+      "discount": 20
+    },
+    {
+      "brand": "MG"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "discount": 20
+    },
+    {
+      "brand": "SUZUKI",
+      "discount": 8
+    },
+    {
+      "brand": "TOYOTA",
+      "discount": 20
+    }
+  ]
+}

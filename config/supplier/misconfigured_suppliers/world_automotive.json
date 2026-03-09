@@ -1,0 +1,11 @@
+{
+  "supplier": "WORLD_AUTOMOTIVE",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "POLAND",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "supplier": "BRECHMANN",
+  "email_domain": "brechmann.com",
+  "default_expiry_days": 20,
+  "location": "GERMANY",
+  "currency": "EUR",
+  "decimalFormat": "Comma",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "partNumberSplice": 3
+    },
+    {
+      "brand": "SUZUKI",
+      "partNumberSplice": 3
+    },
+    {
+      "brand": "TOYOTA",
+      "partNumberSplice": 3
+    },
+    {
+      "brand": "VAG",
+      "partNumberSplice": 3
+    },
+    {
+      "brand": "SKODA",
+      "partNumberSplice": 3
+    },
+    {
+      "brand": "SEAT",
+      "partNumberSplice": 3
+    },
+    {
+      "brand": "VAG_BRAKEPADS"
+    },
+    {
+      "brand": "PSA"
+    }
+  ]
+}

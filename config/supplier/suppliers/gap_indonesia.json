@@ -1,0 +1,13 @@
+{
+  "supplier": "GAP_INDONESIA",
+  "email_domain": "centralautoperkasa.com",
+  "default_expiry_days": 20,
+  "location": "INDONESIA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "TOYOTA"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "supplier": "AUGUSTINE",
+  "email_domain": "augustin-group.de",
+  "default_expiry_days": 20,
+  "location": "GERMANY",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "FCA"
+    }
+  ]
+}

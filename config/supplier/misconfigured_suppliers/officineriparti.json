@@ -1,0 +1,35 @@
+{
+  "supplier": "OFFICINERIPARTI",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "location": "ITALY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "KIA",
+      "location": "ITALY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "ITALY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "ITALY",
+      "currency": "EUR",
+        "decimalFormat": "decimal"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "ITALY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "supplier": "RELEAD",
+  "config": [
+    {
+      "brand": "VAG",
+      "location": [
+        "UK"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal",
+      "columns": {
+        "partNumber": 1,
+        "description": 3,
+        "formerPartNumber": "null",
+        "supersedePartNumber": 2,
+        "price": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "supplier": "APEUROPEAN",
+    "email_domain": "apeuropean.pl",
+    "default_expiry_days": 20,
+    "location": "POLAND",
+    "currency": "EUR",
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "PSA"
+      },
+      {
+        "brand": "OPEL"
+      },
+      {
+        "brand": "RENAULT"
+      },
+      {
+        "brand": "FIAT"
+      }
+    ]
+  }

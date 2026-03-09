@@ -1,0 +1,13 @@
+{
+  "supplier": "AL_HASHAR",
+  "email_domain": "alhashargroup.com",
+  "default_expiry_days": 30,
+  "location": "JEBEL_ALI",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN"
+    }
+  ]
+}

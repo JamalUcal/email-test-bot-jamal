@@ -1,0 +1,17 @@
+{
+  "supplier": "ELITEINTERNATIONALMOTORS_STOCK",
+  "config": [
+    {
+      "brand": "LANDROVER",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "JAGUAR",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

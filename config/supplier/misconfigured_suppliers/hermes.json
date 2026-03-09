@@ -1,0 +1,11 @@
+{
+  "supplier": "HERMES",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location": "MEXICO",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "supplier": "YANXIN",
+  "email_domain": "yanxinco.cn",
+  "default_expiry_days": 20,
+  "location": "HONG_KONG",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "currency": "JPY"
+    },
+    {
+      "brand": "NISSAN",
+      "currency": "USD"
+    },
+    {
+      "brand": "VAG",
+      "currency": "EUR"
+    },
+    {
+      "brand": "MAZDA",
+      "currency": "JPY"
+    },
+    {
+      "brand": "TOYOTA",
+      "currency": "USD"
+    },
+    {
+      "brand": "SUBARU",
+      "currency": "JPY"
+    }
+  ]
+}

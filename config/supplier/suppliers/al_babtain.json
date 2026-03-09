@@ -1,0 +1,17 @@
+{
+  "supplier": "AL_BABTAIN",
+  "email_domain": "newforceintl.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "currency": "USD"
+    },
+    {
+      "brand": "RENAULT",
+      "currency": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "supplier": "HELLEN",
+  "default_expiry_days": 20,
+  "location": "HONG_KONG",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "HONDA",
+      "currency": "JPY",
+      "packagingpercent": 3
+    },
+    {
+      "brand": "MITSUBISHI",
+      "currency": "JPY",
+      "packagingpercent": 3
+    },
+    {
+      "brand": "FUSO",
+      "currency": "JPY",
+      "packagingpercent": 3
+    },
+    {
+      "brand": "VAG",
+      "currency": "EUR",
+      "packagingpercent": 3
+    },
+    {
+      "brand": "NISSAN",
+      "currency": "JPY",
+      "packagingpercent": 3
+    }
+  ],
+  "email_addresses": [
+    "hellenindustry@hotmail.com"
+  ]
+}

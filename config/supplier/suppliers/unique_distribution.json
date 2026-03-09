@@ -1,0 +1,25 @@
+{
+  "supplier": "UNIQUE_DISTRIBUTION",
+  "email_domain": "uniqdist.ro",
+  "default_expiry_days": 20,
+  "location": "ROMANIA",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "OPEL"
+    },
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "PSA"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "RENAULT"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "supplier": "KUN",
+  "email_domain": "kunrenault.com",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "discount": 10
+    },
+    {
+      "brand": "RENAULT",
+      "discount": 5
+    },
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "VAG"
+    }
+  ]
+}

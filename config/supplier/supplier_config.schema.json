@@ -1,0 +1,138 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "supplier_config.schema.json",
+  "title": "Supplier Configuration",
+  "description": "Schema for email-pricing-bot supplier configuration. Validates supplier entries for email processing.",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/SupplierEntry"
+  },
+  "definitions": {
+    "SupplierEntry": {
+      "type": "object",
+      "required": ["supplier"],
+      "additionalProperties": false,
+      "properties": {
+        "supplier": {
+          "type": "string",
+          "description": "Unique supplier identifier (uppercase with underscores)",
+          "pattern": "^[A-Z][A-Z0-9_]*$"
+        },
+        "email_domain": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+          ],
+          "description": "Email domain(s) to match for this supplier"
+        },
+        "email_addresses": {
+          "type": "array",
+          "items": { "type": "string", "format": "email" },
+          "description": "Specific email addresses to match (alternative to email_domain)"
+        },
+        "default_expiry_days": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 365,
+          "description": "Default number of days until price list expires"
+        },
+        "discount_percent": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Supplier-level discount percentage"
+        },
+        "default_brand": {
+          "type": "string",
+          "description": "Default brand to use when brand cannot be detected"
+        },
+        "location": {
+          "type": "string",
+          "description": "Supplier-level default location (e.g., JEBEL_ALI, GERMANY)"
+        },
+        "currency": {
+          "type": "string",
+          "description": "Supplier-level default currency code (e.g., USD, EUR, JPY)",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "decimalFormat": {
+          "type": "string",
+          "enum": ["decimal", "Comma"],
+          "description": "Number format: 'decimal' uses period (1234.56), 'Comma' uses comma (1234,56)"
+        },
+        "ignore_brands": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Brands to skip/ignore for this supplier (e.g., brands in email but not wanted)"
+        },
+        "brand_aliases": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Map of short codes to canonical brand names (e.g., {\"to\": \"TOYOTA\"})"
+        },
+        "config": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/BrandConfigEntry" },
+          "minItems": 1,
+          "description": "Brand-specific configurations for this supplier"
+        }
+      }
+    },
+    "BrandConfigEntry": {
+      "type": "object",
+      "required": ["brand"],
+      "additionalProperties": false,
+      "properties": {
+        "brand": {
+          "type": "string",
+          "description": "Brand identifier (should match brand_config.json)"
+        },
+        "enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether this brand configuration is active"
+        },
+        "location": {
+          "type": "string",
+          "description": "Location override for this brand"
+        },
+        "currency": {
+          "type": "string",
+          "description": "Currency override for this brand",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "decimalFormat": {
+          "type": "string",
+          "enum": ["decimal", "Comma"],
+          "description": "Number format override for this brand"
+        },
+        "partNumberSplice": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Number of characters to remove from start of part numbers"
+        },
+        "columnheader": {
+          "type": "string",
+          "description": "Custom column header to identify part number column"
+        },
+        "gst_column": {
+          "type": "string",
+          "description": "Column name containing GST/tax information"
+        },
+        "discount": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Discount percentage for this brand"
+        },
+        "packagingpercent": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Packaging cost percentage to add to prices"
+        }
+      }
+    }
+  }
+}

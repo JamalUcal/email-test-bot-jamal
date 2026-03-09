@@ -1,0 +1,11 @@
+{
+  "supplier": "BESTPARTS",
+  "config": [
+    {
+      "brand": "MOBIS",
+      "location": "KOREA",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

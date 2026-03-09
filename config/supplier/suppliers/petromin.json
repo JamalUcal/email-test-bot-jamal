@@ -1,0 +1,33 @@
+{
+  "supplier": "PETROMIN",
+  "email_domain": "petromin.com",
+  "default_expiry_days": 20,
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "MOPAR",
+      "location": "KSA",
+      "currency": "SAR"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "KSA",
+      "currency": "SAR"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "KSA",
+      "currency": "USD"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "JEBEL_ALI",
+      "currency": "USD"
+    },
+    {
+      "brand": "STELLANTIS",
+      "location": "KSA",
+      "currency": "SAR"
+    }
+  ]
+}

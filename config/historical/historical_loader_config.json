@@ -1,0 +1,11 @@
+{
+  "description": "Configuration for loading historical pricing files from Google Drive into BigQuery",
+  "folders": [
+    {
+      "name": "TOYOTA",
+      "folder_id": "114TRGj0qyuWc0wffW2DG39Aufq2pXQJB",
+      "enabled": true
+    }
+  ],
+  "tracking_file": "./state/historical_load_tracking.json"
+}

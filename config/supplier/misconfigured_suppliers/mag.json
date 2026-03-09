@@ -1,0 +1,11 @@
+{
+  "supplier": "MAG",
+  "config": [
+    {
+      "brand": "MOPAR",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

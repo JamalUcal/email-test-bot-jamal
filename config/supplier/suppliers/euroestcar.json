@@ -1,0 +1,70 @@
+{
+  "supplier": "EUROESTCAR",
+  "email_domain": "euroestcar.ro",
+  "default_expiry_days": 20,
+  "location": "ROMANIA",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "BYD"
+    },
+    {
+      "brand": "FIAT"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "JAGUAR"
+    },
+    {
+      "brand": "KIA"
+    },
+    {
+      "brand": "LANDROVER"
+    },
+    {
+      "brand": "MAZDA"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "MG"
+    },
+    {
+      "brand": "MITSUBISHI"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "PSA"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "SSANGYONG"
+    },
+    {
+      "brand": "SUZUKI"
+    },
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "VAG"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "supplier": "AUTOSUMMIT_INTERNATIONAL",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location": [ "JEBEL_ALI"],
+      "currency": [ "AED" ],
+      "decimalFormat": "decimal"
+    }
+  ]
+}

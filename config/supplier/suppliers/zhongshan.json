@@ -1,0 +1,43 @@
+{
+  "supplier": "ZHONGSHAN",
+  "email_domain": "naver.com",
+  "default_expiry_days": 20,
+  "location": "CHINA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BYD"
+    },
+    {
+      "brand": "CHANGAN"
+    },
+    {
+      "brand": "GEELY"
+    },
+    {
+      "brand": "HAVAL"
+    },
+    {
+      "brand": "MG"
+    },
+    {
+      "brand": "SERES"
+    },
+    {
+      "brand": "GREATWALL"
+    },
+    {
+      "brand": "FAW"
+    },
+    {
+      "brand": "JAECOO"
+    },
+    {
+      "brand": "XPENG"
+    },
+    {
+      "brand": "CHERY"
+    }
+  ]
+}

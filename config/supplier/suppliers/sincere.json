@@ -1,0 +1,25 @@
+{
+  "supplier": "SINCERE",
+  "email_domain": "sincereauto.com",
+  "default_expiry_days": 20,
+  "location": "SINGAPORE",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "currency": "JPY"
+    },
+    {
+      "brand": "HONDA",
+      "currency": "JPY"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "currency": "JPY"
+    },
+    {
+      "brand": "TOYOTA",
+      "currency": "USD"
+    }
+  ]
+}

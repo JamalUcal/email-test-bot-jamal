@@ -1,0 +1,18 @@
+{
+  "supplier": "GUANGZHOU_SEAWAY_AUTOPARTS",
+  "default_expiry_days": 20,
+  "location": "CHINA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BYD"
+    },
+    {
+      "brand": "CHERY"
+    }
+  ],
+  "email_addresses": [
+    "dwharbin@163.com"
+  ]
+}

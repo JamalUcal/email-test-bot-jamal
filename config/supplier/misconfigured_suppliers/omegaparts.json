@@ -1,0 +1,11 @@
+{
+  "supplier": "OMEGAPARTS",
+  "config": [
+    {
+      "brand": "RENAULT",
+      "location": "JEBEL_ALI",
+      "currency": "AED",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

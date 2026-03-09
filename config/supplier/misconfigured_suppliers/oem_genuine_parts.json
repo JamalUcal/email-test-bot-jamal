@@ -1,0 +1,22 @@
+{
+  "supplier": "OEM_GENUINE_PARTS",
+  "config": [
+    {
+      "brand": "VAG",
+      "location": [
+        "SLOVAKIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal",
+      "columns": {
+        "partNumber": 1,
+        "description": "null",
+        "formerPartNumber": "null",
+        "supersedePartNumber": 4,
+        "price": 2
+      }
+    }
+  ]
+}

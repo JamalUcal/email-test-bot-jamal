@@ -1,0 +1,65 @@
+{
+  "supplier": "FOCUZ_TRADING",
+  "email_domain": "focuztrading.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "FUSO",
+      "currency": "AED"
+    },
+    {
+      "brand": "FUSO",
+      "currency": "USD"
+    },
+    {
+      "brand": "HONDA",
+      "currency": "AED"
+    },
+    {
+      "brand": "HONDA",
+      "currency": "USD"
+    },
+    {
+      "brand": "HYUNDAI",
+      "currency": "AED"
+    },
+    {
+      "brand": "HYUNDAI",
+      "currency": "USD"
+    },
+    {
+      "brand": "KIA",
+      "currency": "USD"
+    },
+    {
+      "brand": "MAZDA",
+      "currency": "AED"
+    },
+    {
+      "brand": "MAZDA",
+      "currency": "USD"
+    },
+    {
+      "brand": "MERCEDES",
+      "currency": "USD"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "currency": "AED"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "currency": "USD"
+    },
+    {
+      "brand": "NISSAN",
+      "currency": "AED"
+    },
+    {
+      "brand": "NISSAN",
+      "currency": "USD"
+    }
+  ]
+}

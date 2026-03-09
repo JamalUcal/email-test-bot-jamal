@@ -1,0 +1,13 @@
+{
+  "supplier": "MIRCAR",
+  "email_domain": "mircar.it",
+  "default_expiry_days": 20,
+  "location": "ITALY",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "VAG"
+    }
+  ]
+}

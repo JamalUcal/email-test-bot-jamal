@@ -1,0 +1,19 @@
+{
+  "supplier": "PARTNERS",
+  "email_domain": "partners-supply.com",
+  "default_expiry_days": 20,
+  "location": "FRANCE",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "PSA"
+    },
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "OPEL"
+    }
+  ]
+}

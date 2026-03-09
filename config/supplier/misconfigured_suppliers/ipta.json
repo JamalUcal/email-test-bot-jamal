@@ -1,0 +1,11 @@
+{
+  "supplier": "IPTA",
+  "config": [
+    {
+      "brand": "VAG_MOTOR_OILS",
+      "location": "BULGARIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "supplier": "AUTOTARUN",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "HANON"
+    },
+    {
+      "brand": "SUZUKI",
+      "discount": 10
+    }
+  ],
+  "email_addresses": [
+    "autotarun.india@gmail.com"
+  ]
+}

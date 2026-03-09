@@ -1,0 +1,12 @@
+{
+    "include": ["src"],
+    "exclude": ["**/node_modules", "**/__pycache__", "**/.git"],
+    "reportMissingImports": "warning",
+    "reportMissingTypeStubs": "none",
+    "pythonVersion": "3.12",
+    "pythonPlatform": "Darwin",
+    "typeCheckingMode": "basic",
+    "useLibraryCodeForTypes": true,
+    "stubPath": "./src",
+    "extraPaths": ["./src"]
+}

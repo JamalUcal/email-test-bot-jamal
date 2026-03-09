@@ -1,0 +1,26 @@
+[
+  {
+    "brand": "BMW",
+    "aliases": ["bmw", "BMW Motorrad"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1TePlFwCvYXBcPpGlOb0wZ87Zo7BcELAn"
+  },
+  {
+    "brand": "HONDA",
+    "aliases": ["honda", "acura"],
+    "minimumPartLength": 11,
+    "driveFolderId": "1ZFOROlx-13t6XIR6iuVpOh_HSNaFjh2H"
+  },
+  {
+    "brand": "NISSAN",
+    "aliases": ["nissan", "infiniti", "datsun"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1WmTEexxZ_rx_FzwVEpcSR2cIN4zqzTsn"
+  },
+  {
+    "brand": "TOYOTA",
+    "aliases": ["toyota", "lexus", "scion"],
+    "minimumPartLength": 10,
+    "driveFolderId": "1NxCFsxI5NQpfpWzaVmbiZEGkmy3Q1qd2"
+  }
+]

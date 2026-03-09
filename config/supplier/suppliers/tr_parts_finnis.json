@@ -1,0 +1,26 @@
+{
+  "supplier": "TR_PARTS_FINNIS",
+  "email_domain": "trpartsfinnis.com",
+  "default_expiry_days": 20,
+  "location": "ISTANBUL",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "FIAT"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "PSA",
+      "partNumberSplice": 4
+    }
+  ]
+}

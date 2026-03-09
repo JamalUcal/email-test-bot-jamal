@@ -1,0 +1,13 @@
+{
+  "supplier": "BUBHANDARI",
+  "email_domain": "vw-bubhandari.co.in",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "VAG"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "supplier": "PORSCHE_CENTRUM_BRABANT",
+  "email_domain": "porschecentrumbrabant.nl",
+  "default_expiry_days": 20,
+  "location": "NETHERLANDS",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "PORSCHE"
+    }
+  ]
+}

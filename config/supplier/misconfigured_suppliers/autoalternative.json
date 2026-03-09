@@ -1,0 +1,65 @@
+{
+  "supplier": "AUTOALTERNATIVE",
+  "config": [
+    {
+      "brand": "OPEL",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "FCA",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "BMW",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+      },
+    {
+      "brand": "NISSAN",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"  
+    },
+    {
+      "brand": "RENAULT",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "KIA",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "SUZUKI",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "ROMANIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

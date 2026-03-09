@@ -1,0 +1,29 @@
+{
+  "supplier": "ROCOPARTS",
+  "email_domain": "rocoparts.es",
+  "default_expiry_days": 20,
+  "location": "SPAIN",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "MITSUBISHI"
+    },
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "NISSAN",
+      "partNumberSplice": 3
+    }
+  ]
+}

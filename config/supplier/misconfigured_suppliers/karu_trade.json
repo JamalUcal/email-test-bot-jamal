@@ -1,0 +1,23 @@
+{
+  "supplier": "KARU_TRADE",
+  "config": [
+    {
+      "brand": "VAG",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "LANDROVER",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "JAGUAR",
+      "location": "ESTONIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

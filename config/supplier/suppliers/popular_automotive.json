@@ -1,0 +1,14 @@
+{
+  "supplier": "POPULAR_AUTOMOTIVE",
+  "email_domain": "populargroup.co.in",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "TOYOTA",
+      "discount": 10
+    }
+  ]
+}

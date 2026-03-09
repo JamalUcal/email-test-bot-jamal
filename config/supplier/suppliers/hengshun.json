@@ -1,0 +1,18 @@
+{
+    "supplier": "HENGSHUN",
+    "email_domain": "hsqcpj.cn",
+    "default_expiry_days": 20,
+    "decimalFormat": "decimal",
+    "config": [
+      {
+        "brand": "TOYOTA",
+        "location": "HONG KONG",
+        "currency": "JPY"
+      },
+      {
+        "brand": "TOYOTA",
+        "location": "CHINA",
+        "currency": "CNY"
+      }
+    ]
+  }

@@ -1,0 +1,17 @@
+{
+  "supplier": "DEALX",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

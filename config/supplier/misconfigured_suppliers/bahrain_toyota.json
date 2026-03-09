@@ -1,0 +1,12 @@
+{
+  "supplier": "BAHRAIN_TOYOTA",
+  "config": [
+    {
+      "brand": "TOYOTA",
+      "location": "BAHRAIN",
+      "currency": "USD",
+      "decimalFormat": "decimal",
+      "discount": 8
+    }
+  ]
+}

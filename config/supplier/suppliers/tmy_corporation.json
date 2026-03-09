@@ -1,0 +1,19 @@
+{
+  "supplier": "TMY_CORPORATION",
+  "email_domain": "tmy-net.co.jp",
+  "default_expiry_days": 20,
+  "location": "JAPAN",
+  "currency": "JPY",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "MITSUBISHI"
+    }
+  ]
+}

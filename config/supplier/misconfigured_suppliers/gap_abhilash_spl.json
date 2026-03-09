@@ -1,0 +1,11 @@
+{
+  "supplier": "GAP_ABHILASH_SPL",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

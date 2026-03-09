@@ -1,0 +1,13 @@
+{
+  "supplier": "BHAWAN_KOREA",
+  "email_domain": "bizbsupport.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "KIA"
+    }
+  ]
+}

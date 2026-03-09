@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "/opt/anaconda3/bin/python",
+        "python.analysis.typeCheckingMode": "strict",
+        "pyright.pythonPath": "/opt/anaconda3/bin/python",
+        "pyright.typeCheckingMode": "strict"
+    }
+}
+
+
+

@@ -1,0 +1,17 @@
+{
+  "supplier": "ASCI",
+  "email_domain": "automobile-sci.com",
+  "default_expiry_days": 20,
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "RENAULT",
+      "location": "FRANCE"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "ROMANIA"
+    }
+  ]
+}

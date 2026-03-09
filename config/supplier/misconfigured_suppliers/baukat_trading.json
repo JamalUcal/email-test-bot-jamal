@@ -1,0 +1,35 @@
+{
+  "supplier": "BAUKAT_TRADING",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "JLR",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "PORSCHE",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

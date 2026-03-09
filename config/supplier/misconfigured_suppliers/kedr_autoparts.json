@@ -1,0 +1,107 @@
+{
+  "supplier": "KEDR_AUTOPARTS",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": [
+        "AUSTRIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal",
+      "columns": {
+        "partNumber": 1,
+        "description": "null",
+        "formerPartNumber": "null",
+        "supersedePartNumber": "null",
+        "price": 2
+      }
+    },
+    {
+      "brand": "FCA",
+      "location": [
+        "AUSTRIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal",
+      "columns": {
+        "partNumber": 1,
+        "description": 2,
+        "formerPartNumber": "null",
+        "supersedePartNumber": "null",
+        "price": 3
+      }
+    },
+    {
+      "brand": "MERCEDES",
+      "location": [
+        "AUSTRIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal",
+      "columns": {
+        "partNumber": 2,
+        "description": 3,
+        "formerPartNumber": "null",
+        "supersedePartNumber": "null",
+        "price": 5
+      }
+    },
+    {
+      "brand": "VAG",
+      "location": [
+        "AUSTRIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal",
+      "columns": {
+        "partNumber": 1,
+        "description": 3,
+        "formerPartNumber": "null",
+        "supersedePartNumber": 2,
+        "price": 7
+      }
+    },
+    {
+      "brand": "MERCEDES_OILS",
+      "location": [
+        "AUSTRIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal",
+      "columns": {
+        "partNumber": 2,
+        "description": 4,
+        "formerPartNumber": "null",
+        "supersedePartNumber": "null",
+        "price": 6
+      }
+    },
+    {
+      "brand": "VAG_OILS",
+      "location": [
+        "AUSTRIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal",
+      "columns": {
+        "partNumber": 1,
+        "description": 2,
+        "formerPartNumber": "null",
+        "supersedePartNumber": "null",
+        "price": 3
+      }
+    }
+  ]
+}

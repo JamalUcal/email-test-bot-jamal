@@ -1,0 +1,11 @@
+{
+  "supplier": "BIN_NAHAR",
+  "config": [
+    {
+      "brand": "FORD",
+      "location": "RIYADH",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

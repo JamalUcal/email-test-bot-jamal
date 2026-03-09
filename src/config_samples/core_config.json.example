@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "gmail": {
+    "delegated_user_email": "pricing-group@yourdomain.com",
+    "ignore_domains": [
+      "yourdomain.com"
+    ],
+    "ignore_email_patterns": [
+      "noreply@",
+      "no-reply@",
+      "automated@"
+    ],
+    "max_emails_per_run": 10
+  },
+  "gcp": {
+    "project_id": "your-project-id",
+    "secret_name": "email-pricing-bot-sa-key",
+    "bucket_name": "your-project-id-email-pricing-bot",
+    "state_file": "state/last_processed.json"
+  },
+  "execution": {
+    "schedule_hour": 9,
+    "schedule_minute": 0,
+    "timezone": "Asia/Kolkata"
+  },
+  "defaults": {
+    "expiry_duration_days": 90
+  },
+  "notification": {
+    "summary_email_recipients": [
+      "pricing-team@yourdomain.com",
+      "operations@yourdomain.com"
+    ],
+    "send_from_group": true,
+    "summary_from_email": "pricing-group@yourdomain.com",
+    "summary_mode": "immediate",
+    "daily_summary_hour": 19,
+    "daily_summary_minute": 0
+  }
+}

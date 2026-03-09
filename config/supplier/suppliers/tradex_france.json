@@ -1,0 +1,28 @@
+{
+  "supplier": "TRADEX_FRANCE",
+  "email_domain": ["tradexfrance.com","uae.tradexfrance.com"],
+  "default_expiry_days": 20,
+  "location": "FRANCE",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "OPEL"
+    },
+    {
+      "brand": "PEUGEOT"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "OPEL"
+    },
+    {
+      "brand": "PSA"
+    }
+  ]
+}

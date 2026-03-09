@@ -1,0 +1,16 @@
+{
+  "supplier": "CAROS_KOREA",
+  "email_domain": "carosgrp.com",
+  "default_expiry_days": 20,
+  "location": "VIETNAM",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "KIA"
+    }
+  ]
+}

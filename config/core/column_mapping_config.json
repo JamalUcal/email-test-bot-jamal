@@ -1,0 +1,234 @@
+{
+  "fields": {
+    "partNumber": {
+      "required": true,
+      "variants": [
+        "part number",
+        "part no",
+        "parts no",
+        "part#",
+        "part",
+        "enquired part number",
+        "item number",
+        "item no",
+        "pn",
+        "partnumber",
+        "itemno",
+        "part_number",
+        "article number",
+        "article no",
+        "article",
+        "sku",
+        "<BRAND> PART NUMBER",
+        "Part.number",
+        "OEM",
+        "CODE",
+        "finis",
+        "Description1",
+        "referinta",
+        "Referencia",
+        "reference",
+        "ref",
+        "material",
+        "ItemCode",
+        "part numbers",
+        "N.º",
+        "number",
+        "No."
+      ],
+      "wildcard_variants": [
+        "Article no%"
+      ]
+    },
+    "price": {
+      "required": true,
+      "variants": [
+        "specialunitprice",
+        "price",
+        "unit price",
+        "cost",
+        "net price",
+        "list price",
+        "unitprice",
+        "listprice",
+        "netprice",
+        "retail price",
+        "selling price",
+        "dealer price",
+        "UnitPriceEXW",
+        "<CURRENCY_CODE>RATE",
+        "UPRICE",
+        "FOB",
+        "Price<CURRENCY_CODE>",
+        "UnitPrice<CURRENCY_CODE>",
+        "UP<CURRENCY_CODE>",
+        "exwunitprice",
+        "NetPrice/Discount",
+        "NetPrice",
+        "Price <CURRENCY_CODE>",
+        "Price<CURRENCY_CODE>",
+        "MRP",
+        "pvht"
+      ],
+      "wildcard_variants": [
+        "%<CURRENCY_CODE>%price%",
+        "%price%<CURRENCY_CODE>%",
+        "%price%",
+        "%offer%<CURRENCY_CODE>%",
+        "%<CURRENCY_CODE>%offer%",
+        "%offer%",
+        "%FOB%"
+      ],
+      "exclusions": ["total", "totalprice", "sum", "sumprice"]
+    },
+    "description": {
+      "required": false,
+      "variants": [
+        "description",
+        "desc",
+        "productdescription",
+        "itemdescription",
+        "name",
+        "productname",
+        "itemname",
+        "title",
+        "designation",
+        "PartDescription",
+        "Description2",
+        "Descrição 2"
+      ]
+    },
+    "formerPartNumber": {
+      "required": false,
+      "variants": [
+        "formerpartnumber",
+        "oldpartnumber",
+        "previouspart",
+        "formerpn",
+        "oldpn",
+        "previouspartnumber",
+        "formerpartnumber",
+        "oldpartnumber"
+      ]
+    },
+    "supersedePartNumber": {
+      "required": false,
+      "variants": [
+        "supersession",
+        "supersede",
+        "replacement",
+        "supersedes",
+        "supersededby",
+        "replacedby",
+        "supply part number",
+        "alternatepn",
+        "replacementpart",
+        "supercession",
+        "supersedepart",
+        "supersessionnumber",
+        "SUPERSEDETO",
+        "ChangedItemNo",
+        "SSP."
+      ]
+    },
+    "brand": {
+      "required": false,
+      "variants": [
+        "brand",
+        "brandcode",
+        "brand_code",
+        "brandCode",
+        "make",
+        "manufacturer",
+        "marque",
+        "marca"
+      ]
+    },
+    "currency": {
+      "required": false,
+      "variants": [
+        "currency",
+        "cur",
+        "currency code",
+        "currencycode"
+      ]
+    },
+    "version": {
+      "required": false,
+      "variants": [
+        "version",
+        "ver",
+        "revision",
+        "rev",
+        "versionNumber",
+        "version_number"
+      ]
+    },
+    "createdDate": {
+      "required": false,
+      "variants": [
+        "createddatetime",
+        "createdDateTime",
+        "created_date_time",
+        "created_date",
+        "createddate",
+        "createdDate",
+        "created",
+        "date",
+        "timestamp",
+        "createdat",
+        "createdAt",
+        "created_at"
+      ]
+    },
+    "isNew": {
+      "required": false,
+      "variants": [
+        "isnew",
+        "isNew",
+        "is_new",
+        "new",
+        "newrecord",
+        "new_record",
+        "isNewRecord"
+      ]
+    },
+    "validFrom": {
+      "required": false,
+      "variants": [
+        "validfrom",
+        "valid_from",
+        "ValidFrom",
+        "effectivedate",
+        "startdate",
+        "from"
+      ]
+    },
+    "validTo": {
+      "required": false,
+      "variants": [
+        "validto",
+        "valid_to",
+        "ValidTo",
+        "expirydate",
+        "enddate",
+        "to",
+        "expiry"
+      ]
+    }
+  },
+  "header_detection": {
+    "max_blank_rows_to_skip": 50,
+    "normalize_strategy": "uppercase_strip_special",
+    "comment": "normalize_strategy: uppercase_strip_special removes spaces, special chars, converts to uppercase for matching",
+    "price_column_validation_rows": 20,
+    "price_column_validation_comment": "Number of data rows to sample when validating price column candidates"
+  },
+  "parsing": {
+    "error_rate_warning_threshold": 0.02,
+    "max_consecutive_blank_rows": 100,
+    "comment": "Warn if more than 2% of rows fail parsing. Terminate early after 100 consecutive blank rows."
+  }
+}
+
+

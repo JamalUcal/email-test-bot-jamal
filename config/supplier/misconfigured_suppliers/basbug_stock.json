@@ -1,0 +1,16 @@
+{
+  "supplier": "BASBUG",
+  "config": [
+    {
+      "brand": "PSA",
+      "location": [
+        "TURKEY",
+        "NETHERLANDS"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    }
+  ]
+}

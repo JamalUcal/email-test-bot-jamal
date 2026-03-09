@@ -1,0 +1,28 @@
+{
+  "supplier": "MATEROM",
+  "email_domain": "materom.com",
+  "default_expiry_days": 20,
+  "location": "ROMANIA",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "BOSCH"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "VAG"
+    }
+  ]
+}

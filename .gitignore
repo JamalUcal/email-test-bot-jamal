@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment Variables
+.env
+.env.local
+
+
+
+!package.json
+!package-lock.json
+!*config.json.example
+*-key.json
+# Credentials (NEVER COMMIT THESE)
+credentials.json
+token.json
+bigquery-credentials.json
+
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.scraper_screenshots/
+.scraper_downloads/
+.scraper_artifacts/
+
+# Logs
+*.log
+combined.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.log
+summary.txt
+log_report.md
+email_state.json
+
+# Scraper artifacts
+.local_downloads/
+.scraper_artifacts/
+
+# Cloud Functions
+.gcloudignore
+

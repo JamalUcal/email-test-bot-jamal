@@ -1,0 +1,21 @@
+{
+  "supplier": "GARNET_MOTORS",
+  "email_domain": "garnetskoda.co.in",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "SKODA"
+    },
+    {
+      "brand": "RENAULT",
+      "discount": 5
+    },
+    {
+      "brand": "NISSAN",
+      "discount": 10
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "supplier": "AL_ROSTAMANI",
+  "email_domain": "alrostamanigroup.ae",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "SUZUKI",
+      "currency": "AED"
+    },
+    {
+      "brand": "SUZUKI",
+      "currency": "JPY"
+    },
+    {
+      "brand": "SUZUKI",
+      "currency": "USD"
+    }
+  ]
+}

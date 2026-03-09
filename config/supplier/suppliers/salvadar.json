@@ -1,0 +1,113 @@
+{
+  "supplier": "SALVADAR",
+  "email_domain": "salvadorcaetano.pt",
+  "default_expiry_days": 20,
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "BYD",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "HONDA",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "OPEL",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "HYUNDAI",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "HYUNDAI",
+      "location": "JEBEL_ALI",
+      "currency": "EUR"
+    },
+    {
+      "brand": "KIA",
+      "location": "JEBEL_ALI",
+      "currency": "EUR"
+    },
+    {
+      "brand": "FORD",
+      "location": "JEBEL_ALI",
+      "currency": "USD"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "PORTUGAL",
+      "currency": "USD"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "SOUTH AFRICA",
+      "currency": "EUR"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "SOUTH AFRICA",
+      "currency": "USD"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "SPAIN",
+      "currency": "EUR"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "FCA",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "VAG",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "PSA",
+      "location": "PORTUGAL",
+      "currency": "EUR"
+    },
+    {
+      "brand": "CHERY",
+      "location": "CHINA",
+      "currency": "USD"
+    },
+    {
+      "brand": "XPENG",
+      "location": "SPAIN",
+      "currency": "EUR"
+    }
+  ]
+}

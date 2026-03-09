@@ -1,0 +1,73 @@
+{
+  "supplier": "RAM_EXPORTS",
+  "email_domain": "ramexport.it",
+  "default_expiry_days": 20,
+  "location": "ITALY",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "BYD"
+    },
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "FCA_FASTMOVERS"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "JAGUAR"
+    },
+    {
+      "brand": "JLR"
+    },
+    {
+      "brand": "KIA"
+    },
+    {
+      "brand": "LANDROVER"
+    },
+    {
+      "brand": "MAZDA"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "OPEL"
+    },
+    {
+      "brand": "PORSCHE"
+    },
+    {
+      "brand": "PSA"
+    },
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "VAG"
+    },
+    {
+      "brand": "VAG_BODYPARTS"
+    },
+    {
+      "brand": "VAG_LIQUID"
+    },
+    {
+      "brand": "VAG_MECHANICALPARTS"
+    }
+  ]
+}

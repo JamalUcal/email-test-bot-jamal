@@ -1,0 +1,123 @@
+{
+  "supplier": "DEXTAR",
+  "email_domain": "dextarworldtrade.com",
+  "default_expiry_days": 20,
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "OPEL",
+      "location": "FRANCE",
+      "currency": "EUR"
+    },
+    {
+      "brand": "OPEL",
+      "location": "NETHERLANDS",
+      "currency": "EUR"
+    },
+    {
+      "brand": "GENERALMOTORS",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "FORD",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "FORD_OLD",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "ACDELCO",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "VAG",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "FCA",
+      "location": "NETHERLANDS",
+      "currency": "EUR"
+    },
+    {
+      "brand": "FCA",
+      "location": "USA",
+      "currency": "EUR"
+    },
+    {
+      "brand": "MOPAR",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "PEUGEOT",
+      "location": "NETHERLANDS",
+      "currency": "EUR"
+    },
+    {
+      "brand": "PEUGEOT",
+      "location": "NETHERLANDS",
+      "currency": "USD"
+    },
+    {
+      "brand": "PEUGEOT",
+      "location": "USA",
+      "currency": "EUR"
+    },
+    {
+      "brand": "PEUGEOT",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "HONDA",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "HONDA",
+      "location": "USA",
+      "currency": "EUR"
+    },
+    {
+      "brand": "HONDA",
+      "location": "EU",
+      "currency": "USD"
+    },
+    {
+      "brand": "HONDA",
+      "location": "EU",
+      "currency": "EUR"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "MAZDA",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "USA",
+      "currency": "USD"
+    },
+    {
+      "brand": "TOYOTA_OILS",
+      "location": "USA",
+      "currency": "USD"
+    }
+  ]
+}

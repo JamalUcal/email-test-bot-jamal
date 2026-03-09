@@ -1,0 +1,13 @@
+{
+  "supplier": "NKSA_STOCK",
+  "email_domain": "nissan-me.ae",
+  "default_expiry_days": 20,
+  "location": "JEDDAH",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN"
+    }
+  ]
+}

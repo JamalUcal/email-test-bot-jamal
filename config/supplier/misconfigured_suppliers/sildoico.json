@@ -1,0 +1,11 @@
+{
+  "supplier": "SILDOICO",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "location": "BELGIUM",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

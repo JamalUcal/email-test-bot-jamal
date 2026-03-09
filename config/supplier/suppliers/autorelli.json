@@ -1,0 +1,14 @@
+{
+  "supplier": "AUTORELLI",
+  "email_domain": "autorelli.com",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "discount": 10
+    }
+  ]
+}

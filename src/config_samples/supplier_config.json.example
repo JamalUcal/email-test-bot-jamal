@@ -1,0 +1,59 @@
+[
+  {
+    "supplier": "APF",
+    "email_domain": "apf.com",
+    "discount_percent": 5.0,
+    "default_brand": "NISSAN",
+    "default_expiry_days": 60,
+    "config": [
+      {
+        "brand": "NISSAN",
+        "location": ["BELGIUM"],
+        "currency": ["EUR"],
+        "partNumberSplice": 3,
+        "decimalFormat": "decimal",
+        "columns": {
+          "partNumber": 1,
+          "description": 6,
+          "formerPartNumber": "null",
+          "supersedePartNumber": "null",
+          "price": 4
+        }
+      }
+    ]
+  },
+  {
+    "supplier": "ALLEGIANCE_AUTOMOTIVE",
+    "email_domain": "allegianceauto.com",
+    "discount_percent": 3.5,
+    "config": [
+      {
+        "brand": "MAZDA",
+        "location": ["SINGAPORE"],
+        "currency": ["JPY"],
+        "decimalFormat": "decimal",
+        "columns": {
+          "partNumber": 2,
+          "description": 4,
+          "formerPartNumber": "null",
+          "supersedePartNumber": 3,
+          "price": 6
+        }
+      },
+      {
+        "brand": "TOYOTA",
+        "location": ["SINGAPORE"],
+        "currency": ["USD"],
+        "decimalFormat": "decimal",
+        "columnheader": "ITEM",
+        "columns": {
+          "partNumber": 4,
+          "description": 6,
+          "formerPartNumber": "null",
+          "supersedePartNumber": 5,
+          "price": 7
+        }
+      }
+    ]
+  }
+]

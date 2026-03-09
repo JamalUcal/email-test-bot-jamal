@@ -1,0 +1,67 @@
+{
+  "supplier": "AUTOCAR",
+  "email_domain": "autocar.com",
+  "default_expiry_days": 20,
+  "location": "NETHERLANDS",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "OPEL"
+    },
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "GENERALMOTORS"
+    },
+    {
+      "brand": "JAGUAR"
+    },
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "PORSCHE"
+    },
+    {
+      "brand": "SUBARU"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "MAZDA"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "TOYOTA_OILS"
+    },
+    {
+      "brand": "MITSUBISHI"
+    },
+    {
+      "brand": "PSA"
+    },
+    {
+      "brand": "VAG"
+    },
+    {
+      "brand": "TOYOTA"
+    }
+  ]
+}

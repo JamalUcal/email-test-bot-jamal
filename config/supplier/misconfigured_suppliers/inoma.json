@@ -1,0 +1,11 @@
+{
+  "supplier": "INOMA",
+  "config": [
+    {
+      "brand": "VAG",
+      "location": "CZECH_REPUBLIC",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

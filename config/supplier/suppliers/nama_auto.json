@@ -1,0 +1,14 @@
+{
+  "supplier": "NAMA_AUTO",
+  "email_domain": "namaauto.com",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "LUK",
+      "discount": 30
+    }
+  ]
+}

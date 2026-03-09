@@ -1,0 +1,23 @@
+{
+  "supplier": "ALMULAH",
+  "config": [
+    {
+      "brand": "FCA",
+      "location": "KUWAIT",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MOPAR",
+      "location": "KUWAIT",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "CJD",
+      "location": "KUWAIT",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

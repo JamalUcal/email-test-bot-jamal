@@ -1,0 +1,11 @@
+{
+  "supplier": "AL_GOUTA",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

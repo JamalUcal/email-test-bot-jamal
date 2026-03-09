@@ -1,0 +1,21 @@
+{
+  "supplier": "TEGETA",
+  "email_domain": "itex.com.ge",
+  "default_expiry_days": 20,
+  "location": "GEORGIA",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "TOYOTA_OILS",
+      "currency": "USD"
+    },
+    {
+      "brand": "MAZDA",
+      "currency": "EUR"
+    },
+    {
+      "brand": "VAG",
+      "currency": "EUR"
+    }
+  ]
+}

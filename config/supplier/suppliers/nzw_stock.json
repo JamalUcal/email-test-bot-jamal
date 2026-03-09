@@ -1,0 +1,13 @@
+{
+  "supplier": "NZW_STOCK",
+  "email_domain": "cloverleaf.co.zw",
+  "default_expiry_days": 20,
+  "location": "SOUTH AFRICA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN"
+    }
+  ]
+}

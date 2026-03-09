@@ -1,0 +1,225 @@
+{
+  "supplier": "APT24",
+  "config": [
+    {
+      "brand": "OPEL",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "FORD",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "BMW",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "FIAT",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "JAGUAR",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "LANDROVER",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "GENERALMOTORS",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MAZDA",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+        "decimalFormat": "decimal"
+    },
+    {
+      "brand": "PORSCHE",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "SUBARU",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "RENAULT",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "HONDA",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "KIA",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "HYUNDAI",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "PSA",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "SUZUKI",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "KIA",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "NISSAN",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+        "decimalFormat": "decimal"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": [
+        "LITHUANIA"
+      ],
+      "currency": [
+        "EUR"
+      ],
+      "decimalFormat": "decimal"
+    }
+  ]
+}

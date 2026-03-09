@@ -1,0 +1,9 @@
+{
+  "supplier": "ATSHUERTH",
+  "email_domain": "ats-huerth.com",
+  "default_expiry_days": 20,
+  "location": "GERMANY", 
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "ignore_brands": ["FORD","RENAULT","TOYOTA","VAG","SUBARU","NISSAN"]
+}

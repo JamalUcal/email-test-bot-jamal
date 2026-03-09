@@ -1,0 +1,11 @@
+{
+  "supplier": "JUMA_AL_MAJID",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

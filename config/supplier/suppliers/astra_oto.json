@@ -1,0 +1,22 @@
+{
+  "supplier": "ASTRA_OTO",
+  "email_domain": "component.astra.co.id",
+  "default_expiry_days": 20,
+  "location": "INDONESIA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "SUZUKI"
+    },
+    {
+      "brand": "MITSUBISHI"
+    }
+  ]
+}

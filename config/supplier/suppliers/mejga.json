@@ -1,0 +1,16 @@
+{
+  "supplier": "MEJGA",
+  "email_domain": "mejga.com.sg",
+  "default_expiry_days": 20,
+  "location": "SINGAPORE",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "BYD"
+    }
+  ]
+}

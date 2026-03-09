@@ -1,0 +1,1313 @@
+{
+  "last_processed_timestamp": "2025-10-19T09:16:18.275949+00:00",
+  "last_execution_timestamp": "2025-10-19T09:16:18.275949+00:00",
+  "last_scraped": {},
+  "suppliers": {
+    "AUTOCAR": {
+      "last_run": "2026-02-23T11:19:17.121168+00:00",
+      "last_version": null,
+      "downloaded_files": [
+        {
+          "supplier_filename": "autocar_international_FORD_09_01_2026.xlsx",
+          "valid_from_date": "2026-01-09",
+          "drive_file_id": "1lzqLfmE4wAkIkyW_I4aysxjDlgfVLjPx",
+          "timestamp": "2026-01-12T14:38:26.650673+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_PORSCHE_09_01_2026.xlsx",
+          "valid_from_date": "2026-01-09",
+          "drive_file_id": "1JNHOGyVgGckwOetwbkKVETi6wZ0E1NFh",
+          "timestamp": "2026-01-12T14:39:25.960528+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_RENAULT_09_01_2026.xlsx",
+          "valid_from_date": "2026-01-09",
+          "drive_file_id": "1H3eYfueK92fDtsHyDOuBPxdjWiXD67JH",
+          "timestamp": "2026-01-12T14:39:42.876988+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_FORD_08_01_2026.xlsx",
+          "valid_from_date": "2026-01-08",
+          "drive_file_id": "1DWVdpMJ4RoRkPdWOYoyNkYUPzYmJx_Mi",
+          "timestamp": "2026-01-12T14:40:42.884537+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_HYUNDAI_08_01_2026.xlsx",
+          "valid_from_date": "2026-01-08",
+          "drive_file_id": "1vKCw212PxaTgcubAwMqTwXMLrmtdMVBS",
+          "timestamp": "2026-01-12T14:41:09.095952+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_PSA_06_01_2026.xlsx",
+          "valid_from_date": "2026-01-06",
+          "drive_file_id": "14_cbJ8xYFm2_01QIx0vD-NBUAcSH0taQ",
+          "timestamp": "2026-01-12T14:42:40.512164+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_GM_06_01_2026.xlsx",
+          "valid_from_date": "2026-01-06",
+          "drive_file_id": "1o0UCHb76eqDKxxsh9AJdGv7uMeJiVvi-",
+          "timestamp": "2026-01-12T14:43:33.269982+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_FCA_05_01_2026.xlsx",
+          "valid_from_date": "2026-01-05",
+          "drive_file_id": "1NdQx7diPmZzgwZA3CkbaoO30IJY9pNr0",
+          "timestamp": "2026-01-12T14:44:55.754994+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_BMW_05_01_2026.xlsx",
+          "valid_from_date": "2026-01-05",
+          "drive_file_id": "1GvGC-ytpTjSplI-RXD58HWVIpcMG_SWT",
+          "timestamp": "2026-01-12T14:46:06.482863+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_MAZDA_03_01_2026.xlsx",
+          "valid_from_date": "2026-01-03",
+          "drive_file_id": "1tpvuwxuD9Bqz0Tqg5gFuHT5iseXCbuxO",
+          "timestamp": "2026-01-12T14:47:06.032983+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_TOYOTA_02_01_2026.xlsx",
+          "valid_from_date": "2026-01-02",
+          "drive_file_id": "10Fbb0mT9avnYAIiad5S6zVxFKroGYKu6",
+          "timestamp": "2026-01-12T14:47:46.770288+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_VAG_16_12_2025.xlsx",
+          "valid_from_date": "2025-12-16",
+          "drive_file_id": "1RHgazEKO1qVUY3ck21LRsszH06T2Ph23",
+          "timestamp": "2026-01-12T14:48:58.962610+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_MERCEDES_25_11_2025.xlsx",
+          "valid_from_date": "2025-11-25",
+          "drive_file_id": "1BOES53WEV47SddlKhgsjXwZ2wd4rhTq2",
+          "timestamp": "2026-01-12T14:50:53.524854+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_NISSAN_25_11_2025.xlsx",
+          "valid_from_date": "2025-11-25",
+          "drive_file_id": "1qdyVI-u69--ekNmHEwzQyAs-xPqq32Ty",
+          "timestamp": "2026-01-12T14:51:41.060141+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_SUBARU_31_10_2025.xlsx",
+          "valid_from_date": "2025-10-31",
+          "drive_file_id": "1_dlT0gY7xYbYD2r45USBYbW7rYs4Ajbd",
+          "timestamp": "2026-01-12T14:52:01.462548+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_MITSUBISHI_31_10_2025.xlsx",
+          "valid_from_date": "2025-10-31",
+          "drive_file_id": "1HkFKijNQQg3jYmWY5VxvDAfTHE2VZZZH",
+          "timestamp": "2026-01-12T14:52:10.342269+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_VAG_13_01_2026.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1kuNTYI6KDzKBape2zvEdstEfc_QXIZCR",
+          "timestamp": "2026-01-13T06:02:38.963607+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_TOYOTA_13_01_2026.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1-91at5Jw-Y0OiFdtCEU_1lDs0AjMXMtB",
+          "timestamp": "2026-01-13T06:03:47.230339+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_FORD_28_01_2026.xlsx",
+          "valid_from_date": "2026-01-28",
+          "drive_file_id": "1AFfKuX0nXLF9h_vXRo2fVJEwam9PlSBK",
+          "timestamp": "2026-01-28T08:19:50.532428+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_SUBARU_28_01_2026.xlsx",
+          "valid_from_date": "2026-01-28",
+          "drive_file_id": "1VCl4ZE_uJVlvbl3ysAvYzpo8VTe2L-jP",
+          "timestamp": "2026-01-28T08:22:05.203712+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_FORD_27_01_2026.xlsx",
+          "valid_from_date": "2026-01-27",
+          "drive_file_id": "1FapeqDjvi-OSTOoMnHbiFCiOwBKnIjTE",
+          "timestamp": "2026-01-28T08:25:15.752983+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_MERCEDES_26_01_2026.xlsx",
+          "valid_from_date": "2026-01-26",
+          "drive_file_id": "1W9rcrwQhWxMYGUIOZDaNO-Z48AHlMZo_",
+          "timestamp": "2026-01-28T08:30:00.830743+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_MAZDA_23_01_2026.xlsx",
+          "valid_from_date": "2026-01-23",
+          "drive_file_id": "187m85VAJ5KsGpcyKkY_QfRXwDIEuWGGE",
+          "timestamp": "2026-01-28T08:33:33.153586+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_HYUNDAI_17_01_2026.xlsx",
+          "valid_from_date": "2026-01-17",
+          "drive_file_id": "1OTQtDzLncqMFd3_ZwF46bI7NpIl8xXVJ",
+          "timestamp": "2026-01-28T08:35:36.207361+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_VAG_14_01_2026.xlsx",
+          "valid_from_date": "2026-01-14",
+          "drive_file_id": "1nDnCnj9a4beY6hf1TS8n-7kqi2XkP9qs",
+          "timestamp": "2026-01-28T08:40:29.207247+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_VAG_14_02_2026.xlsx",
+          "valid_from_date": "2026-02-14",
+          "drive_file_id": "11zpe52HVZIkWlYnT4gnEX6zS9GpL8yfs",
+          "timestamp": "2026-02-23T11:17:04.479042+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_RENAULT_12_02_2026.xlsx",
+          "valid_from_date": "2026-02-12",
+          "drive_file_id": "1NFkueobUxf-NjXtAbjjwkJeaFRtFfu9h",
+          "timestamp": "2026-02-23T11:17:20.121011+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_SUBARU_12_02_2026.xlsx",
+          "valid_from_date": "2026-02-12",
+          "drive_file_id": "1EzC_Duj_u8X8HN6GbytQAqpHtk9POTUC",
+          "timestamp": "2026-02-23T11:17:37.731557+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_BMW_07_02_2026.xlsx",
+          "valid_from_date": "2026-02-07",
+          "drive_file_id": "1aFiFM_Cjg6cLevN6gbOABsEtwfN67GUq",
+          "timestamp": "2026-02-23T11:18:26.153706+00:00"
+        },
+        {
+          "supplier_filename": "autocar_international_MAZDA_06_02_2026.xlsx",
+          "valid_from_date": "2026-02-06",
+          "drive_file_id": "1BT1FHfFyvoF28clXbChBWbo7keCHbbs5",
+          "timestamp": "2026-02-23T11:19:16.869494+00:00"
+        }
+      ],
+      "interrupted": false,
+      "last_file_index": 0,
+      "files_processed": 5,
+      "total_files": 5,
+      "last_progress_update": "2026-02-23T11:19:16.869494+00:00"
+    },
+    "NEOPARTA": {
+      "last_run": "2026-02-24T06:05:34.808057+00:00",
+      "last_version": null,
+      "downloaded_files": [
+        {
+          "supplier_filename": "VAG_OIL_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-09",
+          "drive_file_id": "1wUuzy86F_ZTTmE0VRerhpIoBquuCGLL7",
+          "timestamp": "2026-01-12T14:52:20.069770+00:00"
+        },
+        {
+          "supplier_filename": "BMW_PART1_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-09",
+          "drive_file_id": "1NQgEXJ0zLeFkQwC7gkRnUBAkUxr2oMKf",
+          "timestamp": "2026-01-12T14:53:29.160787+00:00"
+        },
+        {
+          "supplier_filename": "BMW_PART2_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-09",
+          "drive_file_id": "1rrh_cA2lbOsF1PYBFrtAMjDzsuVC5rnS",
+          "timestamp": "2026-01-12T14:54:08.951883+00:00"
+        },
+        {
+          "supplier_filename": "BMW_FAST_PART1_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-05",
+          "drive_file_id": "1jD099AqcAJDdnPTCUwUdXyL1VRUcjCvx",
+          "timestamp": "2026-01-12T14:55:26.102726+00:00"
+        },
+        {
+          "supplier_filename": "BMW_FAST_PART2_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-05",
+          "drive_file_id": "1uQpzJsrm9hdQtUbwRpVCM2MBX1JsGQ2f",
+          "timestamp": "2026-01-12T14:56:29.179334+00:00"
+        },
+        {
+          "supplier_filename": "BMW_SP_NEOPARTA_LITHUANIA_EUR_1225.xlsx",
+          "valid_from_date": "2025-12-29",
+          "drive_file_id": "1_F0ahbmkpTgvkedhxlZK0nXl-uobKaro",
+          "timestamp": "2026-01-12T14:56:45.486160+00:00"
+        },
+        {
+          "supplier_filename": "BMW_OIL_NEOPARTA_LITHUANIA_EUR_1025.xlsx",
+          "valid_from_date": "2025-10-09",
+          "drive_file_id": "1VNmMp_LqV1BkhRP0KUqrp4FNuCGvYaZC",
+          "timestamp": "2026-01-12T14:56:50.305783+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART1_NEOPARTA_LITHUANIA_EUR_1025.xlsx",
+          "valid_from_date": "2025-10-08",
+          "drive_file_id": "1LM7_zv5sBFs98TaXpOdLsmbr4sGN2XbJ",
+          "timestamp": "2026-01-12T14:58:22.040358+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART2_NEOPARTA_LITHUANIA_EUR_1025.xlsx",
+          "valid_from_date": "2025-10-08",
+          "drive_file_id": "1C64O-fBVF3yukdEF6ZB89HxBVMj2_9Pr",
+          "timestamp": "2026-01-12T14:59:44.830124+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART3_NEOPARTA_LITHUANIA_EUR_1025.xlsx",
+          "valid_from_date": "2025-10-08",
+          "drive_file_id": "1UbrTcz4_eeEBhhpRfRmE2RXyzGU20T4J",
+          "timestamp": "2026-01-12T15:01:19.619090+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART4_NEOPARTA_LITHUANIA_EUR_1025.xlsx",
+          "valid_from_date": "2025-10-08",
+          "drive_file_id": "1PGuWjgY-B0aKibbSa5cgYOZzo8tEvHc6",
+          "timestamp": "2026-01-12T15:03:01.978310+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART5_NEOPARTA_LITHUANIA_EUR_1025.xlsx",
+          "valid_from_date": "2025-10-08",
+          "drive_file_id": "11ZfDV7JMrzEAKvUml5gQaNsDprgQ8pfi",
+          "timestamp": "2026-01-12T16:10:52.029537+00:00"
+        },
+        {
+          "supplier_filename": "FORD_PART1_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-12",
+          "drive_file_id": "1nNewpLuK7tCKSzxpxvXXpfVyWY9mdXPP",
+          "timestamp": "2026-01-12T16:11:56.748020+00:00"
+        },
+        {
+          "supplier_filename": "FORD_PART2_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-12",
+          "drive_file_id": "1BNzCqF_1EyEH8Qc-KUs29NUivcODt8tL",
+          "timestamp": "2026-01-12T16:13:41.902417+00:00"
+        },
+        {
+          "supplier_filename": "FORD_OILS_NEOPARTA_LITHUANIA_EUR_0925.xlsx",
+          "valid_from_date": "2025-09-17",
+          "drive_file_id": "1ZZb-pTqN_qCU06bvK-DkWjrAqXgRCDod",
+          "timestamp": "2026-01-12T16:13:49.041763+00:00"
+        },
+        {
+          "supplier_filename": "HONDA_NEOPARTA_LITHUANIA_EUR_1125.xlsx",
+          "valid_from_date": "2025-11-10",
+          "drive_file_id": "1WyoGqzLkdWNpXC2rwZUu8j-yCF24sZqt",
+          "timestamp": "2026-01-12T16:15:04.526956+00:00"
+        },
+        {
+          "supplier_filename": "HYUNDAI_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-12",
+          "drive_file_id": "1gdffdgn4raxzNoCu_rhUphiZVR2-pRVa",
+          "timestamp": "2026-01-12T16:16:23.318144+00:00"
+        },
+        {
+          "supplier_filename": "KIA_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-12",
+          "drive_file_id": "1VG6zg9y7OR3q1P_cRY5GcCCo3pQo4XGk",
+          "timestamp": "2026-01-12T16:17:23.692068+00:00"
+        },
+        {
+          "supplier_filename": "MAZDA_NEOPARTA_LITHUANIA_EUR_1225.xlsx",
+          "valid_from_date": "2025-12-08",
+          "drive_file_id": "1AH1HEL5_dbhvJPfBl8LqFBukxd0qAvkd",
+          "timestamp": "2026-01-12T16:18:32.803023+00:00"
+        },
+        {
+          "supplier_filename": "MG_NEOPARTA_LITHUANIA_EUR_1225.xlsx",
+          "valid_from_date": "2025-12-08",
+          "drive_file_id": "1V3GQ6K8FvVHR_Bps4kHC9zaagy6pF3n_",
+          "timestamp": "2026-01-12T16:18:48.791661+00:00"
+        },
+        {
+          "supplier_filename": "MITSUBISHI_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-12",
+          "drive_file_id": "1KQikqEwp3KWQXojGhC1qbIbUfAIl_q1n",
+          "timestamp": "2026-01-12T16:19:16.357361+00:00"
+        },
+        {
+          "supplier_filename": "NISSAN_PART1_NEOPARTA_LITHUANIA_EUR_1125.xlsx",
+          "valid_from_date": "2025-11-07",
+          "drive_file_id": "1WcJ-LGpWPXzpUd_vO_e8jAURkrDEbALm",
+          "timestamp": "2026-01-12T16:20:31.489772+00:00"
+        },
+        {
+          "supplier_filename": "NISSAN_PART2_NEOPARTA_LITHUANIA_EUR_1125.xlsx",
+          "valid_from_date": "2025-11-07",
+          "drive_file_id": "1lD_JM_WkA2rk49Kfr4yxw7cQxNFwud78",
+          "timestamp": "2026-01-12T16:21:08.885148+00:00"
+        },
+        {
+          "supplier_filename": "PORSCHE_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-07",
+          "drive_file_id": "1_4U3tDjYeWC0_Hbd4dB4MORBpdjOTRXD",
+          "timestamp": "2026-01-12T16:21:56.422864+00:00"
+        },
+        {
+          "supplier_filename": "PSA_PART1_NEOPARTA_LITHUANIA_EUR_1125.xlsx",
+          "valid_from_date": "2025-11-21",
+          "drive_file_id": "153OmifaRF7q6eO8cv3rrsZTXoLXdxZ2d",
+          "timestamp": "2026-01-12T16:23:28.425339+00:00"
+        },
+        {
+          "supplier_filename": "PSA_PART2_NEOPARTA_LITHUANIA_EUR_1125.xlsx",
+          "valid_from_date": "2025-11-21",
+          "drive_file_id": "1Q_mt6OjXn5PQBz4V7U32uB9Y-6Oqjbir",
+          "timestamp": "2026-01-12T16:24:54.194098+00:00"
+        },
+        {
+          "supplier_filename": "PSA_STOCK_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-09",
+          "drive_file_id": "1sCtvDnIW77RseNgViiNLUetqev2IHM8Y",
+          "timestamp": "2026-01-12T16:25:03.853564+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_PART1_NEOPARTA_LITHUANIA_EUR_1225.xlsx",
+          "valid_from_date": "2025-12-23",
+          "drive_file_id": "16i9f4bYrbjdJ23d4dJiLsTA1KR6UG4FH",
+          "timestamp": "2026-01-12T16:26:06.363085+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_PART2_NEOPARTA_LITHUANIA_EUR_1225.xlsx",
+          "valid_from_date": "2025-12-23",
+          "drive_file_id": "1nnrKT8cyWwgbIRjeJvTJHvXZjkl_eJwH",
+          "timestamp": "2026-01-12T16:26:40.128002+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_STOCK_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-09",
+          "drive_file_id": "1-GLCGNxF2D2Lg2ch5xRTEyv8-YN9xC1p",
+          "timestamp": "2026-01-12T16:26:48.417078+00:00"
+        },
+        {
+          "supplier_filename": "SUZUKI_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-12",
+          "drive_file_id": "1-DZV6R1mVenBjY00VUnlHSDl8X_s_vhD",
+          "timestamp": "2026-01-12T16:27:15.735449+00:00"
+        },
+        {
+          "supplier_filename": "TOYOTA_PART1_NEOPARTA_LITHUANIA_EUR_1225.xlsx",
+          "valid_from_date": "2025-12-08",
+          "drive_file_id": "1bkMhQNjr8G-SrT-U-SPlQIsqiKadlKTP",
+          "timestamp": "2026-01-12T16:28:20.418487+00:00"
+        },
+        {
+          "supplier_filename": "TOYOTA_PART2_NEOPARTA_LITHUANIA_EUR_1225.xlsx",
+          "valid_from_date": "2025-12-08",
+          "drive_file_id": "1JuyPnKs10ylofiH88Iu9M9I45UCtmA0f",
+          "timestamp": "2026-01-12T16:28:47.333133+00:00"
+        },
+        {
+          "supplier_filename": "TOYOTA_FAST_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-08",
+          "drive_file_id": "1NWIBS0PB2vFQRDtK4p5QCwSe3IQB14L1",
+          "timestamp": "2026-01-12T16:29:45.728743+00:00"
+        },
+        {
+          "supplier_filename": "VAG_PART1_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-12",
+          "drive_file_id": "1ijwnfw_aO3jL40IAYhxOXn-Sac-MCjMZ",
+          "timestamp": "2026-01-12T16:30:45.948115+00:00"
+        },
+        {
+          "supplier_filename": "VAG_PART2_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-12",
+          "drive_file_id": "1ITe9pVmN8SrwCTPN3oJfF6SG7GgEuwwQ",
+          "timestamp": "2026-01-12T16:31:21.979593+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_PART1_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1WSZKK7g1RZe6Xr4qz5O984uW3y5CEJcB",
+          "timestamp": "2026-01-13T06:04:49.390742+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_PART2_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1eoI41uUoNmMiqVbbzxLS5zjykbBFT1Ep",
+          "timestamp": "2026-01-13T06:05:21.117904+00:00"
+        },
+        {
+          "supplier_filename": "HYUNDAI_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1iVaZpPdQ79zI56lPTdME6O-vUAYF51Zq",
+          "timestamp": "2026-01-13T10:52:40.110709+00:00"
+        },
+        {
+          "supplier_filename": "PSA_STOCK_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1JLrUqwAAkNdbTYJC2CirCcDUDzTci49P",
+          "timestamp": "2026-01-13T10:52:45.095873+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_STOCK_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "19y_5WMgvAaLGTIwwIJ36WqSBvfXKLj78",
+          "timestamp": "2026-01-13T10:52:49.680813+00:00"
+        },
+        {
+          "supplier_filename": "BMW_SP_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-23",
+          "drive_file_id": "1oi-dmJza04qdp8706jYNFK9MHz4kxFNs",
+          "timestamp": "2026-01-28T08:42:14.213215+00:00"
+        },
+        {
+          "supplier_filename": "BMW_OIL_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-23",
+          "drive_file_id": "1HXNC1ottOek_56rTCmUO9-ZyMQMWluwT",
+          "timestamp": "2026-01-28T08:43:33.297232+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART1_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-16",
+          "drive_file_id": "1fCUolA5SEblcYcvDpzm5ATUVMLJdjeKI",
+          "timestamp": "2026-01-28T08:47:19.936753+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART2_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-16",
+          "drive_file_id": "1pHyb0WGA8YREBdavZ4JozAabjI5bkS9K",
+          "timestamp": "2026-01-28T08:50:37.179381+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART3_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-16",
+          "drive_file_id": "1t-0MmcKtE4tKbnERIycpVsf6cd70JakM",
+          "timestamp": "2026-01-28T08:53:51.402657+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART4_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-16",
+          "drive_file_id": "1X-mKhBNu4Kfq0v60uDuI1aESbcM6eCJs",
+          "timestamp": "2026-01-28T08:57:22.148768+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART5_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-16",
+          "drive_file_id": "1LVuyynVIeStGBNHlFYHXg9YtSdwL5DWm",
+          "timestamp": "2026-01-28T09:00:03.792304+00:00"
+        },
+        {
+          "supplier_filename": "FORD_OILS_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "16g6ZI-KbA49Hyw7-VM7-6GrAawNwANfM",
+          "timestamp": "2026-01-28T09:01:26.890521+00:00"
+        },
+        {
+          "supplier_filename": "HONDA_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1PGs2q2LRdl2S0XV5MizoZCpiuwKCPwuP",
+          "timestamp": "2026-01-28T09:04:53.251437+00:00"
+        },
+        {
+          "supplier_filename": "KIA_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-21",
+          "drive_file_id": "113gwZ2n6HM0Qr6yuMQWSLU1D1wIkTLz9",
+          "timestamp": "2026-01-28T09:08:09.706987+00:00"
+        },
+        {
+          "supplier_filename": "MAZDA_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1MLaz55vDMABtX2SBz5vWp9odBwoYR28G",
+          "timestamp": "2026-01-28T09:10:20.936120+00:00"
+        },
+        {
+          "supplier_filename": "MG_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "17j3yp_ysBDOfYlEBhfQduQ7bD2-RQN7l",
+          "timestamp": "2026-01-28T09:12:07.597226+00:00"
+        },
+        {
+          "supplier_filename": "NISSAN_PART1_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1UV76doIc64B-rUM3vD-uuVDGWdpep9mx",
+          "timestamp": "2026-01-28T09:15:39.539326+00:00"
+        },
+        {
+          "supplier_filename": "MG_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-29",
+          "drive_file_id": "19XCvMJkWo635DRgTsa4C8TQUwBQWvHyH",
+          "timestamp": "2026-02-03T15:33:01.329638+00:00"
+        },
+        {
+          "supplier_filename": "NISSAN_PART2_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1R2kreO9YaGGWmqUTIQRb-PU7aPa5RsqP",
+          "timestamp": "2026-02-03T15:33:37.663644+00:00"
+        },
+        {
+          "supplier_filename": "PSA_PART1_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1-aX1hW2vrgIQOdgvHb7LbamzvYaioVkv",
+          "timestamp": "2026-02-03T15:34:38.943081+00:00"
+        },
+        {
+          "supplier_filename": "PSA_PART2_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "1bEMETC6Md0AGLrcrT_0cTOhWsjSSA28Q",
+          "timestamp": "2026-02-03T15:40:52.767611+00:00"
+        },
+        {
+          "supplier_filename": "PSA_STOCK_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-03",
+          "drive_file_id": "15u_OkkkF4MHT1n58mIJr7nlZpnUJ2pVF",
+          "timestamp": "2026-02-03T15:42:15.273349+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_STOCK_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-03",
+          "drive_file_id": "1RUWu1zaWjzuZTVIPZMZbPlGjuMbFxVJl",
+          "timestamp": "2026-02-03T15:43:35.245999+00:00"
+        },
+        {
+          "supplier_filename": "TOYOTA_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-13",
+          "drive_file_id": "16rlm7x6MZZ67D0AxcAoiV53O6jbrU3eb",
+          "timestamp": "2026-02-03T15:47:41.068390+00:00"
+        },
+        {
+          "supplier_filename": "VAG_CLASSIC_NEOPARTA_LITHUANIA_EUR_0126.xlsx",
+          "valid_from_date": "2026-01-21",
+          "drive_file_id": "1KCrKXMV7UtB3QTZl9qXyhG39lOR7A9OW",
+          "timestamp": "2026-02-03T15:49:09.343990+00:00"
+        },
+        {
+          "supplier_filename": "BMW_PART1_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-11",
+          "drive_file_id": "1M4TsOog_U1v9UoW5drKV49hpXisGGNox",
+          "timestamp": "2026-02-24T05:48:43.294113+00:00"
+        },
+        {
+          "supplier_filename": "BMW_PART2_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-11",
+          "drive_file_id": "14nFRuYHANCRx0koe395atyo1Ml-m2C8_",
+          "timestamp": "2026-02-24T05:49:21.686164+00:00"
+        },
+        {
+          "supplier_filename": "BMW_FAST_PART1_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-11",
+          "drive_file_id": "1XbI_2OUHFQP56QOekTOaPSNY31fQP3_I",
+          "timestamp": "2026-02-24T05:50:12.762492+00:00"
+        },
+        {
+          "supplier_filename": "BMW_FAST_PART2_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-11",
+          "drive_file_id": "15e3-nkmd-8dUY3u44nHRo2G7HdaS2R2k",
+          "timestamp": "2026-02-24T05:50:53.966026+00:00"
+        },
+        {
+          "supplier_filename": "BMW_SP_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-23",
+          "drive_file_id": "17EnvwogkzT2-gfnuhe5lHwD_NXYFvTna",
+          "timestamp": "2026-02-24T05:51:10.997877+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART1_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-10",
+          "drive_file_id": "1fLKLaQTggA3K9Bu9xY_ZGBFODhb1rOsX",
+          "timestamp": "2026-02-24T05:52:08.266562+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART2_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-10",
+          "drive_file_id": "1ek8_LU1gqNYd9WHvIjYVdwDxpE22ZEW2",
+          "timestamp": "2026-02-24T05:53:03.254343+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART3_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-10",
+          "drive_file_id": "1XHLLbKrOStNO5kZKoewyGk0DBoIajapY",
+          "timestamp": "2026-02-24T05:54:10.436340+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART4_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-10",
+          "drive_file_id": "1T_ay3PJK_8NBHTAi97NMXoowVJS_sxYP",
+          "timestamp": "2026-02-24T05:55:07.282997+00:00"
+        },
+        {
+          "supplier_filename": "FCA_PART5_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-10",
+          "drive_file_id": "1La6tZfI1IZ7lOiV6KMJ7edK8pSjw_4DC",
+          "timestamp": "2026-02-24T05:55:50.720313+00:00"
+        },
+        {
+          "supplier_filename": "FORD_PART1_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-10",
+          "drive_file_id": "152UiB5z4udpXW0d-Lbczn8sdp8SfKFsx",
+          "timestamp": "2026-02-24T05:56:50.596145+00:00"
+        },
+        {
+          "supplier_filename": "FORD_PART2_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-10",
+          "drive_file_id": "1vmsTzVSG8IB1AQ7sEwkQcqB7HPoTXrnd",
+          "timestamp": "2026-02-24T05:57:29.999985+00:00"
+        },
+        {
+          "supplier_filename": "HYUNDAI_PART1_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-10",
+          "drive_file_id": "1OdrMhGUwSSapH1aeqOuhEMmsGa7eIZur",
+          "timestamp": "2026-02-24T05:58:27.404532+00:00"
+        },
+        {
+          "supplier_filename": "HYUNDAI_PART2_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-10",
+          "drive_file_id": "1iJM3wAwfzNvDFPsQUyLe8sGws4tKLfrn",
+          "timestamp": "2026-02-24T05:59:05.625268+00:00"
+        },
+        {
+          "supplier_filename": "MAZDA_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-09",
+          "drive_file_id": "1u9S8ng95STzmldi50R8Z4UDqpwESlL4D",
+          "timestamp": "2026-02-24T05:59:54.789397+00:00"
+        },
+        {
+          "supplier_filename": "PSA_PART1_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-09",
+          "drive_file_id": "1m56GLs8u3W1pgZYyItYGiQmN42tBI0ya",
+          "timestamp": "2026-02-24T06:00:44.818841+00:00"
+        },
+        {
+          "supplier_filename": "PSA_PART2_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-09",
+          "drive_file_id": "1_g44FdWMT_E8zUYhAPLHdYVsV73x2oot",
+          "timestamp": "2026-02-24T06:01:43.834844+00:00"
+        },
+        {
+          "supplier_filename": "PSA_STOCK_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-23",
+          "drive_file_id": "1UicXnV97Ztox8-ViA_wTr0JQnIJ2-83B",
+          "timestamp": "2026-02-24T06:01:53.051137+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_PART1_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-09",
+          "drive_file_id": "1WEjq--c-PorEB-jJqnOF7ZftO-WNtAh6",
+          "timestamp": "2026-02-24T06:02:51.175913+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_PART2_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-09",
+          "drive_file_id": "14pMv_2VGlqYUD5FwbpvT5TYI75VIyYh0",
+          "timestamp": "2026-02-24T06:03:26.991040+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT_STOCK_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-23",
+          "drive_file_id": "1tq3my8OLwVr7Ftesm3petQe-Ea9mm5C-",
+          "timestamp": "2026-02-24T06:03:35.613925+00:00"
+        },
+        {
+          "supplier_filename": "TOYOTA_FAST_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-05",
+          "drive_file_id": "1RG9UVxUSgg4y01dCDp8Nzis_JUeSGRzt",
+          "timestamp": "2026-02-24T06:04:01.561304+00:00"
+        },
+        {
+          "supplier_filename": "VAG_PART1_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-05",
+          "drive_file_id": "1rNRJ8BeKnxnvqWGjbGE2AA_8r0RpVeZ6",
+          "timestamp": "2026-02-24T06:05:02.539602+00:00"
+        },
+        {
+          "supplier_filename": "VAG_PART2_NEOPARTA_LITHUANIA_EUR_0226.xlsx",
+          "valid_from_date": "2026-02-05",
+          "drive_file_id": "1Vf0fUF2NH85clQPXXxWUNDO5A8CUdnJE",
+          "timestamp": "2026-02-24T06:05:34.808057+00:00"
+        }
+      ],
+      "interrupted": false,
+      "last_file_index": 24,
+      "files_processed": 24,
+      "total_files": 24,
+      "last_progress_update": "2026-02-24T06:05:34.791095+00:00"
+    },
+    "BRECHMANN": {
+      "last_run": "2026-02-24T05:45:08.550635+00:00",
+      "last_version": null,
+      "downloaded_files": [],
+      "interrupted": false,
+      "last_file_index": 0
+    },
+    "CONNEX": {
+      "last_run": "2026-01-13T10:53:34.269150+00:00",
+      "last_version": null,
+      "downloaded_files": [
+        {
+          "supplier_filename": "BMW.csv",
+          "valid_from_date": "2026-01-11T21:53:00",
+          "drive_file_id": "15HC9FHtZ5k-ET9Q8vVt0AjZW1dHk5nEB",
+          "timestamp": "2026-01-12T15:08:01.929885+00:00"
+        },
+        {
+          "supplier_filename": "FORD.csv",
+          "valid_from_date": "2026-01-11T21:53:00",
+          "drive_file_id": "1QzO3vyGs9DfP2lLXJe10xeOXxoih0L9t",
+          "timestamp": "2026-01-12T15:09:09.020893+00:00"
+        },
+        {
+          "supplier_filename": "HONDA.csv",
+          "valid_from_date": "2026-01-11T21:53:00",
+          "drive_file_id": "1ahNVC3tj6atWhKJdAWHF_ONfNLgETpUu",
+          "timestamp": "2026-01-12T15:09:50.607698+00:00"
+        },
+        {
+          "supplier_filename": "HYUNDAI.csv",
+          "valid_from_date": "2026-01-11T21:53:00",
+          "drive_file_id": "1BC7_Ztx4Bx3VqPNa30sAQL1jU0GNYK-Q",
+          "timestamp": "2026-01-12T15:10:48.116968+00:00"
+        },
+        {
+          "supplier_filename": "MAZDA.csv",
+          "valid_from_date": "2026-01-11T21:53:00",
+          "drive_file_id": "18DDsKMriQI0d8ios43_Rvk-0bMAQXKar",
+          "timestamp": "2026-01-12T15:11:34.727979+00:00"
+        },
+        {
+          "supplier_filename": "MITSUBISHI.csv",
+          "valid_from_date": "2026-01-11T21:53:00",
+          "drive_file_id": "1OX9oOl65MivdGmPT7JLNf5GvKD8PdaAp",
+          "timestamp": "2026-01-12T15:11:52.661746+00:00"
+        },
+        {
+          "supplier_filename": "PEUGEOT.csv",
+          "valid_from_date": "2026-01-11T21:53:00",
+          "drive_file_id": "1-KcAjHoL_1bw4jcHZLiXYYrSMaOZE8_b",
+          "timestamp": "2026-01-12T16:36:08.409960+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT.csv",
+          "valid_from_date": "2026-01-11T21:53:00",
+          "drive_file_id": "1GtgRBwLHu_b-uH6I1y8CJfGbJSYZswVP",
+          "timestamp": "2026-01-12T16:36:50.332918+00:00"
+        },
+        {
+          "supplier_filename": "VW.csv",
+          "valid_from_date": "2026-01-11T21:53:00",
+          "drive_file_id": "16QyOFTTHUnFMm84907SAhSNBZ_PcOzOt",
+          "timestamp": "2026-01-12T16:38:07.385511+00:00"
+        },
+        {
+          "supplier_filename": "BMW.csv",
+          "valid_from_date": "2026-01-12T21:54:00",
+          "drive_file_id": "1AFtxGNJR38MCtnmo01P6s_jrjssz45tG",
+          "timestamp": "2026-01-13T06:07:58.030677+00:00"
+        },
+        {
+          "supplier_filename": "FORD.csv",
+          "valid_from_date": "2026-01-12T21:54:00",
+          "drive_file_id": "1FgsY79nLZDftNbBKwbqPA9DoF3B3ML9Z",
+          "timestamp": "2026-01-13T06:08:58.300852+00:00"
+        },
+        {
+          "supplier_filename": "HONDA.csv",
+          "valid_from_date": "2026-01-12T21:54:00",
+          "drive_file_id": "1I6iO-0yMIEVaXOfLXtjR0CBTKp5UCZlI",
+          "timestamp": "2026-01-13T06:09:36.708999+00:00"
+        },
+        {
+          "supplier_filename": "HYUNDAI.csv",
+          "valid_from_date": "2026-01-12T21:54:00",
+          "drive_file_id": "1ypG8MHxWFb_jsopwfa5Sl8nnQV_hrEgN",
+          "timestamp": "2026-01-13T06:10:25.035294+00:00"
+        },
+        {
+          "supplier_filename": "MAZDA.csv",
+          "valid_from_date": "2026-01-12T21:54:00",
+          "drive_file_id": "1afeTcJx8TDzHBRogTFJ3vu3wZpEPAC6h",
+          "timestamp": "2026-01-13T06:11:06.290106+00:00"
+        },
+        {
+          "supplier_filename": "MITSUBISHI.csv",
+          "valid_from_date": "2026-01-12T21:54:00",
+          "drive_file_id": "1rNFj5NWNDu2moZVEzo48ow5BlDZO682S",
+          "timestamp": "2026-01-13T06:11:17.815375+00:00"
+        },
+        {
+          "supplier_filename": "PEUGEOT.csv",
+          "valid_from_date": "2026-01-12T21:54:00",
+          "drive_file_id": "1XjrRkDlv7xQbJt21sFnWAElEsZZ3nfXY",
+          "timestamp": "2026-01-13T06:12:02.947479+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT.csv",
+          "valid_from_date": "2026-01-12T21:54:00",
+          "drive_file_id": "1UMvuqYpYSHnxozme3S8XHxMLf8eK-MH3",
+          "timestamp": "2026-01-13T06:12:45.896841+00:00"
+        },
+        {
+          "supplier_filename": "VW.csv",
+          "valid_from_date": "2026-01-12T21:54:00",
+          "drive_file_id": "11W0qjguRTLNWfuOnhX9edVlaezdasZ0P",
+          "timestamp": "2026-01-13T06:14:07.340309+00:00"
+        }
+      ],
+      "interrupted": false,
+      "last_file_index": 0,
+      "files_processed": 9,
+      "total_files": 9,
+      "last_progress_update": "2026-01-13T06:14:07.318528+00:00"
+    },
+    "TECHNOPARTS": {
+      "last_run": "2026-02-24T06:44:58.792879+00:00",
+      "last_version": null,
+      "downloaded_files": [
+        {
+          "supplier_filename": "BMW -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "19WmniZJ9TiHhvMHk-KbQMCniJCUlmUiB",
+          "timestamp": "2026-01-12T16:39:07.463203+00:00"
+        },
+        {
+          "supplier_filename": "BYD -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1F_DAUM_HrEIV3oL5RGS2NlCw3cLgAKUf",
+          "timestamp": "2026-01-12T16:39:13.282667+00:00"
+        },
+        {
+          "supplier_filename": "FORD -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1CSju-lzI6RcWpe78mPq1M3bPrGy9wWwI",
+          "timestamp": "2026-01-12T16:39:36.154965+00:00"
+        },
+        {
+          "supplier_filename": "HONDA -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1cN3DKiIswgpAJaRaToNqXA3DvMG-rjkK",
+          "timestamp": "2026-01-12T16:39:46.808676+00:00"
+        },
+        {
+          "supplier_filename": "HYUNDAI -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1XyvCngF9kjuEg3FbU_QkK_h1bRqD12WS",
+          "timestamp": "2026-01-12T16:40:52.040594+00:00"
+        },
+        {
+          "supplier_filename": "KIA -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1Vi3Wv6v54xdwlnR9Op8ZdCZYbisD731v",
+          "timestamp": "2026-01-12T16:41:05.289124+00:00"
+        },
+        {
+          "supplier_filename": "MG -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1DIkLpVhZP_MFVe16K9y7gYI1KLebugDq",
+          "timestamp": "2026-01-12T16:41:22.249446+00:00"
+        },
+        {
+          "supplier_filename": "MITSUBISHI -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1E8fdbxTWLOw3f1EDI7upyzvuFxklw6zY",
+          "timestamp": "2026-01-12T16:41:35.975772+00:00"
+        },
+        {
+          "supplier_filename": "NISSAN -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "14bJC8jpxEKtHB2gjO9x8XYOOBjPFEXlG",
+          "timestamp": "2026-01-12T16:42:05.154877+00:00"
+        },
+        {
+          "supplier_filename": "PORSCHE -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1LO14piPqbzpnSJx_L1NU8poFeN2l1mx2",
+          "timestamp": "2026-01-12T16:42:24.526357+00:00"
+        },
+        {
+          "supplier_filename": "PSA - OPEL -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "13ne0sXyf8HtmHYjo2SMLwA_9avGUhYvC",
+          "timestamp": "2026-01-12T16:43:18.067649+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1paRs8BsMChRCQ5iL-EOdjRY8ABGu_Cg_",
+          "timestamp": "2026-01-12T16:43:41.106734+00:00"
+        },
+        {
+          "supplier_filename": "SSANGYONG -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "15D98Rbo1tvnOOOMqWwtvnIBs34NWJZse",
+          "timestamp": "2026-01-12T16:43:52.099004+00:00"
+        },
+        {
+          "supplier_filename": "TOYOTA -  Export Price list January.xlsx",
+          "valid_from_date": "2026-01-01T00:00:00",
+          "drive_file_id": "1lQzDlRGgNoeHzyUxi1JDBOt8lCv1GUcp",
+          "timestamp": "2026-01-12T16:44:23.277642+00:00"
+        },
+        {
+          "supplier_filename": "BMW -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "152f-WachZZUM_px1GBmTGu8553BbI-VG",
+          "timestamp": "2026-02-24T06:23:38.062067+00:00"
+        },
+        {
+          "supplier_filename": "BYD -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1I0AFwj-0kVU3s6Bu0zobXueD65Xp_nrH",
+          "timestamp": "2026-02-24T06:24:59.152749+00:00"
+        },
+        {
+          "supplier_filename": "FORD -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1El3PGaIrefFEmSN5oPRD8RjMQkFDY5BC",
+          "timestamp": "2026-02-24T06:26:30.826343+00:00"
+        },
+        {
+          "supplier_filename": "HONDA -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1zhXrMXltIrszQevngCJuNFOkUBkTouzN",
+          "timestamp": "2026-02-24T06:27:50.748971+00:00"
+        },
+        {
+          "supplier_filename": "HYUNDAI -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1njpRFY8eCMMypAtGtz_WhQXJ1NO5rThJ",
+          "timestamp": "2026-02-24T06:30:12.030016+00:00"
+        },
+        {
+          "supplier_filename": "KIA -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1zNyPflfgG_P_r5U0l3H45-9v5d55HPgv",
+          "timestamp": "2026-02-24T06:31:35.308512+00:00"
+        },
+        {
+          "supplier_filename": "MG -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1A_r3Glzrmi_i7qn-aMYgYA_71qnlQ7tG",
+          "timestamp": "2026-02-24T06:33:04.701195+00:00"
+        },
+        {
+          "supplier_filename": "MITSUBISHI -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1trjl034d_907pKuGNMeTseic47EvQSSI",
+          "timestamp": "2026-02-24T06:34:36.426280+00:00"
+        },
+        {
+          "supplier_filename": "NISSAN -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1TGHJJnHD5jxxOvcVLN3zhfEm9FTCyuQd",
+          "timestamp": "2026-02-24T06:36:22.964449+00:00"
+        },
+        {
+          "supplier_filename": "PORSCHE -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1BDWvuLcqyc1JoVJ7ymD9oM5NCmUVeoqK",
+          "timestamp": "2026-02-24T06:38:03.446524+00:00"
+        },
+        {
+          "supplier_filename": "PSA - OPEL -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1_KrEo9MNDCoycK3Ji3OC2lX_9T8fRHnb",
+          "timestamp": "2026-02-24T06:40:20.922079+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1Xg8MC3qC2iLxrFMMKjrp0aizSHfPjNpa",
+          "timestamp": "2026-02-24T06:41:58.625731+00:00"
+        },
+        {
+          "supplier_filename": "SSANGYONG -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "1DL3Mdd24GrMaFpo8TLGeBcDSJd6wAKCr",
+          "timestamp": "2026-02-24T06:43:16.167650+00:00"
+        },
+        {
+          "supplier_filename": "TOYOTA -  Export Price list February.xlsx",
+          "valid_from_date": "2026-02-01T00:00:00",
+          "drive_file_id": "19gl_DepB5rO8ZqYTJwkdCchYBhfsbVeq",
+          "timestamp": "2026-02-24T06:44:58.792879+00:00"
+        }
+      ],
+      "interrupted": false,
+      "last_file_index": 14,
+      "files_processed": 14,
+      "total_files": 14,
+      "last_progress_update": "2026-02-24T06:44:58.792879+00:00"
+    },
+    "MATEROM": {
+      "last_run": "2026-02-23T10:59:27.466161+00:00",
+      "last_version": null,
+      "downloaded_files": [
+        {
+          "supplier_filename": "FORD_2025.xlsx",
+          "valid_from_date": "2026-01-09T14:53:46",
+          "drive_file_id": "16Vxrfx5r_RoUlcxKCQoLX1WH-wR8BEIj",
+          "timestamp": "2026-01-12T16:46:55.900519+00:00"
+        },
+        {
+          "supplier_filename": "Mercedes Benz-3 weeks_2025.xlsx",
+          "valid_from_date": "2025-12-04T08:47:03",
+          "drive_file_id": "1N0F9bT_PC-Pv91x6-xnM9XLUTFGaf2Ku",
+          "timestamp": "2026-01-12T16:49:45.909030+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT OE_lead time 4-5 weeks.xlsx",
+          "valid_from_date": "2026-01-09T08:40:16",
+          "drive_file_id": "1mX-MezoR0nMJFFgQC4FF6Bd5-ZiezKCk",
+          "timestamp": "2026-01-12T16:50:56.012753+00:00"
+        },
+        {
+          "supplier_filename": "VW VAG Audi 3 Weeks_2026.xlsx",
+          "valid_from_date": "2026-01-12T09:47:51",
+          "drive_file_id": "1uY5gFlt7EyjAOpaj4oOdf2YYvZorudCg",
+          "timestamp": "2026-01-12T16:53:20.542007+00:00"
+        },
+        {
+          "supplier_filename": "FORD_2026.xlsx",
+          "valid_from_date": "2026-02-20T14:41:57",
+          "drive_file_id": "1qLYAJEeP6za3gX7N5YmEUgFM0IQo5ybB",
+          "timestamp": "2026-02-23T10:55:31.343000+00:00"
+        },
+        {
+          "supplier_filename": "Mercedes Benz-3 weeks_2026.xlsx",
+          "valid_from_date": "2026-02-01T12:39:06",
+          "drive_file_id": "1bd0Y4v45sdkTvlRO-8Q6DSDKuIifxpjx",
+          "timestamp": "2026-02-23T10:57:02.808016+00:00"
+        },
+        {
+          "supplier_filename": "RENAULT OE_lead time 4-5 weeks.xlsx",
+          "valid_from_date": "2026-02-16T11:40:16",
+          "drive_file_id": "17dW5yyfky0btxvlhUJUBvNsTiR5b_8iJ",
+          "timestamp": "2026-02-23T10:57:54.810741+00:00"
+        },
+        {
+          "supplier_filename": "VW VAG Audi 3 Weeks_2026.xlsx",
+          "valid_from_date": "2026-01-30T10:53:51",
+          "drive_file_id": "18xnxxqJT6QLm_bBAhjU4jEhuRA8S1f5b",
+          "timestamp": "2026-02-23T10:59:27.219711+00:00"
+        }
+      ],
+      "interrupted": false,
+      "last_file_index": 0,
+      "files_processed": 4,
+      "total_files": 4,
+      "last_progress_update": "2026-02-23T10:59:27.217547+00:00"
+    },
+    "APF": {
+      "last_run": "2026-02-24T05:36:33.803504+00:00",
+      "last_version": null,
+      "downloaded_files": [
+        {
+          "supplier_filename": "BM_20260110.txt",
+          "valid_from_date": "2026-01-10T23:22:14.385",
+          "drive_file_id": "1nEwFGT2Ot0u0zjuAEC2TE4gwxqQG4DI8",
+          "timestamp": "2026-01-12T16:54:29.315750+00:00"
+        },
+        {
+          "supplier_filename": "BYD_20260106.txt",
+          "valid_from_date": "2026-01-06T00:17:39.188",
+          "drive_file_id": "1__UzhTHbhv4KLS1N8gB0pqQOMZo4m-1N",
+          "timestamp": "2026-01-12T16:54:37.805422+00:00"
+        },
+        {
+          "supplier_filename": "FI_20260110.txt",
+          "valid_from_date": "2026-01-10T23:55:03.84",
+          "drive_file_id": "1sLt4MY41yNFnw4qdKMOTtg80wMsCIEtP",
+          "timestamp": "2026-01-12T16:56:11.462413+00:00"
+        },
+        {
+          "supplier_filename": "FO_20260111.txt",
+          "valid_from_date": "2026-01-11T00:18:45.573",
+          "drive_file_id": "1V1nH137opZAOTuHAN_KzuY8RXSKg01-r",
+          "timestamp": "2026-01-12T16:57:35.308436+00:00"
+        },
+        {
+          "supplier_filename": "HO_20251202.txt",
+          "valid_from_date": "2025-12-02T02:06:04.686",
+          "drive_file_id": "1NtEh3aBNSOIpd7gBNK6tHVTGSzGriQgx",
+          "timestamp": "2026-01-12T16:58:05.642199+00:00"
+        },
+        {
+          "supplier_filename": "HY_20260111.txt",
+          "valid_from_date": "2026-01-11T01:07:32.221",
+          "drive_file_id": "1qcatDPQ084Y_D9m2w_Cr-dcjCU758SEZ",
+          "timestamp": "2026-01-12T16:58:24.554565+00:00"
+        },
+        {
+          "supplier_filename": "KI_20260107.txt",
+          "valid_from_date": "2026-01-07T01:46:35.16",
+          "drive_file_id": "1FBaVArVvK-s7vt2m5BOK-77D-cmKqyka",
+          "timestamp": "2026-01-12T16:59:20.050282+00:00"
+        },
+        {
+          "supplier_filename": "LE_20251014.txt",
+          "valid_from_date": "2025-10-14T23:18:36.729",
+          "drive_file_id": "1KrTeJFXTTBDktJrT7i4qHkZ_7QMi2AkA",
+          "timestamp": "2026-01-12T16:59:29.001059+00:00"
+        },
+        {
+          "supplier_filename": "MA_20260105.txt",
+          "valid_from_date": "2026-01-05T23:21:58.207",
+          "drive_file_id": "1tlv6RFIPg0lU2HHt3lxX0RbzHFMAKxlZ",
+          "timestamp": "2026-01-12T17:00:24.441524+00:00"
+        },
+        {
+          "supplier_filename": "ME_20260109.txt",
+          "valid_from_date": "2026-01-09T23:57:18.898",
+          "drive_file_id": "1PZZ443Bk2DwfvkoiEEbqeXkggh5ZTaSJ",
+          "timestamp": "2026-01-12T17:02:05.201178+00:00"
+        },
+        {
+          "supplier_filename": "MI_20251129.txt",
+          "valid_from_date": "2025-11-29T00:21:02.976",
+          "drive_file_id": "1aPnoGpIG_TSAKOFWS__fCxoUOqR6tQYi",
+          "timestamp": "2026-01-12T17:02:14.568218+00:00"
+        },
+        {
+          "supplier_filename": "NI_20260108.txt",
+          "valid_from_date": "2026-01-08T00:30:12.707",
+          "drive_file_id": "1wVB1v1evbMVg0H3d6gZ_NnFt2e3BtK3r",
+          "timestamp": "2026-01-12T17:02:58.395967+00:00"
+        },
+        {
+          "supplier_filename": "PO_20260106.txt",
+          "valid_from_date": "2026-01-06T00:37:43.022",
+          "drive_file_id": "1sjNrNv1plVKJVYgVV1B_CCBvlDio5a6G",
+          "timestamp": "2026-01-12T17:03:52.529685+00:00"
+        },
+        {
+          "supplier_filename": "POSH_20251011.txt",
+          "valid_from_date": "2025-10-11T00:43:49.5",
+          "drive_file_id": "1Y0i9lf89Owme_N_WZX_e-NKSiEpRziO6",
+          "timestamp": "2026-01-12T17:04:03.537372+00:00"
+        },
+        {
+          "supplier_filename": "PS_20260107.txt",
+          "valid_from_date": "2026-01-07T01:02:02.823",
+          "drive_file_id": "1c7LUGspymosE9f4eTbHyI-7d67Kr8OnQ",
+          "timestamp": "2026-01-12T17:05:41.634774+00:00"
+        },
+        {
+          "supplier_filename": "RE_20260109.txt",
+          "valid_from_date": "2026-01-09T01:17:21.693",
+          "drive_file_id": "1g3qtSHzQex8oZI2iLZR0j2c-GozEcElv",
+          "timestamp": "2026-01-12T17:06:10.324111+00:00"
+        },
+        {
+          "supplier_filename": "TO_20260105.txt",
+          "valid_from_date": "2026-01-05T23:19:45.748",
+          "drive_file_id": "1OGgSndVYbkuVN43E3TKU6bq2NXH9KF1e",
+          "timestamp": "2026-01-12T17:07:11.359726+00:00"
+        },
+        {
+          "supplier_filename": "VA_20260103.txt",
+          "valid_from_date": "2026-01-03T23:25:49.064",
+          "drive_file_id": "173-zmtyOPJxr4ggvP-CgH7aObdiVZpUa",
+          "timestamp": "2026-01-12T17:07:22.337847+00:00"
+        },
+        {
+          "supplier_filename": "FI_20260112.txt",
+          "valid_from_date": "2026-01-12T23:58:47.402",
+          "drive_file_id": "1Ly-uaSE54rLzKwmnJPHa1Q5pJhg_0pG9",
+          "timestamp": "2026-01-13T06:16:46.160930+00:00"
+        },
+        {
+          "supplier_filename": "BM_20260221.txt",
+          "valid_from_date": "2026-02-21T23:18:59.386",
+          "drive_file_id": "1e9XUo1lUnurb5x5sFoxi60Qw9_W9edK-",
+          "timestamp": "2026-02-24T05:23:12.089905+00:00"
+        },
+        {
+          "supplier_filename": "FI_20260223.txt",
+          "valid_from_date": "2026-02-23T23:58:13.165",
+          "drive_file_id": "1sKfmLHa3xWF3t8GK-h0ysLQNKbdZjXEN",
+          "timestamp": "2026-02-24T05:24:34.601147+00:00"
+        },
+        {
+          "supplier_filename": "FO_20260208.txt",
+          "valid_from_date": "2026-02-08T00:24:52.4",
+          "drive_file_id": "1wrnC9iqAZxd9oh5156TBwuO4IcaRy5uV",
+          "timestamp": "2026-02-24T05:25:50.234285+00:00"
+        },
+        {
+          "supplier_filename": "HO_20260124.txt",
+          "valid_from_date": "2026-01-24T00:56:15.64",
+          "drive_file_id": "1o66nPvar3S0MyTLiqqJhIDlV3iDN3sRb",
+          "timestamp": "2026-02-24T05:26:26.759617+00:00"
+        },
+        {
+          "supplier_filename": "HY_20260221.txt",
+          "valid_from_date": "2026-02-21T00:57:59.217",
+          "drive_file_id": "1w2rCPJhlFJPCqub3K9Cn04X9gwUJAYk4",
+          "timestamp": "2026-02-24T05:26:50.212779+00:00"
+        },
+        {
+          "supplier_filename": "KI_20260214.txt",
+          "valid_from_date": "2026-02-14T01:29:44.796",
+          "drive_file_id": "1Q72th5q7qXa_UfyIBoTs_jt5h1AOCqbG",
+          "timestamp": "2026-02-24T05:27:38.036558+00:00"
+        },
+        {
+          "supplier_filename": "MA_20260220.txt",
+          "valid_from_date": "2026-02-20T23:19:55.012",
+          "drive_file_id": "1xZ9RKVTljU3OKU0d5C_7yDHTvkTxXlI4",
+          "timestamp": "2026-02-24T05:27:54.172317+00:00"
+        },
+        {
+          "supplier_filename": "ME_20260218.txt",
+          "valid_from_date": "2026-02-18T23:45:58.249",
+          "drive_file_id": "1wPU8kkx3zuxbLuPp3HLHHxbPgRbvkeL0",
+          "timestamp": "2026-02-24T05:28:43.221692+00:00"
+        },
+        {
+          "supplier_filename": "MI_20260220.txt",
+          "valid_from_date": "2026-02-20T23:46:15.366",
+          "drive_file_id": "1k21Q8r_gAfVSDkHJpqPxvbMmt1Kf0uaS",
+          "timestamp": "2026-02-24T05:29:10.086045+00:00"
+        },
+        {
+          "supplier_filename": "NI_20260220.txt",
+          "valid_from_date": "2026-02-20T23:56:08.771",
+          "drive_file_id": "1Nd_hWgyJH60-NX2wlMxx6AL3N0H1qGND",
+          "timestamp": "2026-02-24T05:29:48.372596+00:00"
+        },
+        {
+          "supplier_filename": "PO_20260221.txt",
+          "valid_from_date": "2026-02-21T00:09:42.936",
+          "drive_file_id": "1mJL0SniskM_FzMmrA3PK1jz5t7kBI4Is",
+          "timestamp": "2026-02-24T05:30:27.297599+00:00"
+        },
+        {
+          "supplier_filename": "PS_20260219.txt",
+          "valid_from_date": "2026-02-19T00:33:45.967",
+          "drive_file_id": "1vL-2pB5m40d1bJfKBbnQI9o_kv36Mb_S",
+          "timestamp": "2026-02-24T05:31:27.781913+00:00"
+        },
+        {
+          "supplier_filename": "RE_20260214.txt",
+          "valid_from_date": "2026-02-14T01:10:05.677",
+          "drive_file_id": "1gR7f3wa-GIqe2i-Jc5vWfpP69uzPvrde",
+          "timestamp": "2026-02-24T05:31:59.101191+00:00"
+        },
+        {
+          "supplier_filename": "SU_20260207.txt",
+          "valid_from_date": "2026-02-07T01:17:52.662",
+          "drive_file_id": "1ervdZpTy0JPzcPyzf66nb_wg6bmA0I0h",
+          "timestamp": "2026-02-24T05:32:18.128571+00:00"
+        },
+        {
+          "supplier_filename": "SZ_20260221.txt",
+          "valid_from_date": "2026-02-21T00:54:56.347",
+          "drive_file_id": "1QjJSAiJzKfslQ2tX5kd_PhUZM1GmY19Z",
+          "timestamp": "2026-02-24T05:32:56.047436+00:00"
+        },
+        {
+          "supplier_filename": "TO_20260213.txt",
+          "valid_from_date": "2026-02-13T23:11:47.796",
+          "drive_file_id": "1E9liM7hTKEZT5qzl8ffGEnhncAju1Wgx",
+          "timestamp": "2026-02-24T05:33:44.176950+00:00"
+        }
+      ],
+      "interrupted": false,
+      "last_file_index": 0,
+      "files_processed": 16,
+      "total_files": 16,
+      "last_progress_update": "2026-02-24T05:33:44.174945+00:00"
+    }
+  },
+  "last_summary_sent_timestamp": null,
+  "pending_results": [],
+  "version": "1.0.0"
+}

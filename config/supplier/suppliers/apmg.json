@@ -1,0 +1,25 @@
+{
+  "supplier": "APMG",
+  "email_domain": "apmg.com",
+  "default_expiry_days": 20,
+  "currency": "USD",
+  "decimalFormat": "Comma",
+  "config": [
+    {
+      "brand": "TOYOTA",
+      "location": "JEBEL_ALI"
+    },
+    {
+      "brand": "KIA",
+      "location": "JEBEL_ALI"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "JEBEL_ALI"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "DUBAI"
+    }
+  ]
+}

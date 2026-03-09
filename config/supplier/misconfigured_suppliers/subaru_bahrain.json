@@ -1,0 +1,11 @@
+{
+  "supplier": "SUBARU_BAHRAIN",
+  "config": [
+    {
+      "brand": "SUBARU",
+      "location": "BAHRAIN",
+      "currency": "JPY",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

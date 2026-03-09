@@ -1,0 +1,25 @@
+{
+  "supplier": "AUTONET_INTERNATIONAL",
+  "email_domain": "autonetintl.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "KIA"
+    }
+  ]
+}

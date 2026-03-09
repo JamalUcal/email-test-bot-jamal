@@ -1,0 +1,78 @@
+{
+  "supplier": "GP_CARERRA",
+  "email_domain": "gpcarerra.com",
+  "default_expiry_days": 20,
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location": "SPAIN",
+      "currency": "EUR"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "SPAIN",
+      "currency": "EUR"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "SPAIN",
+      "currency": "USD"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "JEBEL_ALI",
+      "currency": "EUR"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "JEBEL_ALI",
+      "currency": "USD"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "FRANCE",
+      "currency": "EUR"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "FRANCE",
+      "currency": "USD"
+    },
+    {
+      "brand": "PSA",
+      "location": "SPAIN",
+      "currency": "EUR"
+    },
+    {
+      "brand": "PSA",
+      "location": "JEBEL_ALI",
+      "currency": "EUR"
+    },
+    {
+      "brand": "PSA",
+      "location": "FRANCE",
+      "currency": "EUR"
+    },
+    {
+      "brand": "PSA",
+      "location": "NETHERLANDS",
+      "currency": "EUR"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "SPAIN",
+      "currency": "EUR"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "JEBEL_ALI",
+      "currency": "EUR"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "FRANCE",
+      "currency": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "supplier": "BOSCH_INDIA",
+  "email_domain": "in.bosch.com",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BOSCH",
+      "discount": 20
+    }
+  ]
+}

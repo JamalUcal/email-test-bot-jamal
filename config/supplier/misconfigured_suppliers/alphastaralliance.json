@@ -1,0 +1,11 @@
+{
+  "supplier": "ALPHASTARALLIANCE",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location": "DUBAI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

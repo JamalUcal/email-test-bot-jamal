@@ -1,0 +1,17 @@
+{
+  "supplier": "TRUCKPARTSEXPERT",
+  "config": [
+    {
+      "brand": "MERCEDES",
+      "location": "LATIVA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"  
+    },
+    {
+      "brand": "VAG",
+      "location": "LATIVA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

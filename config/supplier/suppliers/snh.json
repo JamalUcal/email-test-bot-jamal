@@ -1,0 +1,54 @@
+{
+  "supplier": "SNH",
+  "email_domain": "snhcorp.co.kr",
+  "default_expiry_days": 20,
+  "decimalFormat": "decimal",
+  "ignore_brands": ["HONDA", "LANDROVER"],
+  "config": [
+    {
+      "brand": "RENAULT",
+      "location": "KOREA",
+      "currency": "USD"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "MALAYSIA",
+      "currency": "USD"
+    },
+    {
+      "brand": "GENERALMOTORS",
+      "location": "KOREA",
+      "currency": "USD"
+    },
+    {
+      "brand": "FUSO",
+      "location": "MALAYSIA",
+      "currency": "JPY"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "location": "MALAYSIA",
+      "currency": "JPY"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "MALAYSIA",
+      "currency": "JPY"
+    },
+    {
+      "brand": "SSANGYONG",
+      "location": "KOREA",
+      "currency": "USD"
+    },
+    {
+      "brand": "MOBIS",
+      "location": "KOREA",
+      "currency": "USD"
+    },
+    {
+      "brand": "KIA",
+      "location": "KOREA",
+      "currency": "USD"
+    }
+  ]
+}

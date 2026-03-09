@@ -1,0 +1,13 @@
+{
+  "supplier": "AL_MASAOOD",
+  "email_domain": "masaood.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "AED",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "NISSAN"
+    }
+  ]
+}

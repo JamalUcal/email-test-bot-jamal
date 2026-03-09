@@ -1,0 +1,12 @@
+{
+  "supplier": "ALWASL_GR03",
+  "config": [
+    {
+      "brand": "TOYOTA",
+      "location": "JEBEL ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal",
+      "discount": 10
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "supplier": "ZUBAIR_AUTOMOTIVE",
+  "email_domain": "autoae.com",
+  "default_expiry_days": 20,
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "MITSUBISHI",
+      "location": "JEBEL_ALI",
+      "currency": "AED"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "location": "JEBEL_ALI",
+      "currency": "USD"
+    },
+    {
+      "brand": "FCA",
+      "location": "JEBEL_ALI",
+      "currency": "USD"
+    },
+    {
+      "brand": "MITSUBISHI_SPECIAL",
+      "location": "OMAN",
+      "currency": "USD"
+    }
+  ]
+}

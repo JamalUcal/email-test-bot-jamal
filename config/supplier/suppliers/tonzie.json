@@ -1,0 +1,22 @@
+{
+  "supplier": "TONZIE",
+  "email_domain": "tonzie.com",
+  "default_expiry_days": 20,
+  "location": "CHINA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BYD",
+      "partNumberSplice": 3
+    },
+    {
+      "brand": "MG",
+      "partNumberSplice": 2
+    },
+    {
+      "brand": "JAECOO",
+      "partNumberSplice": 3
+    }
+  ]
+}

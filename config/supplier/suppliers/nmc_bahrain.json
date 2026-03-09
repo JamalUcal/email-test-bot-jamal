@@ -1,0 +1,19 @@
+{
+  "supplier": "NMC_BAHRAIN",
+  "email_domain": "nmc.com.bh",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "ACDELCO"
+    },
+    {
+      "brand": "GENERALMOTORS"
+    },
+    {
+      "brand": "HONDA"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "supplier": "ALLEGIANCE_AUTOMOTIVE",
+  "email_domain": "aas-automotive.com",
+  "default_expiry_days": 20,
+  "location": "SINGAPORE",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "MAZDA",
+      "currency": "USD"
+    },
+    {
+      "brand": "MAZDA",
+      "currency": "JPY"
+    },
+    {
+      "brand": "FORD",
+      "currency": "USD"
+    },
+    {
+      "brand": "HONDA",
+      "currency": "USD"
+    },
+    {
+      "brand": "HONDA",
+      "currency": "JPY"
+    },
+    {
+      "brand": "HYUNDAI",
+      "currency": "USD"
+    },
+    {
+      "brand": "KIA",
+      "currency": "USD"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "currency": "USD"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "currency": "JPY"
+    },
+    {
+      "brand": "NISSAN",
+      "currency": "USD"
+    },
+    {
+      "brand": "NISSAN",
+      "currency": "JPY"
+    },
+    {
+      "brand": "FUSO",
+      "currency": "JPY"
+    },
+    {
+      "brand": "TOYOTA",
+      "currency": "USD",
+      "columnheader": "ITEM"
+    },
+    {
+      "brand": "TOYOTA",
+      "currency": "JPY",
+      "columnheader": "ITEM"
+    }
+  ]
+}

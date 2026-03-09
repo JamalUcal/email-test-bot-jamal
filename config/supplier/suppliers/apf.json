@@ -1,0 +1,156 @@
+{
+  "supplier": "APF",
+  "email_domain": "apf.com",
+  "default_expiry_days": 20,
+  "location": "BELGIUM",
+  "currency": "EUR",
+  "brand_aliases": {
+    "hy": "HYUNDAI",
+    "ki": "KIA",
+    "su": "SUZUKI",
+    "re": "RENAULT",
+    "da": "DACIA",
+    "gm": "OPEL",
+    "ps": "PSA",
+    "va": "VAG",
+    "po": "PORSCHE",
+    "ni": "NISSAN",
+    "fo": "FORD",
+    "mi": "MITSUBISHI",
+    "fi": "FCA",
+    "me": "MERCEDES",
+    "ma": "MAZDA",
+    "bm": "BMW",
+    "to": "TOYOTA",
+    "le": "LEXUS",
+    "sb": "SUBARU",
+    "ho": "HONDA",
+    "by": "BYD",
+    "vo": "VOLKSWAGEN"
+  },
+  "config": [
+    {
+      "brand": "NISSAN",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "SUZUKI",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "FORD",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "MG",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "BMW",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "MERCEDES",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "BYD",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "CHEVROLET",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "GENERALMOTORS",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "HYUNDAI",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "OPEL",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "HONDA",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "JAGUAR",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "LANDROVER",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "KIA",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "MAZDA",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "FIAT",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "JEEP",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "PSA",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "RENAULT",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "VAG",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "SUBARU",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "TOYOTA",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "VOLVO",
+      "partNumberSplice": 3,
+      "decimalFormat": "Comma"
+    }
+  ]
+}

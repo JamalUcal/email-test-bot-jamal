@@ -1,0 +1,11 @@
+{
+  "supplier": "KAISER",
+  "config": [
+    {
+      "brand": "VAG",
+      "location": "GEORGIA",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

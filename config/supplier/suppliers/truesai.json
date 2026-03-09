@@ -1,0 +1,13 @@
+{
+  "supplier": "TRUESAI",
+  "email_domain": "truesai.com",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "FCA"
+    }
+  ]
+}

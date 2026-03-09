@@ -1,0 +1,23 @@
+{
+  "supplier": "IRIS",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location":  "BELGIUM",
+      "currency":  "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "HYUNDAI",
+      "location":  "BELGIUM",
+      "currency":  "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "TOYOTA",
+      "location":  "BELGIUM",
+      "currency":  "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

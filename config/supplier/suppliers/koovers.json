@@ -1,0 +1,26 @@
+{
+  "supplier": "KOOVERS",
+  "email_domain": "koovers.in",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "discount": 10
+    },
+    {
+      "brand": "FIAT"
+    },
+    {
+      "brand": "JEEP"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "SUZUKI"
+    }
+  ]
+}

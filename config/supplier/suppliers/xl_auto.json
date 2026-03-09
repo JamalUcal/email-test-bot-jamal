@@ -1,0 +1,14 @@
+{
+  "supplier": "XL_AUTO",
+  "email_domain": "xlauto.com",
+  "default_expiry_days": 20,
+  "location": "INDIA",
+  "currency": "INR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "SUZUKI",
+      "discount": 10
+    }
+  ]
+}

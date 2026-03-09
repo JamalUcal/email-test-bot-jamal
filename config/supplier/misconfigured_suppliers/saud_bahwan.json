@@ -1,0 +1,15 @@
+{
+  "supplier": "SAUD_BAHWAN",
+  "config": [
+    {
+      "brand": "TOYOTA",
+      "location": [
+        "SINGAPORE"
+      ],
+      "currency": [
+        "USD"
+      ],
+      "decimalFormat": "decimal"
+    }
+  ]
+}

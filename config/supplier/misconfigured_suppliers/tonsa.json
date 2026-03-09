@@ -1,0 +1,11 @@
+{
+  "supplier": "TONSA",
+  "config": [
+    {
+      "brand": "MOPAR",
+      "location": "USA",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

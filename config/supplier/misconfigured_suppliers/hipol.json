@@ -1,0 +1,35 @@
+{
+  "supplier": "HIPOL",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "location": "POLAND",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": "POLAND",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "PEUGEOT",
+      "location": "POLAND",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "NISSAN",
+        "location": "POLAND",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "POLAND",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

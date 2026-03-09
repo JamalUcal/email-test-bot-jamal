@@ -1,0 +1,13 @@
+{
+  "supplier": "LODGEPARTS",
+  "email_domain": "lodgeparts.co.uk",
+  "default_expiry_days": 20,
+  "location": "UK",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "KIA"
+    }
+  ]
+}

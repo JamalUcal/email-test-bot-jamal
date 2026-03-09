@@ -1,0 +1,28 @@
+{
+  "supplier": "ARTHA_GLOBAL",
+  "email_domain": "globalpartindo.com",
+  "default_expiry_days": 20,
+  "location": "INDONESIA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "MITSUBISHI"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "SUZUKI"
+    },
+    {
+      "brand": "TOYOTA"
+    }
+  ]
+}

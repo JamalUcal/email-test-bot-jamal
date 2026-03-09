@@ -1,0 +1,16 @@
+{
+  "supplier": "ROTVOGEL_AUTOTEILE_LUBRICANTS",
+  "email_domain": "rotvogel-autoteile.de",
+  "default_expiry_days": 20,
+  "location": "GERMANY",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "VAG"
+    }
+  ]
+}

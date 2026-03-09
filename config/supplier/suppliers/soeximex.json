@@ -1,0 +1,25 @@
+{
+  "supplier": "SOEXIMEX",
+  "email_domain": "soeximex.com",
+  "default_expiry_days": 20,
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "PSA",
+      "location": "FRANCE"
+    },
+    {
+      "brand": "FCA",
+      "location": "FRANCE"
+    },
+    {
+      "brand": "OPEL",
+      "location": "FRANCE"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "JEBEL_ALI"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "supplier": "TECHNOPARTS",
+  "email_domain": "technoparts.com",
+  "default_expiry_days": 20,
+  "location": "ITALY",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "MG"
+    },
+    {
+      "brand": "LANDROVER"
+    },
+    {
+      "brand": "JAGUAR"
+    },
+    {
+      "brand": "BYD"
+    },
+    {
+      "brand": "JEEP"
+    },
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "PSA"
+    },
+    {
+      "brand": "SSANGYONG"
+    },
+    {
+      "brand": "PORSCHE"
+    },
+    {
+      "brand": "OPEL"
+    },
+    {
+      "brand": "FIAT"
+    },
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "KIA"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "MITSUBISHI"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "TOYOTA"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "VAG"
+    }
+  ]
+}

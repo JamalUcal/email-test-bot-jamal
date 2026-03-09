@@ -1,0 +1,49 @@
+{
+  "supplier": "CONEX",
+  "email_domain": "conex.com",
+  "default_expiry_days": 20,
+  "location": "ROMANIA",
+  "currency": "EUR",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "BOSCH"
+    },
+    {
+      "brand": "FIAT"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "JAGUAR"
+    },
+    {
+      "brand": "LANDROVER"
+    },
+    {
+      "brand": "MAZDA"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "MITSUBISHI"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "PEUGEOT"
+    },
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "VAG"
+    }
+  ]
+}

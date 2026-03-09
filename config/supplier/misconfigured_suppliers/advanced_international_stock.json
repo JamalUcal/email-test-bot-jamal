@@ -1,0 +1,11 @@
+{
+  "supplier": "ADVANCED_INTERNATIONAL_STOCK",
+  "config": [
+    {
+      "brand": "PEUGEOT",
+      "location":  "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

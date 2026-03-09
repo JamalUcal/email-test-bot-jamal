@@ -1,0 +1,61 @@
+{
+  "supported_currencies": {
+    "USD": {
+      "symbol": "$",
+      "aliases": ["US$", "USD"],
+      "price_prefixes": ["$", "US$"]
+    },
+    "EUR": {
+      "symbol": "€",
+      "aliases": ["EUR", "EURO"],
+      "price_prefixes": ["€"]
+    },
+    "GBP": {
+      "symbol": "£",
+      "aliases": ["GBP"],
+      "price_prefixes": ["£"]
+    },
+    "JPY": {
+      "symbol": "¥",
+      "aliases": ["JPY"],
+      "price_prefixes": ["¥"]
+    },
+    "AED": {
+      "symbol": "د.إ",
+      "aliases": ["AED", "DHS"],
+      "price_prefixes": ["د.إ", "AED"]
+    },
+    "SAR": {
+      "symbol": "﷼",
+      "aliases": ["SAR"],
+      "price_prefixes": ["﷼", "SAR"]
+    },
+    "CNY": {
+      "symbol": "¥",
+      "aliases": ["CNY", "RMB"],
+      "price_prefixes": ["¥", "RMB"]
+    },
+    "INR": {
+      "symbol": "₹",
+      "aliases": ["INR", "Rs", "Rs."],
+      "price_prefixes": ["₹", "Rs.", "Rs"]
+    },
+    "SGD": {
+      "name": "Singapore Dollar",
+      "symbol": "$",
+      "aliases": ["SGD", "S$"],
+      "price_prefixes": ["$", "S$", "SGD"]
+    },
+    "THB": {
+      "name": "Thai Baht",
+      "symbol": "฿",
+      "aliases": ["THB"],
+      "price_prefixes": ["฿"]
+    }
+  },
+  "normalization": {
+    "strip_whitespace": true,
+    "strip_special_chars": true,
+    "case_insensitive": true
+  }
+}

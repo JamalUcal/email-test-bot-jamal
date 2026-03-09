@@ -1,0 +1,18 @@
+{
+  "supplier": "MIRAL_AUTO",
+  "default_expiry_days": 20,
+  "location": "KOREA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "MOBIS"
+    },
+    {
+      "brand": "RENAULT"
+    }
+  ],
+  "email_addresses": [
+    "miralauto@gmail.com"
+  ]
+}

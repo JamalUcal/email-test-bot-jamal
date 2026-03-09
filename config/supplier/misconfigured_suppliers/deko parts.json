@@ -1,0 +1,17 @@
+{
+  "supplier": "DEKO PARTS",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

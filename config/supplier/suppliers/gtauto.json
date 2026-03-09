@@ -1,0 +1,25 @@
+{
+  "supplier": "GTAUTO",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "email_domain": ["stellantis.com"],
+  "email_addresses": [
+    "gtautomobilesrlt@gmail.com"
+  ],
+  "config": [
+    {
+      "brand": "FCA"
+    },
+    {
+      "brand": "MOPAR"
+    },
+    {
+      "brand": "STELLANTIS"
+    },
+    {
+      "brand": "CHRYSLER"
+    }
+  ]
+}

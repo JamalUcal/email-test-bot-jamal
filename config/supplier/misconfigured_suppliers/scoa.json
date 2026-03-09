@@ -1,0 +1,35 @@
+{
+  "supplier": "SCOA",
+  "config": [
+    {
+      "brand": "OPEL",
+      "location": "FRANCE",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "FIAT",
+      "location": "FRANCE",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "PEUGEOT",
+      "location": "FRANCE",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "CITROEN",
+      "location": "FRANCE",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "FRANCE",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

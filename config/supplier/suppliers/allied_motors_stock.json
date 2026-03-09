@@ -1,0 +1,52 @@
+{
+  "supplier": "ALLIED_MOTORS_STOCK",
+  "email_domain": "alliedmotors.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "currency": "AED",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "SUBARU"
+    },
+    {
+      "brand": "GENERALMOTORS"
+    },
+    {
+      "brand": "NISSAN"
+    },
+    {
+      "brand": "MITSUBISHI"
+    },
+    {
+      "brand": "MAZDA"
+    },
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "SUZUKI"
+    },
+    {
+      "brand": "LEXUS"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "PSA"
+    },
+    {
+      "brand": "HYUNDAI"
+    },
+    {
+      "brand": "KIA"
+    },
+    {
+      "brand": "TOYOTA"
+    }
+  ]
+}

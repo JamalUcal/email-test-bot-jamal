@@ -1,0 +1,45 @@
+{
+  "supplier": "BLUELINE",
+  "email_domain": "bluelineparts.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "CHRYSLER",
+      "currency": "USD"
+    },
+    {
+      "brand": "HYUNDAI",
+      "currency": "USD"
+    },
+    {
+      "brand": "FORD",
+      "currency": "USD"
+    },
+    {
+      "brand": "GENERALMOTORS",
+      "currency": "USD"
+    },
+    {
+      "brand": "CHRYSLER",
+      "currency": "USD"
+    },
+    {
+      "brand": "ACDELCO",
+      "currency": "USD"
+    },
+    {
+      "brand": "MOBIS",
+      "currency": "USD"
+    },
+    {
+      "brand": "SUBARU",
+      "currency": "JPY"
+    },
+    {
+      "brand": "KIA",
+      "currency": "USD"
+    }
+  ]
+}

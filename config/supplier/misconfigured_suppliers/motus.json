@@ -1,0 +1,11 @@
+{
+  "supplier": "MOTUS",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location": "SOUTH AFRICA",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

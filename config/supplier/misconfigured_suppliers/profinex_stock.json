@@ -1,0 +1,97 @@
+{
+  "supplier": "PROFINEX_STOCK",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "FORD",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "FCA",
+        "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "HONDA",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "HYUNDAI",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "JAGUAR",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "NISSAN",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "PORSCHE",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "PSA",
+      "location": [
+        "GERMANY"
+      ],
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "SUZUKI",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "LANDROVER",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "GERMANY",
+      "currency": "EUR",
+      "decimalFormat": "Comma"
+    }
+  ]
+}

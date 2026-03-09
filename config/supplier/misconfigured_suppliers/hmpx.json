@@ -1,0 +1,35 @@
+{
+  "supplier": "HMPX",
+  "config": [
+    {
+      "brand": "BMW",
+      "location": "ISTANBUL",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "MERCEDES",
+      "location": "ISTANBUL",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "PSA",
+      "location": "ISTANBUL",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "RENAULT",
+      "location": "ISTANBUL",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "ISTANBUL",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "supplier": "AL_HABTOOR_STOCK",
+  "email_domain": "habtoormotors.com",
+  "default_expiry_days": 20,
+  "location": "JEBEL_ALI",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "MITSUBISHI",
+      "currency": "AED"
+    },
+    {
+      "brand": "MITSUBISHI",
+      "currency": "USD"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "supplier": "AMWAJ_ALBAHRAIN_MOTORS",
+  "default_expiry_days": 20,
+  "location": "BAHRAIN",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "RENAULT"
+    },
+    {
+      "brand": "FORD"
+    }
+  ],
+  "email_addresses": [
+    "arabiantech123@gmail.com",
+    "honesty.bah@gmail.com"
+  ]
+}

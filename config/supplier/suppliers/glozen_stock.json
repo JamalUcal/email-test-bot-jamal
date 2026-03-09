@@ -1,0 +1,37 @@
+{
+  "supplier": "GLOZEN_STOCK",
+  "email_domain": "glozen.co.kr",
+  "default_expiry_days": 20,
+  "location": "KOREA",
+  "currency": "USD",
+  "decimalFormat": "decimal",
+  "config": [
+    {
+      "brand": "VAG"
+    },
+    {
+      "brand": "BMW"
+    },
+    {
+      "brand": "MERCEDES"
+    },
+    {
+      "brand": "FORD"
+    },
+    {
+      "brand": "JAGUAR"
+    },
+    {
+      "brand": "LANDROVER"
+    },
+    {
+      "brand": "HONDA"
+    },
+    {
+      "brand": "LEXUS"
+    },
+    {
+      "brand": "TOYOTA"
+    }
+  ]
+}

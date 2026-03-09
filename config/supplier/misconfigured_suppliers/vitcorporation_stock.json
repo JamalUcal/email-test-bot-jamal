@@ -1,0 +1,11 @@
+{
+  "supplier": "VITCORPORATION_STOCK",
+  "config": [
+    {
+      "brand": "NISSAN",
+      "location": "JEBEL_ALI",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}

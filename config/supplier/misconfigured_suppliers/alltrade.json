@@ -1,0 +1,34 @@
+{
+  "supplier": "ALLTRADE",
+  "config": [
+    {
+      "brand": "HYUNDAI",
+      "location": "SINGAPORE",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+      
+    },
+    {
+      "brand": "NISSAN",
+      "location": "SINGAPORE",
+      "currency": [
+        "JPY",
+        "EUR",
+        "USD"
+      ],
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "VAG",
+      "location": "SINGAPORE",
+      "currency": "EUR",
+      "decimalFormat": "decimal"
+    },
+    {
+      "brand": "TOYOTA",
+      "location": "SINGAPORE",
+      "currency": "USD",
+      "decimalFormat": "decimal"
+    }
+  ]
+}
