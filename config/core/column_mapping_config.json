@@ -33,8 +33,7 @@
         "ItemCode",
         "part numbers",
         "N.º",
-        "number",
-        "No."
+        "number"
       ],
       "wildcard_variants": [
         "Article no%"
